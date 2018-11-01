@@ -1,11 +1,10 @@
-@font-face {
+
+.container {
   font-family: 'Font File';
-  src: url('./fonts/ToucheBold.otf') format('otf'),
-    url('./fonts/Touche.otf') format('otf');
+  src: url('./fonts/ToucheBold.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
-
 .attribution {
   font-size: 11px;
   text-align: center;

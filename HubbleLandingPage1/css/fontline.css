@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'touche';
+  src: url('./fonts/Touche.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'toucheBold';
+  src: url('./fonts/ToucheBold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'toucheLight';
+  src: url('./fonts/ToucheLight.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'toucheMedium';
+  src: url('./fonts/ToucheMedium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'toucheSemibold';
+  src: url('./fonts/ToucheSemibold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
