@@ -1,9 +1,11 @@
+@import 'https://cdn.staticaly.com/gh/harshitks2203/FrontendMentorProjects/fd304d94/HubbleLandingPage1/css/fontline.css';
 
 .container {
-  font-family: 'Font File';
-  src: url('./fonts/ToucheBold.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'toucheBold', sans-serif;
+  font-size: 20px;
+}
+.body {
+  background-color: aquamarine;
 }
 .attribution {
   font-size: 11px;

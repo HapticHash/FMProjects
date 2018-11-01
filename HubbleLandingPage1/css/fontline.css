@@ -1,34 +1,41 @@
 @font-face {
   font-family: 'touche';
-  src: url('./fonts/Touche.otf') format('opentype');
+  src: url('./fonts/Touche.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'toucheBold';
-  src: url('./fonts/ToucheBold.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'toucheLight';
-  src: url('./fonts/ToucheLight.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'toucheMedium';
-  src: url('./fonts/ToucheMedium.otf') format('opentype');
+  src: url('./fonts/ToucheBold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'toucheSemibold';
-  src: url('./fonts/ToucheSemibold.otf') format('opentype');
+  src: url('./fonts/ToucheSemibold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'toucheMedium';
+  src: url('./fonts/ToucheMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'toucheLight';
+  src: url('./fonts/ToucheLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'touche';
+  src: url('./fonts/Touche.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
