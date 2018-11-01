@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Font File';
+  src: url('./fonts/ToucheBold.otf') format('otf'),
+    url('./fonts/Touche.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
