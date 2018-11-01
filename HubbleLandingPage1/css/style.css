@@ -1,16 +1,108 @@
-@import 'https://cdn.staticaly.com/gh/harshitks2203/FrontendMentorProjects/fd304d94/HubbleLandingPage1/css/fontline.css';
+@import 'https://cdn.staticaly.com/gh/harshitks2203/FrontendMentorProjects/e9c320ef/HubbleLandingPage1/css/fontline.css';
 
-.container {
-  font-family: 'toucheBold', sans-serif;
-  font-size: 20px;
-}
 .body {
   background-color: aquamarine;
 }
+
+.logo {
+  padding: 5%;
+}
+
+.container {
+  width: 100%;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.upper {
+  font-family: 'toucheBold', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  margin: auto;
+  color: #222;
+}
+
+.middle {
+  font-family: 'touche', sans-serif;
+  font-size: 21px;
+  text-align: center;
+  padding-top: 2%;
+  max-width: 56%;
+  margin: auto;
+  color: grey;
+  line-height: 150%;
+}
+
+.mockup {
+  margin-top: 5%;
+}
+
+.lower {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+#top {
+  font-family: 'toucheBold', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  margin: auto;
+  margin-top: 20%;
+  color: #222;
+}
+
+#bottom {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+input[type='text'] {
+  width: 50%;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  resize: vertical;
+  outline: none;
+  font-size: 20px;
+  color: #222;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+input[type='submit'] {
+  width: 30%;
+  padding: 25px;
+  background-color: #e678bf;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  float: right;
+  font-family: 'toucheSemibold', sans-serif;
+  font-size: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.footer {
+  width: 100%;
+  clear: both;
+  z-index: 10;
+  background-color: #0d252e;
+}
+
+.flogo {
+  padding: 2%;
+  color: #fff;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
