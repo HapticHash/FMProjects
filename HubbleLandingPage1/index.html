@@ -7,6 +7,9 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css" />
 
   <title>Frontend Mentor | Huddle landing page with single column layout</title>
   <link rel="stylesheet" href="./css/style.css" />
@@ -36,34 +39,44 @@
 
       <div id="bottom">
         <input name="email" type="text" placeholder="email@example.com" />
-        <input type="submit" name="Register" value="Register">
-      </div>
-    </div>
-
-
-    <div class="footer">
-      <div class="flogo">
-        <img src="./images/logo.svg" alt="Hubble logo">
+        <input type="submit" name="Register" value="Register" id="register">
       </div>
     </div>
 
   </div>
-
-  About Us
-  What We Do
-  FAQ
-  Career
-  Blog
-  Contact Us
-
-  &copy; 2018 Huddle Copyright
-
   <footer>
+    <div class="flogo">
+      <img src="./images/logoBottom.svg" class="logo-img" alt="Hubble logo">
+      <ul class="desc">
+        <li> <a href="#aboutUs">About Us</a></li>
+        <li><a href="#whatWeDo">What We Do</a></li>
+        <li><a href="#FAQ">FAQ</a></li>
+        <li><a href="#career">Career</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contactUs">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="social">
+      <ul class="handles">
+        <li> <i class="fab fa-facebook-square"></i> </li>
+        <li> <i class="fab fa-instagram"></i> </li>
+        <li> <i class="fab fa-twitter-square"></i> </li>
+      </ul>
+
+      <div class="copy"> &copy; 2018 Huddle Copyright </div>
+
+    </div>
+
     <p class="attribution">
       This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
         Mentor</a> 🎉
     </p>
+
   </footer>
+
+
+
 </body>
 
 </html>

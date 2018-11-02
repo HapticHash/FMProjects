@@ -1,9 +1,8 @@
 @import 'https://cdn.staticaly.com/gh/harshitks2203/FrontendMentorProjects/e9c320ef/HubbleLandingPage1/css/fontline.css';
 
-.body {
-  background-color: aquamarine;
+body {
+  background-color: #fff;
 }
-
 .logo {
   padding: 5%;
 }
@@ -72,7 +71,7 @@ input[type='text'] {
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
-input[type='submit'] {
+#register {
   width: 30%;
   padding: 25px;
   background-color: #e678bf;
@@ -81,28 +80,102 @@ input[type='submit'] {
   border-radius: 10px;
   cursor: pointer;
   float: right;
+  outline: none;
   font-family: 'toucheSemibold', sans-serif;
   font-size: 20px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
-.footer {
+#register:hover {
+  background-color: #d12795;
+}
+
+footer {
   width: 100%;
-  clear: both;
   z-index: 10;
   background-color: #0d252e;
+  height: auto;
 }
 
 .flogo {
-  padding: 2%;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.logo-img {
+  max-width: 40%;
+  margin-top: 8%;
+  margin-left: 4%;
+  margin-bottom: 2%;
+}
+
+.desc {
+  max-width: 50%;
+  display: inline-flex;
+  font-family: 'Touche', sans-serif;
+  list-style: none;
+  width: 50%;
+  margin-top: 7%;
+  font-size: 1.1em;
   color: #fff;
+  text-align: right;
+}
+
+li {
+  padding-top: 5%;
+  padding-left: 6%;
+  max-width: 60%;
+}
+
+.social {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.handles {
+  max-width: 25%;
+  display: inline-flex;
+  font-family: 'Touche', sans-serif;
+  list-style: none;
+  width: 25%;
+  font-size: 2.5em;
+  margin-left: 10%;
+  color: #fff;
+}
+
+.copy {
+  width: 17%;
+  color: #ccc;
+  margin-top: 6%;
+  font-family: 'Touche', sans-serif;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: #ccc;
 }
 
-.attribution a {
-  color: hsl(228, 45%, 44%);
+a:link {
+  color: #eee;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #eee;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e358bf;
+  text-decoration: none;
+}
+
+a:active {
+  color: #eee;
+  text-decoration: underline;
 }
