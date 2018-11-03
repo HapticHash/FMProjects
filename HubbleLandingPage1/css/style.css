@@ -111,10 +111,9 @@ footer {
 }
 
 .logo-img {
-  max-width: 40%;
   margin-top: 8%;
-  margin-left: 4%;
   margin-bottom: 2%;
+  order: 1;
 }
 
 .desc {
@@ -127,6 +126,7 @@ footer {
   font-size: 1.1em;
   color: #fff;
   text-align: right;
+  order: 2;
 }
 
 li {
@@ -140,6 +140,8 @@ li {
   width: 100%;
   flex-wrap: wrap;
   justify-content: space-between;
+  order: 3;
+  margin-bottom: 2%;
 }
 
 .handles {
@@ -156,7 +158,11 @@ li {
 .copy {
   width: 17%;
   color: #ccc;
-  margin-top: 6%;
+  margin-top: 2%;
+  margin-right: 6.5%;
+  float: right;
+  display: flex;
+  order: 4;
   font-family: 'Touche', sans-serif;
 }
 
@@ -184,6 +190,10 @@ a:hover {
 a:active {
   color: #eee;
   text-decoration: underline;
+}
+
+.copy1 {
+  display: none;
 }
 
 /* media query to add a breakpoint at 320px: */
@@ -227,5 +237,44 @@ a:active {
     padding: 15px;
     font-size: 16px;
     margin-top: 5%;
+  }
+
+  .social {
+    order: 2;
+    margin-left: 10%;
+  }
+
+  .desc {
+    order: 3;
+    display: block;
+    font-family: 'Touche', sans-serif;
+    list-style: none;
+    font-size: 1.1em;
+    color: #fff;
+    margin-top: 0%;
+    text-align: left;
+  }
+
+  .handles > li {
+    padding-left: 20%;
+  }
+
+  .desc > li {
+    padding-left: 0%;
+  }
+  .copy {
+    display: none;
+  }
+
+  .copy1 {
+    width: 80%;
+    color: #ccc;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: block;
+    order: 5;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Touche', sans-serif;
   }
 }
