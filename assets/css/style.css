@@ -1,0 +1,46 @@
+.logo {
+  margin-top: 2%;
+}
+a,
+a:link,
+a:visited,
+a:hover {
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+/************ Footer ************/
+.footer-row {
+  display: flex;
+}
+.fab {
+  font-size: 1.4em;
+}
+.fa-heart {
+  color: red;
+}
+.fa-envelope {
+  color: #222;
+}
+.fa-github {
+  color: #171414;
+}
+.fa-twitter {
+  color: #5aa3d6;
+}
+.fa-instagram {
+  color: #dc3829;
+}
+.fa-linkedin {
+  color: #3171ad;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  footer .text-right,
+  footer .text-center {
+    text-align: left !important;
+  }
+  .made {
+    margin-left: 5px !important;
+  }
+}
