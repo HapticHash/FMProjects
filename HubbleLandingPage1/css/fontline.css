@@ -39,3 +39,31 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'telefonBlack';
+  src: url('./fonts/telefonBlack.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'telefonBlack';
+  src: url('./fonts/telefonBlack.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'telefonBold';
+  src: url('./fonts/telefonBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'telefonBold';
+  src: url('./fonts/telefonBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}

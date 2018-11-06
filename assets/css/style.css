@@ -1,6 +1,30 @@
+@import 'https://cdn.staticaly.com/gh/harshitks2203/FrontendMentorProjects/e9c320ef/HubbleLandingPage1/css/fontline.css';
+
+html,
+body,
+.container-fluid {
+  background-color: #eee;
+}
+
 .logo {
   margin-top: 2%;
 }
+
+.backText {
+  font-family: 'toucheBold', sans-serif;
+  font-size: 12em;
+  color: #bdbdbd;
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.card {
+  display: inline-block;
+}
+
 a,
 a:link,
 a:visited,
