@@ -8,8 +8,8 @@ body,
   overflow-x: hidden;
 }
 
-.logo {
-  margin-top: 2%;
+.fml {
+  width: 30%;
 }
 
 .backText {
@@ -135,6 +135,10 @@ a:hover {
     font-size: 4em;
   }
 
+  .fml {
+    width: 100%;
+  }
+
   .hs {
     grid-gap: 30%;
   }
@@ -163,6 +167,10 @@ a:hover {
     font-size: 3em;
   }
 
+  .fml {
+    width: 100%;
+  }
+
   .hs {
     grid-gap: 42%;
   }
@@ -189,6 +197,10 @@ a:hover {
 @media screen and (max-width: 320px) {
   .backText {
     font-size: 3em;
+  }
+
+  .fml {
+    width: 100%;
   }
 
   .hs {
