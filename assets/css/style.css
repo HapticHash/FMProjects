@@ -27,10 +27,14 @@ body,
   margin: auto !important;
 }
 
-.card-body {
+.card-body,
+.footer-row {
   font-family: 'Lato', sans-serif;
 }
-/**************** test ******************/
+
+.count {
+  top: -51% !important;
+}
 
 :root {
   --gutter: 20px;
@@ -42,6 +46,10 @@ body,
   grid-gap: var(--gutter) 0;
   grid-template-columns: var(--gutter) 1fr var(--gutter);
   align-content: start;
+
+  width: 102%;
+  margin-top: -10%;
+  overflow-y: scroll;
 }
 
 .app > * {
@@ -74,13 +82,6 @@ ul {
   padding: 0;
 }
 
-.app {
-  width: 102%;
-  margin-top: -10%;
-  height: 400px;
-  overflow-y: scroll;
-}
-
 .hs > li,
 .item {
   scroll-snap-align: center;
@@ -92,8 +93,6 @@ ul {
   background: #fff;
   border-radius: 8px;
 }
-
-/****************************************/
 
 a,
 a:link,
@@ -129,7 +128,83 @@ a:hover {
   color: #3171ad;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+/********************* Mobile View CSS *********************/
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .backText {
+    font-size: 4em;
+  }
+
+  .hs {
+    grid-gap: 30%;
+  }
+
+  .app {
+    width: 102%;
+    margin-top: -14%;
+    grid-template-columns: 10px 1fr 10px;
+  }
+
+  .item {
+    width: 170%;
+  }
+
+  footer .text-right,
+  footer .text-center {
+    text-align: left !important;
+  }
+  .made {
+    margin-left: 5px !important;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .backText {
+    font-size: 3em;
+  }
+
+  .hs {
+    grid-gap: 42%;
+  }
+
+  .app {
+    width: 102%;
+    margin-top: -14%;
+    grid-template-columns: 5px 1fr 5px;
+  }
+
+  .item {
+    width: 200%;
+  }
+
+  footer .text-right,
+  footer .text-center {
+    text-align: left !important;
+  }
+  .made {
+    margin-left: 5px !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .backText {
+    font-size: 3em;
+  }
+
+  .hs {
+    grid-gap: 57%;
+  }
+
+  .app {
+    width: 102%;
+    margin-top: -16%;
+    grid-template-columns: 2px 1fr 2px;
+  }
+
+  .item {
+    width: 250%;
+  }
+
   footer .text-right,
   footer .text-center {
     text-align: left !important;
