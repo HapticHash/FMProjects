@@ -283,7 +283,7 @@ a:hover {
 
   .app {
     width: 102%;
-    margin-top: -10%;
+    margin-top: -8%;
     grid-template-columns: 2px 1fr 2px;
   }
 
@@ -295,7 +295,11 @@ a:hover {
     font-size: 1.1em;
   }
 
-  .made {
+  footer .mail {
+    text-align: center !important;
+  }
+
+  footer .made {
     text-align: right !important;
   }
 }
