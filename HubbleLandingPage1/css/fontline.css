@@ -67,3 +67,10 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Redshift-ExtraBold';
+  src: url('./fonts/Redshift-ExtraBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

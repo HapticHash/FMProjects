@@ -1,3 +1,63 @@
+@import 'https://cdn.staticaly.com/gh/harshitks2203/FrontendMentorProjects/e9c320ef/HubbleLandingPage1/css/fontline.css';
+
+html, body {
+  width: 100%;
+  overflow: hidden;
+}
+
+.container-fluid {
+     padding-right: 0px; 
+     padding-left: 0px; 
+}
+.header {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-bottom: 12%;
+  overflow: hidden;
+}
+
+.header__bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #8480cc;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #18246e, #8480cc);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #18246e, #8480cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  transform: skewY(5deg);
+  transform-origin: bottom right;
+}
+
+.first {
+  z-index: 1;
+  padding: 5%; 
+}
+.sign {
+  text-align: right;
+}
+.signin {
+  color: #fff;
+  padding-right: 5%;
+}
+
+h1 {
+  margin: 0;
+  padding: 100px 0;
+  font: 44px "Arial";
+  text-align: center;
+}
+
+header h1 {
+  position: relative;
+  color: white;
+}
+
+
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -5,3 +65,5 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+

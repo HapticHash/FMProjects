@@ -3,13 +3,20 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+
+
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
     crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css" />
+
 
   <link rel="stylesheet" href="./css/style.css" />
 
@@ -19,7 +26,39 @@
 </head>
 
 <body>
-  Sign In Sign Up All Your Files In One Secure Location, Accessible Anywhere.
+  <div class="container-fluid">
+    <div class="header">
+      <div class="header__bg"></div>
+      <div class="row first">
+        <div class="col logo">
+          <img src="./images/logo.svg" class="img-responsive" alt="Flyo logo" />
+        </div>
+        <div class="col sign">
+          <a class="signin" href="#signIn">Sign In</a>
+          <button type="button" class="btn btn-success px-4">Sign Up</button>
+        </div>
+      </div>
+
+      <div class="row sec">
+        
+      </div>
+    </div>
+
+    <section>
+      <h1>Section Content</h1>
+    </section>
+
+    <footer>
+      <p class="attribution">
+        This page started life as a challenge on
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+        🎉
+      </p>
+    </footer>
+
+
+  </div>
+ All Your Files In One Secure Location, Accessible Anywhere.
   Get Started Stay Productive, Wherever You Are All platforms, all devices,
   all your files Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   Aliquam egestas, elit sit amet fermentum viverra, ipsum dolor vehicula leo,
@@ -38,13 +77,14 @@
   Us Jobs Press Blog Support Contact Us Terms Privacy Receive updates from us,
   including tips and tricks on how to improve your workflow. Join
 
-  <footer>
-    <p class="attribution">
-      This page started life as a challenge on
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
-      🎉
-    </p>
-  </footer>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
