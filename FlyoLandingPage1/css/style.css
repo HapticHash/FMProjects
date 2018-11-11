@@ -33,7 +33,7 @@ html, body {
   transform-origin: bottom right;
 }
 
-.first {
+.row{
   z-index: 1;
   padding: 5%; 
 }

@@ -69,8 +69,20 @@
 }
 
 @font-face {
-  font-family: 'Redshift-ExtraBold';
-  src: url('./fonts/Redshift-ExtraBold.woff') format('woff');
+  font-family: 'RedshiftExtraBold';
+  src: url('./fonts/RedshiftExtraBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'redshiftExtraBold';
+  src: url('./fonts/redshiftExtraBold.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'redshiftBold';
+  src: url('./fonts/redshiftBold.ttf') format('ttf');
   font-weight: normal;
   font-style: normal;
 }
