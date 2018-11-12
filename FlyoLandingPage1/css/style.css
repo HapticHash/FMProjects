@@ -1,9 +1,8 @@
-@import 'https://cdn.staticaly.com/gh/harshitks2203/FrontendMentorProjects/e9c320ef/HubbleLandingPage1/css/fontline.css';
+@import 'https://cdn.staticaly.com/gh/harshitks2203/FMProjects/c74c47ef/FlyoLandingPage1/css/fontline.css';
 
 html, body {
   width: 100%;
   overflow: hidden;
-  font-family: 'RedShiftEB';
 }
 
 .container-fluid {
@@ -33,7 +32,7 @@ html, body {
   transform-origin: bottom right;
 }
 
-.first, .second{
+.foo{
   z-index: 1;
   padding: 5%; 
   color: #fff;
@@ -47,6 +46,11 @@ html, body {
 }
 .title {
   font-family: 'RedShiftEB';
+  font-size: 2em;
+}
+.get{
+  padding: 1.5% 8%;
+  font-size: 1.5em;
 }
 h1 {
   margin: 0;

@@ -16,3 +16,28 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Redshift-Medium';
+  src: url('./fonts/Redshift-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Redshift-Medium';
+  src: url('./fonts/Redshift-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Redshift-Regular';
+  src: url('./fonts/Redshift-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Redshift-Regular';
+  src: url('./fonts/Redshift-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
