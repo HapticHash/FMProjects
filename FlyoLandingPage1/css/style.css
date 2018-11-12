@@ -3,7 +3,7 @@
 html, body {
   width: 100%;
   overflow: hidden;
-  font-family: 'Redshift-ExtraBold';
+  font-family: 'redshiftExtraBold';
 }
 
 .container-fluid {
@@ -33,9 +33,10 @@ html, body {
   transform-origin: bottom right;
 }
 
-.row{
+.first, .second{
   z-index: 1;
   padding: 5%; 
+  color: #fff;
 }
 .sign {
   text-align: right;
@@ -44,11 +45,14 @@ html, body {
   color: #fff;
   padding-right: 5%;
 }
-
+.title {
+  font-family: 'RedshiftExtraBold';
+}
 h1 {
   margin: 0;
   padding: 100px 0;
-  font: 44px "Arial";
+  font-size: 44px ;
+  font-family: 'redshiftBold';
   text-align: center;
 }
 

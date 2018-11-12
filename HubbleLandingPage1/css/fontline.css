@@ -75,14 +75,14 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'redshiftExtraBold';
-  src: url('./fonts/redshiftExtraBold.ttf') format('ttf');
+  font-family: 'RedShiftEB';
+  src: url('./fonts/RedshiftEB.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'redshiftBold';
-  src: url('./fonts/redshiftBold.ttf') format('ttf');
+  font-family: 'RedShiftEB';
+  src: url('./fonts/RedshiftEB.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
