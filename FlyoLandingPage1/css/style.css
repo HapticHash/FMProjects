@@ -2,7 +2,7 @@
 
 html, body {
   width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .container-fluid {
@@ -51,6 +51,7 @@ html, body {
 .get{
   padding: 1.5% 8%;
   font-size: 1.5em;
+  font-family: 'Redshift-Medium';
 }
 h1 {
   margin: 0;
