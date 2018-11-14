@@ -13,7 +13,7 @@ html, body {
   position: relative;
   width: 100%;
   height: auto;
-  padding-bottom: 12%;
+  padding-bottom: 10%;
   overflow: hidden;
 }
 
@@ -36,6 +36,7 @@ html, body {
   z-index: 1;
   padding: 5%; 
   color: #fff;
+  margin-bottom: 2%;
 }
 .sign {
   text-align: right;
@@ -46,17 +47,31 @@ html, body {
 }
 .title {
   font-family: 'RedShiftEB';
-  font-size: 2em;
+  font-size: 2.3em;
 }
-.get{
-  padding: 1.5% 8%;
+.get {
+  padding: 1.3% 8%;
   font-size: 1.5em;
-  font-family: 'Redshift-Medium';
+  font-family: 'RedshiftRegular';
 }
+.hero {
+  float: right;
+  margin-top: -8%;
+  padding-right: 3%;
+}
+
 h1 {
   margin: 0;
   padding: 100px 0;
-  font-size: 44px ;
+  font-size: 2em ;
+  font-family: 'RedShiftEB';
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  padding: 100px 0;
+  font-size: 2em ;
   font-family: 'RedShiftEB';
   text-align: center;
 }
@@ -68,6 +83,12 @@ h1 {
 }
 
 
+a:link,
+a:visited,
+a:hover {
+  color: #fff !important;
+  text-decoration: none;
+}
 
 .attribution {
   font-size: 11px;
