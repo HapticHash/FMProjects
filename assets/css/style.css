@@ -40,12 +40,12 @@ a:hover {
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   font-size: 12em;
-  margin-top: -2%;
+  margin-top: -6%;
   color: #b5c2d3;
 }
 
 .card-img-top {
-  width: 90% !important;
+  width: 85% !important;
   margin: auto !important;
 }
 
@@ -59,7 +59,7 @@ a:hover {
 }
 
 :root {
-  --gutter: 20px;
+  --gutter: 10px;
 }
 
 .app {
@@ -84,7 +84,7 @@ a:hover {
 .hs {
   display: grid;
   grid-gap: calc(var(--gutter) / 2);
-  grid-template-columns: 10px repeat(6, calc(50% - var(--gutter) * 2)) 10px;
+  grid-template-columns: 10px repeat(6, calc(40% - var(--gutter) * 2)) 10px;
   grid-template-rows: minmax(150px, 1fr);
   overflow-x: scroll;
   scroll-snap-type: x proximity;
@@ -92,10 +92,15 @@ a:hover {
   margin-bottom: calc(-0.25 * var(--gutter));
 }
 
+.hs::before{
+  grid-gap: 10% !important;
+}
+
 .hs:before,
 .hs:after {
   content: '';
 }
+
 
 ul {
   list-style: none;
@@ -155,7 +160,7 @@ a:hover {
 
 @media screen and (max-width: 320px) {
   .backText {
-    font-size: 3em;
+    font-size: 3.5em;
   }
 
   .fml {
@@ -187,7 +192,7 @@ a:hover {
 
 @media screen and (min-width: 375px) {
   .backText {
-    font-size: 3em;
+    font-size: 4em;
   }
 
   .fml {
@@ -219,7 +224,7 @@ a:hover {
 
 @media screen and (min-width: 425px) {
   .backText {
-    font-size: 4em;
+    font-size: 5em;
   }
 
   .fml {
@@ -253,7 +258,7 @@ a:hover {
 /********************* Tablet View CSS *********************/
 @media screen and (min-width: 768px) {     
   .backText {
-    font-size: 6em;
+    font-size: 7em;
   }
 
   .fml {
@@ -291,17 +296,14 @@ a:hover {
   }
 
   .hs {
-    grid-gap: 0%;
+    grid-gap: 10%;
+    width: 70%;
   }
 
   .app {
-    width: 102%;
-    margin-top: -10%;
+    width: 145%;
+    margin-top: -8%;
     grid-template-columns: 2px 1fr 2px;
-  }
-
-  .item {
-    width: 90%;
   }
 
   .card-body > .row {
@@ -320,6 +322,7 @@ a:hover {
 @media screen and (min-width: 1440px) {
   .backText {
     font-size: 12em;
+    margin-top: -8%;
   }
 
   .fml {
@@ -327,17 +330,14 @@ a:hover {
   }
 
   .hs {
-    grid-gap: 0%;
+    grid-gap: 10%;
+    width: 65%;
   }
 
   .app {
-    width: 102%;
-    margin-top: -8%;
+    width: 155%;
+    margin-top: -9%;
     grid-template-columns: 2px 1fr 2px;
-  }
-
-  .item {
-    width: 90%;
   }
 
   .card-body > .row {
@@ -356,6 +356,7 @@ a:hover {
 @media screen and (min-width: 2560px) {
   .backText {
     font-size: 20em;
+    margin-top: -10%;
   }
 
   .fml {
@@ -363,21 +364,18 @@ a:hover {
   }
 
   .hs {
-    grid-gap: 0%;
+    grid-gap: 10%;
+    width: 60%;
   }
 
   .app {
-    width: 102%;
+    width: 170%;
     margin-top: -8%;
     grid-template-columns: 2px 1fr 2px;
   }
 
-  .item {
-    width: 90%;
-  }
-
-  .card-body > .row {
-    font-size: 2em;
+  .card-body > .row, .card-body > .btn-primary {
+    font-size: 2em !important;
   }
 
   .clap {
