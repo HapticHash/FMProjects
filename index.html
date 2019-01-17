@@ -25,37 +25,47 @@
     <!-- Reset CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- OwlCarousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- Animate CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
 
+    <!-- Applause Button CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/1.4.0/css/perfect-scrollbar.min.css">
     <link rel="stylesheet" href="https://unpkg.com/applause-button/dist/applause-button.css">
 
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script>
-     (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "ca-pub-6517303298050530",
-          enable_page_level_ads: true
-     });
-    </script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-6517303298050530",
+            enable_page_level_ads: true
+        });
+    </script> -->
 </head>
 
 <body>
     <div class="container-fluid">
         <div class="row logo">
             <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                <a href="https://harshitks2203.github.io/"> <img class="img-fluid fml" src="./assets/images/logo3.png" alt="FMProjects Logo"/> </a> 
+                <a href="https://harshitks2203.github.io/"> <img class="img-fluid fml" src="./assets/images/logo3.png"
+                        alt="FMProjects Logo" /> </a>
             </div>
         </div>
 
         <div class="backText text-right"> Projects </div>
 
+        <div class="row">
 
-        <div class="app">
+            <div class="col">
+                <div class="owl-carousel">
 
-            <ul class="hs full">
-                <li class="item">
                     <div class="card py-2">
                         <img class="card-img-top" src="./assets/images/web1.png" alt="Hubble Landing Page 1">
                         <div class="card-body">
@@ -63,49 +73,32 @@
                                 <div class="col-5 col-sm-6 col-md-6 col-lg-6 col-xl-6 py-2">Hubble Landing Page</div>
 
                                 <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 ">
-                                    <a class="btn btn-primary" href="https://harshitks2203.github.io/FMProjects/HubbleLandingPage1/" target="_blank">
+                                    <a class="btn btn-primary" href="https://harshitks2203.github.io/FMProjects/HubbleLandingPage1/"
+                                        target="_blank">
                                         Open </a>
                                 </div>
 
                                 <div class="col-1 col-sm-2 col-md-2 col-lg-2 col-xl-2 text-right">
-                                    <applause-button class="clap" multiclap="true" url="https://harshitks2203.github.io/FMProjects/HubbleLandingPage1/" style="width: 50px; height: 45px;" />
+                                    <applause-button class="clap" multiclap="true" url="https://harshitks2203.github.io/FMProjects/HubbleLandingPage1/"
+                                        style="width: 50px; height: 45px;" />
                                 </div>
 
                             </div>
                         </div>
                     </div>
-                </li>
-            
-                <li class="item">
-                    <div class="card py-2">
-                        <img class="card-img-top" src="./assets/images/web2.png" alt="Flyo Landing Page 1">
-                        <div class="card-body">
-                            <div class="row px-2">
-                                <div class="col-5 col-sm-6 col-md-6 col-lg-6 col-xl-6 py-2">Flyo Landing Page</div>
 
-                                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 ">
-                                    <a class="btn btn-primary" href="https://harshitks2203.github.io/FMProjects/FlyoLandingPage1/" target="_blank">
-                                        Open </a>
-                                </div>
+                   
 
-                                <div class="col-1 col-sm-2 col-md-2 col-lg-2 col-xl-2 text-right">
-                                    <applause-button class="clap" multiclap="true" url="https://harshitks2203.github.io/FMProjects/FlyoLandingPage1/" style="width: 50px; height: 45px;" />
-                                </div>
 
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                  <!--   <li class="item">test</li>
-                    <li class="item">test</li>
-                    <li class="item">test</li>
-                    <li class="item">test</li> -->
-            </ul>
+                </div>
+
+            </div>
 
         </div>
 
+
     </div>
-    </div>
+
 
     <!-- Footer -->
     <footer class="page-footer font-small pt-4 fixed-bottom">
@@ -151,7 +144,34 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://unpkg.com/applause-button/dist/applause-button.js"></script>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            animateOut: 'fadeInDown',
+            margin: 20,
+            stagePadding: 80,
+            smartSpeed: 450,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                600: {
+                    items: 2,
+                    nav: false
+                },
+                1000: {
+                    items: 2,
+                    nav: true,
+                    loop: false
+                }
+            }
+        });
+    </script>
 
 </body>
 

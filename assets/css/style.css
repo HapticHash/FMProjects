@@ -58,68 +58,6 @@ a:hover {
   top: -51% !important;
 }
 
-:root {
-  --gutter: 10px;
-}
-
-.app {
-  padding: var(--gutter) 0;
-  display: grid;
-  grid-gap: var(--gutter) 0;
-  grid-template-columns: var(--gutter) 1fr var(--gutter);
-  align-content: start;
-  width: 102%;
-  margin-top: -10%;
-  overflow-y: scroll;
-}
-
-.app > * {
-  grid-column: 2 / -2;
-}
-
-.app > .full {
-  grid-column: 1 / -1;
-}
-
-.hs {
-  display: grid;
-  grid-gap: calc(var(--gutter) / 2);
-  grid-template-columns: 10px repeat(6, calc(40% - var(--gutter) * 2)) 10px;
-  grid-template-rows: minmax(150px, 1fr);
-  overflow-x: scroll;
-  scroll-snap-type: x proximity;
-  padding-bottom: calc(0.75 * var(--gutter));
-  margin-bottom: calc(-0.25 * var(--gutter));
-}
-
-.hs::before{
-  grid-gap: 10% !important;
-}
-
-.hs:before,
-.hs:after {
-  content: '';
-}
-
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-.hs > li,
-.item {
-  scroll-snap-align: center;
-  /* padding: calc(var(--gutter) / 2 * 1.5); */
-  display: flex;
-  height: 97%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #fff;
-  border-radius: 8px;
-}
-
 a,
 a:link,
 a:visited,
@@ -128,7 +66,6 @@ a:hover {
   text-decoration: none !important;
   color: #222;
 }
-
 
 /************ Footer ************/
 .footer-row {
@@ -167,20 +104,6 @@ a:hover {
     width: 100%;
   }
 
-  .hs {
-    grid-gap: 57%;
-  }
-
-  .app {
-    width: 102%;
-    margin-top: -16%;
-    grid-template-columns: 2px 1fr 2px;
-  }
-
-  .item {
-    width: 250%;
-  }
-
   footer .mail,
   footer .made {
     text-align: left !important;
@@ -199,20 +122,6 @@ a:hover {
     width: 100%;
   }
 
-  .hs {
-    grid-gap: 42%;
-  }
-
-  .app {
-    width: 102%;
-    margin-top: -14%;
-    grid-template-columns: 5px 1fr 5px;
-  }
-
-  .item {
-    width: 200%;
-  }
-
   footer .mail,
   footer .made {
     text-align: left !important;
@@ -229,20 +138,6 @@ a:hover {
 
   .fml {
     width: 100%;
-  }
-
-  .hs {
-    grid-gap: 30%;
-  }
-
-  .app {
-    width: 102%;
-    margin-top: -14%;
-    grid-template-columns: 10px 1fr 10px;
-  }
-
-  .item {
-    width: 170%;
   }
 
   footer .mail,
@@ -265,20 +160,6 @@ a:hover {
     width: 40%;
   }
 
-  .hs {
-    grid-gap: 13%;
-  }
-
-  .app {
-    width: 102%;
-    margin-top: -10%;
-    grid-template-columns: 2px 1fr 2px;
-  }
-
-  .item {
-    width: 120%;
-  }
-
   .made {
     margin-left: 0px !important;
     text-align: right !important;
@@ -293,21 +174,6 @@ a:hover {
 
   .fml {
     width: 30%;
-  }
-
-  .hs {
-    grid-gap: 10%;
-    width: 70%;
-  }
-
-  .app {
-    width: 145%;
-    margin-top: -8%;
-    grid-template-columns: 2px 1fr 2px;
-  }
-
-  .card-body > .row {
-    font-size: 1.1em;
   }
 
   footer .mail {
@@ -329,21 +195,6 @@ a:hover {
     width: 30%;
   }
 
-  .hs {
-    grid-gap: 10%;
-    width: 65%;
-  }
-
-  .app {
-    width: 155%;
-    margin-top: -9%;
-    grid-template-columns: 2px 1fr 2px;
-  }
-
-  .card-body > .row {
-    font-size: 1.2em;
-  }
-
   footer .mail {
     text-align: center !important;
   }
@@ -361,21 +212,6 @@ a:hover {
 
   .fml {
     width: 40%;
-  }
-
-  .hs {
-    grid-gap: 10%;
-    width: 60%;
-  }
-
-  .app {
-    width: 170%;
-    margin-top: -8%;
-    grid-template-columns: 2px 1fr 2px;
-  }
-
-  .card-body > .row, .card-body > .btn-primary {
-    font-size: 2em !important;
   }
 
   .clap {
