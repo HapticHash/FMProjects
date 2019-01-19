@@ -113,37 +113,72 @@ a:hover {
 
 /********************* Mobile View CSS *********************/
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) and (max-width: 374px){
   .backText {
     font-size: 3.5em;
+    margin-top: 2%;
   }
 
   .fml {
-    width: 100%;
+    width: 40vw;
+  }
+
+  .up{
+    margin-top: -6vh;
+  }
+
+  .pName{
+    font-size: 12px;
+  }
+
+  .btn{
+    font-size: 12px !important;
+    margin-left: -4vw !important;
+  }
+
+  .clap {
+    margin-top: 1vh;
+    width: 35px !important;
+    height: 30px !important;
+  }
+
+  .count {
+    margin-top: -0.5vh;
   }
 
   footer .mail,
   footer .made {
     text-align: left !important;
   }
+
   .made {
     margin-left: 5px !important;
   }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 424px){
   .backText {
     font-size: 4em;
+    margin-top: 2%;
+  }
+
+  .up{
+    margin-top: -7vh;
   }
 
   .fml {
-    width: 100%;
+    width: 40vw;
+  }
+
+  .btn{
+    margin-left: -3vw !important;
   }
 
   footer .mail,
   footer .made {
     text-align: left !important;
   }
+
   .made {
     margin-left: 5px !important;
   }
@@ -152,10 +187,34 @@ a:hover {
 @media screen and (min-width: 425px) {
   .backText {
     font-size: 5em;
+    margin-top: -2vh;
   }
 
   .fml {
-    width: 100%;
+    width: 40vw;
+  }
+
+  .up{
+    margin-top: -7vh;
+  }
+
+  .pName{
+    font-size: 15px;
+  }
+
+  .btn{
+    font-size: 15px;
+    margin-left: -3vw !important;
+  }
+
+  .clap {
+    margin-top: 1vh;
+    width: 40px !important;
+    height: 35px !important;
+  }
+
+  .count {
+    margin-top: -0.5vh;
   }
 
   footer .mail,
@@ -187,7 +246,7 @@ a:hover {
   .count {
     margin-top: -1vh;
   }
-  
+
   .up{
     margin-top: -11vh;
   }
@@ -198,12 +257,17 @@ a:hover {
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
   .backText {
     font-size: 10em;
+    margin-top: -8vh;
   }
 
   .fml {
     width: 30%;
   }
 
+  .up{
+    margin-top: -15vh;
+  }
+ 
   .clap {
     margin-top: 2%;
     width: 50px !important;

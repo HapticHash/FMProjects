@@ -69,7 +69,7 @@
                     <div class="card py-2">
                         <img class="card-img-top" src="./assets/images/web1.png" alt="Hubble Landing Page 1">
                         <div class="card-body">
-                            <div class="row px-2 cardBox">
+                            <div class="row px-2 ">
                                 <div class="col-5 col-sm-6 col-md-5 col-lg-6 col-xl-6 py-2 pName">Hubble Landing Page</div>
 
                                 <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 ">
@@ -90,7 +90,7 @@
                     <div class="card py-2">
                         <img class="card-img-top" src="./assets/images/web2.png" alt="Flyo Landing Page 1">
                         <div class="card-body">
-                            <div class="row px-2 cardBox">
+                            <div class="row px-2 ">
                                 <div class="col-5 col-sm-6 col-md-5 col-lg-6 col-xl-6 py-2 pName">Flyo Landing Page</div>
 
                                 <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 ">
@@ -171,17 +171,19 @@
             loop: true,
             animateOut: 'fadeInDown',
             margin: 20,
-            stagePadding: 80,
+            stagePadding: 40,
             smartSpeed: 450,
             responsiveClass: true,
             responsive: {
                 0: {
                     items: 1,
-                    nav: true
+                    nav: false,
+                    loop: false
                 },
                 600: {
                     items: 2,
-                    nav: false
+                    nav: false,
+                    loop: false
                 },
                 1000: {
                     items: 2,
