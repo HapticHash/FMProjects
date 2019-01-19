@@ -5,10 +5,18 @@ It helps to improve HTML, CSS and JavaScript skills while using a real-world wor
 
 ## :hammer: Built with
 
-- Bootstrap 4
-- HTML
-- CSS
-- JS (Sometimes)
+* [Bootstrap v4.0](https://getbootstrap.com/docs/4.0/getting-started/introduction/) - Its is an open source toolkit for developing with HTML, CSS, and JS.
+* [Owl Carousel 2](https://owlcarousel2.github.io/OwlCarousel2/) - Touch enabled jQuery plugin that lets you create a beautiful responsive carousel slider.
+* [Font Awesome](https://fontawesome.com/) - Helps to get vector icons and social logos on your website.
+
+##   :computer: Interested in code ?
+
+You can get the code by simply cloning this repository on your local machine by just writing following in your command prompt/terminal. 
+```
+git clone https://github.com/harshitks2203/TKDesigns.git
+```
+P.S. Make sure you have ``` git bash``` installed in your local machine.
+
 
 ## :pencil: Author
 

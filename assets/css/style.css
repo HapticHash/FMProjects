@@ -41,8 +41,13 @@ a:hover {
   text-transform: uppercase;
   font-weight: 900;
   font-size: 12em;
-  margin-top: -6%;
-  color: #b5c2d3;
+  margin-top: -10vh;
+  /* color: #444; #b5c2d3 */
+  /* background: -webkit-linear-gradient(147deg, #FF2525 2%, #FFE53B 75%); */
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  #555 0%, #222 80% );
+  /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(227, 60, 59) 0%, rgba(227, 75, 143,1) 97.4% ); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .card-img-top {
@@ -77,7 +82,7 @@ a:hover {
 
 
 .up{
-  margin-top: -13vh;
+  margin-top: -15vh;
 }
 
 /************ Footer ************/
@@ -159,12 +164,13 @@ a:hover {
   }
 
   .made {
-    margin-left: 5px !important;
+    margin-left: 0px !important;
+    text-align: right !important;
   }
 }
 
 /********************* Tablet View CSS *********************/
-@media screen and (min-width: 768px) {     
+@media screen and (min-width: 768px) and (max-width:1023px){     
   .backText {
     font-size: 7em;
   }
@@ -177,10 +183,19 @@ a:hover {
     margin-left: 0px !important;
     text-align: right !important;
   }
+
+  .count {
+    margin-top: -1vh;
+  }
+  
+  .up{
+    margin-top: -11vh;
+  }
+ 
 }
 
 /********************* Laptop View CSS *********************/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
   .backText {
     font-size: 10em;
   }
@@ -189,6 +204,16 @@ a:hover {
     width: 30%;
   }
 
+  .clap {
+    margin-top: 2%;
+    width: 50px !important;
+    height: 45px !important;
+  }
+
+  .count {
+    margin-top: -1vh;
+  }
+  
   footer .mail {
     text-align: center !important;
   }
@@ -198,7 +223,7 @@ a:hover {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px)and (max-width: 2559px) {
   .backText {
     font-size: 12em;
     margin-top: -8%;
@@ -208,6 +233,19 @@ a:hover {
     width: 30%;
   }
 
+  .up{
+    margin-top: -16vh;
+  }
+  
+  .pName{
+    font-size: 1.2em;
+  }
+
+  .btn{
+    width: 6vw;
+    margin-left: -1vw;
+  }
+  
   footer .mail {
     text-align: center !important;
   }
@@ -227,13 +265,29 @@ a:hover {
     width: 40%;
   }
 
+  .up{
+    margin-top: -15vh;
+  }
+
+  .pName{
+    font-size: 2em;
+  }
+  
+  .btn{
+    font-size: 1.6em !important;
+    margin-top: 3%;
+    width: 40%;
+  }
+
   .clap {
-    width: 60px !important;
-    height: 55px !important;
+    margin-top: 3%;
+    width: 70px !important;
+    height: 65px !important;
   }
 
   .count {
-    margin-top: -30%;
+    margin-top: 8%;
+    font-size: 1.4em;
   }
 
   footer {
