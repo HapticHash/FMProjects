@@ -199,11 +199,13 @@ input[type='text'] {
 
 .fooItem{
   margin-top: 20vh;
+  margin-left: 5vw;
+  width: 100%;
 }
 
 .div1{
   margin-top: 10vh;
-  margin-left: -2vw;
+  /* margin-left: -2vw; */
 }
 
 .logoimg{
@@ -217,10 +219,71 @@ input[type='text'] {
 .iconimg{
   width: 1.5vw;
   margin-top: 2vh;
+  vertical-align: middle;
+  margin-bottom: 0.75em;
 }
 
 .iconDesc{
-  
+  font-size: 1em;
+  margin-left: 20px;
+}
+
+
+.div2 {
+  margin-left: 2vw;
+  margin-top: 8vh;
+}
+
+.div3 {
+  margin-left: 4vw;
+  margin-top: 8vh;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.widget_title{
+  margin-bottom: 5vh;
+  font-weight: 700;
+}
+
+.widget_text li{
+  margin:0 0 1.5vh 0;
+}
+
+.widget_text a {
+  color: #111;
+}
+
+.widget_text > input[type='text'] {
+  width: 100%;
+  margin-top: 2em;
+  padding: 5px 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  resize: vertical;
+  outline: none;
+  font-size: 18px;
+  color: #222;
+  order: 1;
+  display: flex;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.widget_text > #join {
+  width: 50%;
+  margin-top: 1em;
+  margin-left: auto;
+  padding: 5px;
+  background-color: #75d89e;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+  font-family: 'toucheSemibold', sans-serif;
+  font-size: 20px;
+  order: 2;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 a:link,
@@ -236,6 +299,11 @@ a:hover {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 
