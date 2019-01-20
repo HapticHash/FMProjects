@@ -4,10 +4,12 @@ html, body {
   width: 100%;
   overflow-x: hidden;
 }
+
 .container-fluid {
-     padding-right: 0px; 
-     padding-left: 0px; 
+  padding-right: 0px; 
+  padding-left: 0px; 
 }
+
 .header {
   position: relative;
   width: 100%;
@@ -109,6 +111,7 @@ h1 {
   margin-top: 2%;
   font-size: 1em ;
   font-family: 'RedshiftME', sans-serif;
+  font-weight: 600;
   color: #504e76;
 }
 
@@ -118,11 +121,68 @@ h1 {
   font-family: 'RedShiftEB';
 }
 
+#bottom {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 5em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+input[type='text'] {
+  width: 50%;
+  padding: 15px 25px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  resize: vertical;
+  outline: none;
+  font-size: 18px;
+  color: #222;
+  order: 1;
+  display: flex;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+#join {
+  width: 20%;
+  padding: 10px;
+  background-color: #75d89e;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  float: right;
+  outline: none;
+  font-family: 'toucheSemibold', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  order: 2;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.row.vdivide [class*='col-']:not(:last-child):after {
+  background: #e0e0e0;
+  width: 2px;
+  content: "";
+  display:block;
+  position: absolute;
+  margin-top: 2em;
+  bottom: 0;
+  right: 0;
+  min-height: 70px;
+}
+
+.footerText{
+  
+}
 
 .footer {
   position: relative;
   width: 100%;
-  height: auto;
+  height: 65vh;
   padding-bottom: 10%;
   overflow: hidden;
 }
