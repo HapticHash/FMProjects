@@ -25,14 +25,9 @@ It helps to improve HTML, CSS and JavaScript skills while using a real-world wor
 
 You can get the code by simply cloning this repository on your local machine by just writing following in your command prompt/terminal. 
 ```
-git clone https://github.com/harshitks2203/TKDesigns.git
+git clone https://github.com/harshitks2203/FMProjects.git
 ```
 P.S. Make sure you have ``` git bash``` installed in your local machine.
-
-
-## :pencil: Author -
-
-- **Harshit K. Singh**
 
 
 ## :page_with_curl: License -
@@ -43,3 +38,10 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## :confetti_ball: Special Thanks to -
 
 - Frontend Mentor Team
+
+
+## :pencil: Author -
+
+- **Harshit K. Singh**
+
+
