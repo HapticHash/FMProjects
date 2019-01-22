@@ -136,7 +136,7 @@ h1 {
   margin-bottom: 5em;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 input[type='text'] {
@@ -246,6 +246,7 @@ input[type='text'] {
   margin-top: 8vh;
   font-weight: 600;
   font-size: 1.2em;
+  text-align: left;
 }
 
 .widget_title{
@@ -346,6 +347,60 @@ a:hover {
   .mtitle{
     font-size: 2.2em;
   }
+
+  .access_desc{
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  input[type='text'] {
+    width: 90%;
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  #join {
+    width: 90%;
+    padding: 15px;
+    font-size: 16px;
+    margin-top: 5%;
+  }
+
+  .footer{
+    height: auto;
+  }
+
+  .fooItem {
+    margin-top: 10vh;
+    margin-left: 15vw;
+  }
+  
+  .iconimg {
+    width: 4.5vw;
+  }
+  
+  .logoimg {
+    width: 45vw;
+  }
+
+  .div1{
+    order: 1;
+  }
+  
+  .div2{
+    order: 3;
+    text-align: center;
+  }
+
+  .div3{
+    order: 2;
+  }
+
+  .updates {
+    text-align: center;
+  }
+
 }
 
 /******************************************************************
