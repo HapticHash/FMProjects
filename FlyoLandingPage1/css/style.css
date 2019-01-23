@@ -454,32 +454,88 @@ a:hover {
   .features_title{
     font-size: 1.3rem;
     margin-top: 5%;
-
   }
 
+  .iconimg{
+    width: 1.8vw;
+  }
+
+  .iconDesc {
+    font-size: 0.85rem;
+  }
+
+  .widget_title{
+    font-size: 1.2rem;
+  }
+  .widget_text{
+    font-size: 0.8rem;
+  }
+
+  .widget_text > input[type='text']{
+    padding: 3px 15px;
+    font-size: 15px;
+  }
+
+  .widget_text > #join{
+    padding: 2px;
+    font-size: 18px;
+  }
 }
 
 /******************************************************************
 ************************* Laptop view CSS *************************/
 
-@media screen and (min-width: 1024px) and (max-width: 1439px) {
+@media screen and (min-width: 1024px) and (max-width: 1264px) {
+
+  .mtitle{
+    font-size: 2.8rem;
+  }
 
   .group1{
     margin-left: -2% !important;
   }
 
   .features_desc{
-    font-size: 0.97em;
+    font-size: 0.96em;
   }
 
   .test1{
     margin-top: 15%;
   }
 
+
+}
+
+@media screen and (min-width: 1264px)and (max-width: 1439px) {
+  .mtitle{
+    font-size: 3rem;
+  }
 }
 
 @media screen and (min-width: 1440px)and (max-width: 2559px) {
+  .mtitle{
+    font-size: 3rem;
+  }
+  
+  .features_title{
+    font-size: 1.5rem;
+  }
 
+  .test1{
+    margin-top: 13%;
+  }
+
+  .features_desc{
+    font-size: 1.3rem;
+  }
+
+  .access_title{
+    font-size: 3rem;
+  }
+
+  .access_desc{
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (min-width: 2560px) {
