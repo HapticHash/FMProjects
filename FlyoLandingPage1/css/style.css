@@ -178,7 +178,7 @@ input[type='text'] {
   position: absolute;
   margin-top: 2em;
   bottom: 0;
-  right: 0;
+  right: -10px;
   min-height: 30vh;
 }
 
@@ -238,6 +238,7 @@ input[type='text'] {
 
 .div2 {
   margin-left: 2vw;
+  margin-right: 2vw;
   margin-top: 8vh;
 }
 
@@ -412,6 +413,21 @@ a:hover {
     text-align: center;
   }
 
+  .mfoo2{
+    margin-left: 10%;
+    margin-top: 25%;
+  }
+
+  .mfoo3{
+    margin-left: 10%;
+    margin-top: -5%;
+  }
+  
+  .features_title{
+    font-size: 1.1rem;
+    margin-top: 5%;
+  }
+
 }
 
 /******************************************************************
@@ -419,12 +435,46 @@ a:hover {
 
 @media screen and (min-width: 768px) and (max-width:1023px){     
 
+  .mtitle{
+    font-size: 2.5rem;
+  }
+  
+  .mfoo2{
+    max-width: 100% !important;
+    margin-left: 10%;
+    margin-top: 25%;
+  }
+
+  .mfoo3{
+    max-width: 100% !important;
+    margin-left: 10%;
+    margin-top: -5%;
+  }
+  
+  .features_title{
+    font-size: 1.3rem;
+    margin-top: 5%;
+
+  }
+
 }
 
 /******************************************************************
 ************************* Laptop view CSS *************************/
 
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
+
+  .group1{
+    margin-left: -2% !important;
+  }
+
+  .features_desc{
+    font-size: 0.97em;
+  }
+
+  .test1{
+    margin-top: 15%;
+  }
 
 }
 
