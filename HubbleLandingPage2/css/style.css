@@ -1,3 +1,6 @@
+@import 'https://cdn.staticaly.com/gh/harshitks2203/FMProjects/3e6479dd/HubbleLandingPage2/css/fontline.css';
+
+
 body{
   background-color: #674bb0;
 }
@@ -11,7 +14,40 @@ body{
 }
 
 .logo{
-  padding: 5vh 3vw;
+  padding: 5vh 3vw 2vh 3vw;
+}
+
+.title{
+  margin-top: 15vh;
+  font-family: 'touche', sans-serif;
+  font-size: 3vw;
+  font-weight: 800;
+  color: #fff;
+}
+
+.desc{
+  margin-top: 2vh;
+  font-family: 'touche', sans-serif;
+  font-size: 1.2vw;
+  color: #fff;
+  padding-right: 2vw;
+}
+
+.button{
+  margin-top: 2vh;
+}
+
+#Register{
+  width: 40%;
+  padding: 15px 25px;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  resize: vertical;
+  outline: none;
+  font-family: 'touche', sans-serif;
+  font-size: 18px;
+  color: #674bb0;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .attribution {
