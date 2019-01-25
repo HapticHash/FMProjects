@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'touche';
+  src: url('./fonts/Touche.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'toucheBold';
+  src: url('./fonts/ToucheBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'toucheSemibold';
+  src: url('./fonts/ToucheSemibold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'toucheMedium';
+  src: url('./fonts/ToucheMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'toucheLight';
+  src: url('./fonts/ToucheLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'touche';
+  src: url('./fonts/Touche.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'telefonBlack';
+  src: url('./fonts/telefonBlack.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'telefonBlack';
+  src: url('./fonts/telefonBlack.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'telefonBold';
+  src: url('./fonts/telefonBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'telefonBold';
+  src: url('./fonts/telefonBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
