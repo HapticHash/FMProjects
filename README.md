@@ -18,7 +18,7 @@ It helps to improve HTML, CSS and JavaScript skills while using a real-world wor
 ##  :checkered_flag: Optimized for -
 - [x] Mobiles
 - [x] Tablets
-- [x] Laptops/Large Displays (upto 2k)
+- [x] Laptops/Large Displays (upto 4k)
 
 
 ##   :computer: Interested in code ?
