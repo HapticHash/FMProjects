@@ -1,0 +1,36 @@
+body{
+    overflow-x: hidden;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.leftPart {
+    background-color: #1f2775;
+    background-image: linear-gradient(19deg, #6560b1 0%, #1f2775 100%);
+    height: 100vh;
+}
+
+.illus{
+    margin-top: 20vh;
+}
+
+.logo{
+    margin-top: 10vh;
+    margin-left: 5vw;
+}
+
+.rightPart{
+    height: 100vh;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
