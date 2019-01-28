@@ -1,4 +1,4 @@
-body{
+body {
     overflow-x: hidden;
 }
 
@@ -13,16 +13,28 @@ body{
     height: 100vh;
 }
 
-.illus{
+.illus {
     margin-top: 20vh;
 }
 
-.logo{
+.logo {
     margin-top: 10vh;
     margin-left: 5vw;
 }
 
-.rightPart{
+.social {
+    text-align: right;
+    margin-top: 10vh;
+    padding-right: 5vw;
+}
+
+.fab, .fas{
+    color: #000;
+    font-size: 1.5rem;
+    padding-left: 1em;
+}
+
+.rightPart {
     height: 100vh;
 }
 
