@@ -1,4 +1,5 @@
-@import 'https://raw.githack.com/harshitks2203/FMProjects/master/FyloLandingPage2/css/fontline.css';
+@import 'https://raw.githack.com/harshitks2203/FMProjects/master/FyloLandingPage1/css/fontline.css';
+@import url('https://fonts.googleapis.com/css?family=Raleway:500,700');
 body {
     overflow-x: hidden;
 }
@@ -19,14 +20,14 @@ body {
 }
 
 .logo {
-    margin-top: 10vh;
-    margin-left: 5vw;
+    margin-top: 8vh;
+    margin-left: 2vw;
 }
 
 .social {
     text-align: right;
     margin-top: 10vh;
-    padding-right: 5vw;
+    padding-right: 2vw;
 }
 
 .fab,
@@ -38,6 +39,88 @@ body {
 
 .rightPart {
     height: 100vh;
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.2em;
+    font-weight: 700;
+    width: 80%;
+    margin-top: 15vh;
+    margin-left: 2vw;
+}
+
+.desc {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 3vh;
+    width: 75%;
+    margin-top: 2vh;
+    margin-left: 2vw;
+    color: #555;
+}
+
+.signUp {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
+    font-weight: 700;
+    width: 80%;
+    margin-top: 8vh;
+    margin-left: 2vw;
+}
+
+.group1 {
+    width: 80%;
+    margin-top: 1vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+input[type='text'] {
+    width: 50%;
+    padding: 0.7em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    outline: none;
+    font-size: 1em;
+    color: #222;
+    order: 1;
+    display: flex;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.sign {
+    width: 30%;
+    padding: 0.7em;
+    background-color: #75d89e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    outline: none;
+    text-align: center;
+    order: 2;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.privacy {
+    float: right;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.7em;
+    margin-top: 10vh;
+    margin-right: 2vw;
+    text-decoration: underline;
+    color: #000;
 }
 
 .attribution {
