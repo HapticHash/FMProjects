@@ -27,7 +27,7 @@ body {
 .social {
     text-align: right;
     margin-top: 10vh;
-    padding-right: 2vw;
+    padding-right: 5vw;
 }
 
 .fab,
@@ -118,7 +118,7 @@ input[type='text'] {
     font-family: 'Raleway', sans-serif;
     font-size: 0.7em;
     margin-top: 10vh;
-    margin-right: 2vw;
+    margin-right: 5vw;
     text-decoration: underline;
     color: #000;
 }
