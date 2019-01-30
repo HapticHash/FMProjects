@@ -129,7 +129,7 @@ input[type='text'] {
 /******************************************************************
 ************************* Mobile view CSS *************************/
 
-@media screen and (min-width: 320px) and (max-width: 450px) {
+@media screen and (min-width: 320px) and (max-width: 570px) {
     /*common css for mobile*/
     .leftPart {
         background-image: url('../images/bg-intro.svg');
@@ -139,6 +139,12 @@ input[type='text'] {
         background-size: cover;
         background-color: transparent !important;
         height: 100vh;
+    }
+    .title,
+    .desc,
+    .signUp,
+    .group1 {
+        margin: 0 auto;
     }
     .logo,
     .social {
@@ -160,33 +166,91 @@ input[type='text'] {
     .illus {
         width: 15rem;
     }
+    .title {
+        padding-top: 2rem;
+        font-size: 1.7em;
+        line-height: 5vh;
+    }
+    .desc {
+        padding-top: 1rem;
+        width: 80%;
+        font-size: 0.9em;
+    }
+    .signUp {
+        padding-top: 2rem;
+        font-size: 1.2rem;
+    }
+    .group1 {
+        padding-top: 1rem;
+        width: 80%;
+    }
+    input[type='text'] {
+        padding: 1rem;
+        font-size: 0.8rem;
+        width: 100%;
+    }
+    .sign {
+        margin-top: 1rem;
+        padding: 1rem;
+        width: 40%;
+        margin-left: -2vw;
+    }
 }
 
-@media screen and (min-width: 375px) and (max-width: 424px) {}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    .illus {
+        width: 15rem;
+    }
+    .title {
+        padding-top: 2rem;
+        font-size: 1.7em;
+        line-height: 5vh;
+    }
+    .desc {
+        padding-top: 1rem;
+        width: 80%;
+        font-size: 0.9em;
+    }
+    .signUp {
+        padding-top: 2rem;
+        font-size: 1.2rem;
+    }
+    .group1 {
+        padding-top: 1rem;
+        width: 80%;
+    }
+    input[type='text'] {
+        padding: 1rem;
+        font-size: 0.8rem;
+        width: 100%;
+    }
+    .sign {
+        margin-top: 1rem;
+        padding: 1rem;
+        width: 40%;
+        margin-left: -2vw;
+    }
+}
 
-@media screen and (min-width: 425px) and (max-width: 450px) {
+@media screen and (min-width: 425px) and (max-width: 570px) {
     .illus {
         width: 17rem;
     }
     .title {
         padding-top: 2rem;
         font-size: 2em;
-        margin: 0 auto;
         line-height: 5vh;
     }
     .desc {
         padding-top: 1rem;
-        margin: 0 auto;
         width: 80%;
         font-size: 1em;
     }
     .signUp {
         padding-top: 2rem;
-        margin: 0 auto;
         font-size: 1.2rem;
     }
     .group1 {
-        margin: 0 auto;
         padding-top: 1rem;
         width: 80%;
     }
