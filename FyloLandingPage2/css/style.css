@@ -140,15 +140,66 @@ input[type='text'] {
         background-color: transparent !important;
         height: 100vh;
     }
+    .logo,
+    .social {
+        z-index: 999;
+    }
+    .fab,
+    .fas {
+        color: #fff;
+    }
+    .logo {
+        margin-left: 1vw;
+    }
+    .social {
+        margin-left: -1.5rem;
+    }
 }
 
-@media screen and (max-width: 320px) and (max-width: 374px) {}
+@media screen and (max-width: 320px) and (max-width: 374px) {
+    .illus {
+        width: 15rem;
+    }
+}
 
 @media screen and (min-width: 375px) and (max-width: 424px) {}
 
 @media screen and (min-width: 425px) and (max-width: 450px) {
     .illus {
         width: 17rem;
+    }
+    .title {
+        padding-top: 2rem;
+        font-size: 2em;
+        margin: 0 auto;
+        line-height: 5vh;
+    }
+    .desc {
+        padding-top: 1rem;
+        margin: 0 auto;
+        width: 80%;
+        font-size: 1em;
+    }
+    .signUp {
+        padding-top: 2rem;
+        margin: 0 auto;
+        font-size: 1.2rem;
+    }
+    .group1 {
+        margin: 0 auto;
+        padding-top: 1rem;
+        width: 80%;
+    }
+    input[type='text'] {
+        padding: 1rem;
+        font-size: 0.8rem;
+        width: 100%;
+    }
+    .sign {
+        margin-top: 1rem;
+        padding: 1rem;
+        width: 40%;
+        margin-left: -2vw;
     }
 }
 
