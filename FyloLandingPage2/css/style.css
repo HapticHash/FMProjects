@@ -26,6 +26,7 @@ body {
 }
 
 .social {
+    margin-left: -1.5rem;
     text-align: right;
     margin-top: 10vh;
     padding-right: 5vw;
@@ -274,6 +275,9 @@ input[type='text'] {
     body {
         overflow-y: hidden;
     }
+    .social {
+        margin-left: -1.5rem;
+    }
     .illus {
         width: 20rem;
     }
@@ -300,6 +304,9 @@ input[type='text'] {
     body {
         overflow-y: hidden;
     }
+    .social {
+        margin-left: -1.5rem;
+    }
     .illus {
         width: 20rem;
     }
@@ -314,6 +321,9 @@ input[type='text'] {
 @media screen and (min-width: 2560px) {
     body {
         overflow-y: hidden;
+    }
+    .social {
+        margin-left: -1.5rem;
     }
     .illus {
         width: 40rem;
