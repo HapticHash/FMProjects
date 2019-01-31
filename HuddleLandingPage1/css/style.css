@@ -1,281 +1,364 @@
 @import 'https://raw.githack.com/harshitks2203/FMProjects/master/HuddleLandingPage1/css/fontline.css';
-
 body {
-  background-color: #fff;
-  max-width: 100%;
+    background-color: #fff;
+    max-width: 100%;
 }
 
 .logo {
-  padding: 5%;
+    padding: 5%;
 }
 
 .container {
-  width: 100%;
-  margin-top: 10%;
-  text-align: center;
+    width: 100%;
+    margin-top: 10%;
+    text-align: center;
 }
 
 .upper {
-  font-family: 'toucheBold', sans-serif;
-  font-size: 3em;
-  text-align: center;
-  margin: auto;
-  color: #222;
+    font-family: 'toucheBold', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin: auto;
+    color: #222;
 }
 
 .middle {
-  font-family: 'touche', sans-serif;
-  font-size: 21px;
-  text-align: center;
-  padding-top: 2%;
-  max-width: 56%;
-  margin: auto;
-  color: grey;
-  line-height: 150%;
+    font-family: 'touche', sans-serif;
+    font-size: 21px;
+    text-align: center;
+    padding-top: 2%;
+    max-width: 56%;
+    margin: auto;
+    color: grey;
+    line-height: 150%;
 }
 
 .mockup {
-  margin-top: 5%;
-  max-width: 100%;
+    margin-top: 5%;
+    max-width: 100%;
 }
 
 .lower {
-  text-align: center;
-  width: 100%;
-  margin: auto;
+    text-align: center;
+    width: 100%;
+    margin: auto;
 }
 
 #top {
-  font-family: 'toucheBold', sans-serif;
-  font-size: 3em;
-  text-align: center;
-  margin: auto;
-  margin-top: 20%;
-  color: #222;
+    font-family: 'toucheBold', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin: auto;
+    margin-top: 20%;
+    color: #222;
 }
 
 #bottom {
-  text-align: center;
-  width: 80%;
-  margin: auto;
-  margin-top: 5%;
-  margin-bottom: 10%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 input[type='text'] {
-  width: 50%;
-  padding: 25px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  resize: vertical;
-  outline: none;
-  font-size: 20px;
-  color: #222;
-  order: 1;
-  display: flex;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    width: 50%;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: vertical;
+    outline: none;
+    font-size: 20px;
+    color: #222;
+    order: 1;
+    display: flex;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 #register {
-  width: 30%;
-  padding: 25px;
-  background-color: #d12795;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  float: right;
-  outline: none;
-  font-family: 'toucheSemibold', sans-serif;
-  font-size: 20px;
-  text-align: center;
-  order: 2;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    width: 30%;
+    padding: 25px;
+    background-color: #d12795;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+    outline: none;
+    font-family: 'toucheSemibold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    order: 2;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 footer {
-  width: 100%;
-  z-index: 10;
-  background-color: #0d252e;
-  height: auto;
+    width: 100%;
+    z-index: 10;
+    background-color: #0d252e;
+    height: auto;
 }
 
 .flogo {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  justify-content: space-around;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .logo-img {
-  margin-top: 8%;
-  margin-bottom: 2%;
-  order: 1;
+    margin-top: 8%;
+    margin-bottom: 2%;
+    order: 1;
 }
 
 .desc {
-  max-width: 50%;
-  display: inline-flex;
-  font-family: 'Touche', sans-serif;
-  list-style: none;
-  width: 50%;
-  margin-top: 7%;
-  font-size: 1.1em;
-  color: #fff;
-  text-align: right;
-  order: 2;
+    max-width: 50%;
+    display: inline-flex;
+    font-family: 'Touche', sans-serif;
+    list-style: none;
+    width: 50%;
+    margin-top: 7%;
+    font-size: 1.1em;
+    color: #fff;
+    text-align: right;
+    order: 2;
 }
 
 li {
-  padding-top: 5%;
-  padding-left: 6%;
-  max-width: 60%;
+    padding-top: 5%;
+    padding-left: 6%;
+    max-width: 60%;
 }
 
 .social {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  order: 3;
-  margin-bottom: 2%;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    order: 3;
+    margin-bottom: 2%;
 }
 
 .handles {
-  max-width: 25%;
-  display: inline-flex;
-  font-family: 'Touche', sans-serif;
-  list-style: none;
-  width: 25%;
-  font-size: 2.5em;
-  margin-left: 10%;
-  color: #fff;
+    max-width: 25%;
+    display: inline-flex;
+    font-family: 'Touche', sans-serif;
+    list-style: none;
+    width: 25%;
+    font-size: 2.5em;
+    margin-left: 10%;
+    color: #fff;
 }
 
 .copy {
-  width: 17%;
-  color: #ccc;
-  margin-top: 2%;
-  margin-right: 6.5%;
-  float: right;
-  display: flex;
-  order: 4;
-  font-family: 'Touche', sans-serif;
+    width: 17%;
+    color: #ccc;
+    margin-top: 2%;
+    margin-right: 6.5%;
+    float: right;
+    display: flex;
+    order: 4;
+    font-family: 'Touche', sans-serif;
 }
 
 .attribution {
-  font-size: 11px;
-  text-align: center;
-  color: #ccc;
+    font-size: 11px;
+    text-align: center;
+    color: #ccc;
 }
 
 a:link {
-  color: #eee;
-  text-decoration: none;
+    color: #eee;
+    text-decoration: none;
 }
 
 a:visited {
-  color: #eee;
-  text-decoration: none;
+    color: #eee;
+    text-decoration: none;
 }
 
 a:hover {
-  color: #e358bf;
-  text-decoration: none;
+    color: #e358bf;
+    text-decoration: none;
 }
 
 a:active {
-  color: #eee;
-  text-decoration: underline;
+    color: #eee;
+    text-decoration: underline;
 }
 
 .copy1 {
-  display: none;
+    display: none;
 }
 
-/* media query to add a breakpoint at 320px: */
-@media screen and (min-width: 320px) and (max-width: 425px) {
-  html,
-  body {
-    width: 100%;
-  }
+/******************************************************************
+************************* Mobile view CSS *************************/
 
-  .logo {
-    width: 40%;
-    padding: 10%;
-  }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    html,
+    body {
+        width: 100%;
+    }
+    .logo {
+        width: 40%;
+        padding: 10%;
+    }
+    .upper {
+        font-size: 2em;
+        width: 80%;
+    }
+    .middle {
+        font-size: 1em;
+        max-width: 90%;
+        padding-top: 5%;
+    }
+    .mockup {
+        max-width: 80%;
+    }
+    #top {
+        font-size: 1.5em;
+    }
+    input[type='text'] {
+        width: 90%;
+        padding: 15px;
+        font-size: 16px;
+    }
+    #register {
+        width: 100%;
+        padding: 15px;
+        font-size: 16px;
+        margin-top: 5%;
+    }
+    .social {
+        order: 2;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    .desc {
+        order: 3;
+        display: block;
+        font-family: 'Touche', sans-serif;
+        list-style: none;
+        font-size: 1.1em;
+        color: #fff;
+        margin-top: 5%;
+        text-align: left;
+    }
+    .handles>li {
+        padding-left: 20%;
+    }
+    li {
+        max-width: 70%;
+    }
+    .desc>li {
+        padding-left: 0%;
+    }
+    .copy {
+        display: none;
+    }
+    .copy1 {
+        width: 80%;
+        color: #ccc;
+        margin-top: 15%;
+        margin-bottom: 15%;
+        display: block;
+        order: 5;
+        font-size: 14px;
+        text-align: center;
+        font-family: 'Touche', sans-serif;
+    }
+}
 
-  .upper {
-    font-size: 2em;
-  }
+/******************************************************************
+************************* Tablet view CSS *************************/
 
-  .middle {
-    font-size: 1em;
-    max-width: 90%;
-    padding-top: 5%;
-  }
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .upper {
+        width: 90%;
+    }
+    .middle {
+        max-width: 80%;
+    }
+    .mockup {
+        width: 80%;
+    }
+    .desc,
+    .copy {
+        font-size: 0.8rem !important;
+    }
+    .copy {
+        width: 22%;
+    }
+    .fab {
+        font-size: 1.5rem;
+    }
+}
 
-  .mockup {
-    max-width: 90%;
-  }
+/******************************************************************
+************************* Laptop view CSS *************************/
 
-  #top {
-    font-size: 1.5em;
-  }
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .upper {
+        width: 90%;
+    }
+    .middle {
+        max-width: 80%;
+    }
+    .mockup {
+        width: 80%;
+    }
+    .desc,
+    .copy {
+        font-size: 0.85rem !important;
+    }
+    .copy {
+        width: 22%;
+    }
+    .fab {
+        font-size: 1.5rem;
+    }
+}
 
-  input[type='text'] {
-    width: 90%;
-    padding: 15px;
-    font-size: 16px;
-  }
+@media screen and (min-width: 1440px)and (max-width: 2559px) {}
 
-  #register {
-    width: 100%;
-    padding: 15px;
-    font-size: 16px;
-    margin-top: 5%;
-  }
-
-  .social {
-    order: 2;
-    margin-left: 10%;
-    margin-top: 5%;
-  }
-
-  .desc {
-    order: 3;
-    display: block;
-    font-family: 'Touche', sans-serif;
-    list-style: none;
-    font-size: 1.1em;
-    color: #fff;
-    margin-top: 5%;
-    text-align: left;
-  }
-
-  .handles > li {
-    padding-left: 20%;
-  }
-
-  .desc > li {
-    padding-left: 0%;
-  }
-  .copy {
-    display: none;
-  }
-
-  .copy1 {
-    width: 80%;
-    color: #ccc;
-    margin-top: 15%;
-    margin-bottom: 15%;
-    display: block;
-    order: 5;
-    font-size: 14px;
-    text-align: center;
-    font-family: 'Touche', sans-serif;
-  }
+@media screen and (min-width: 2560px) {
+    .logo {
+        width: 20%;
+    }
+    .upper {
+        width: 90%;
+        font-size: 6rem;
+    }
+    .middle {
+        font-size: 3rem;
+        max-width: 80%;
+    }
+    #top {
+        font-size: 4.5rem;
+    }
+    .mockup {
+        width: 80%;
+    }
+    .desc,
+    .copy {
+        font-size: 2rem !important;
+    }
+    .copy {
+        width: 22%;
+    }
+    .fab {
+        font-size: 3rem;
+    }
+    .logo-img {
+        width: 10%;
+    }
+    input[type='text'],
+    #register {
+        padding: 40px;
+        font-size: 2.5rem;
+    }
 }
