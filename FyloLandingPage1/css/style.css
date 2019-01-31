@@ -1,608 +1,573 @@
 @import 'https://raw.githack.com/harshitks2203/FMProjects/master/FyloLandingPage1/css/fontline.css';
-
-html, body {
-  width: 100%;
-  overflow-x: hidden;
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .container-fluid {
-  padding-right: 0px; 
-  padding-left: 0px; 
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 .header {
-  position: relative;
-  width: 100%;
-  height: auto;
-  padding-bottom: 10%;
-  overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-bottom: 10%;
+    overflow: hidden;
 }
 
 .header__bg {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #8480cc;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #18246e, #8480cc);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #18246e, #8480cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  transform: skewY(5deg);
-  transform-origin: bottom right;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #8480cc;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #18246e, #8480cc);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #18246e, #8480cc);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transform: skewY(5deg);
+    transform-origin: bottom right;
 }
 
-.foo{
-  z-index: 1;
-  padding: 5%; 
-  color: #fff;
-  margin-bottom: 2%;
+.foo {
+    z-index: 1;
+    padding: 5%;
+    color: #fff;
+    margin-bottom: 2%;
 }
 
 .sign {
-  text-align: right;
+    text-align: right;
 }
 
 .signin {
-  color: #fff;
-  padding-right: 5%;
+    color: #fff;
+    padding-right: 5%;
 }
 
 .title {
-  font-family: 'RedShiftEB';
-  font-size: 2.3em;
+    font-family: 'RedShiftEB';
+    font-size: 2.3em;
 }
 
 .get {
-  padding: 1.3% 8%;
-  font-size: 1.5em;
-  font-family: 'RedshiftRegular';
-  background-color: #218838;
-  font-weight: 600;
+    padding: 1.3% 8%;
+    font-size: 1.5em;
+    font-family: 'RedshiftRegular';
+    background-color: #218838;
+    font-weight: 600;
 }
 
 .hero {
-  float: right;
-  margin-top: -8%;
-  padding-right: 3%;
+    float: right;
+    margin-top: -8%;
+    padding-right: 3%;
 }
 
 h1 {
-  margin: 0;
-  padding: 100px 0;
-  font-size: 2em ;
-  font-family: 'RedShiftEB';
-  text-align: center;
+    margin: 0;
+    padding: 100px 0;
+    font-size: 2em;
+    font-family: 'RedShiftEB';
+    text-align: center;
 }
 
-.mfoo{
-  margin-top: 2%;
+.mfoo {
+    margin-top: 2%;
 }
 
 .mtitle {
-  margin: 0;
-  padding: 100px 0;
-  font-size: 2em ;
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
+    margin: 0;
+    padding: 100px 0;
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
 }
 
-.illus{
-  text-align: center;
+.illus {
+    text-align: center;
 }
 
 .features {
-  width: 75%;
-  padding-right: 10%;
-  padding-top: 5%;
+    width: 75%;
+    padding-right: 10%;
+    padding-top: 5%;
 }
 
 .features_title {
-  font-size: 1.2em ;
-  font-family: 'Raleway', sans-serif;
- }
+    font-size: 1.2em;
+    font-family: 'Raleway', sans-serif;
+}
 
-.features_desc{
-  color: #838383;
+.features_desc {
+    color: #838383;
 }
 
 .access_title {
-  margin: 0;
-  padding-top: 10%;
-  font-size: 2em ;
-  font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding-top: 10%;
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif;
 }
 
-.access_desc{
-  margin-top: 2%;
-  font-size: 1em ;
-  font-family: 'RedshiftME', sans-serif;
-  font-weight: 600;
-  color: #504e76;
+.access_desc {
+    margin-top: 2%;
+    font-size: 1em;
+    font-family: 'RedshiftME', sans-serif;
+    font-weight: 600;
+    color: #504e76;
 }
 
 .header h3 {
-  position: relative;
-  color: white;
-  font-family: 'RedShiftEB';
+    position: relative;
+    color: white;
+    font-family: 'RedShiftEB';
 }
 
 #bottom {
-  text-align: center;
-  width: 70%;
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 5em;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 input[type='text'] {
-  width: 50%;
-  padding: 15px 25px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  resize: vertical;
-  outline: none;
-  font-size: 18px;
-  color: #222;
-  order: 1;
-  display: flex;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    width: 50%;
+    padding: 15px 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: vertical;
+    outline: none;
+    font-size: 18px;
+    color: #222;
+    order: 1;
+    display: flex;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 #join {
-  width: 20%;
-  padding: 10px;
-  background-color: #75d89e;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  float: right;
-  outline: none;
-  font-family: 'toucheSemibold', sans-serif;
-  font-size: 20px;
-  text-align: center;
-  order: 2;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    width: 20%;
+    padding: 10px;
+    background-color: #75d89e;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+    outline: none;
+    font-family: 'toucheSemibold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    order: 2;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
-.row.vdivide [class*='col-']:nth-child(1):after, .row.vdivide [class*='col-']:nth-child(4):after {
-  background: #e0e0e0;
-  width: 2px;
-  content: "";
-  display:block;
-  position: absolute;
-  margin-top: 2em;
-  bottom: 0;
-  right: -10px;
-  min-height: 30vh;
+.row.vdivide [class*='col-']:nth-child(1):after,
+.row.vdivide [class*='col-']:nth-child(4):after {
+    background: #e0e0e0;
+    width: 2px;
+    content: "";
+    display: block;
+    position: absolute;
+    margin-top: 2em;
+    bottom: 0;
+    right: -10px;
+    min-height: 30vh;
 }
 
 .footer {
-  position: relative;
-  width: 100%;
-  height: 65vh;
-  padding-bottom: 10%;
-  overflow: hidden;
-  color: white;
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    padding-bottom: 10%;
+    overflow: hidden;
+    color: white;
 }
 
 .footer__bg {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #0a0f3b; 
-  transform: skewY(5deg);
-  transform-origin: top left;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0a0f3b;
+    transform: skewY(5deg);
+    transform-origin: top left;
 }
 
-.fooItem{
-  margin-top: 20vh;
-  margin-left: 5vw;
-  width: 100%;
+.fooItem {
+    margin-top: 20vh;
+    margin-left: 5vw;
+    width: 100%;
 }
 
-.div1{
-  margin-top: 10vh;
-  /* margin-left: -2vw; */
+.div1 {
+    margin-top: 10vh;
+    /* margin-left: -2vw; */
 }
 
-.logoimg{
-  width: 15vw;
+.logoimg {
+    width: 15vw;
 }
 
-.icons{
-  margin-top: 5vh;
+.icons {
+    margin-top: 5vh;
 }
 
-.iconimg{
-  width: 1.5vw;
-  margin-top: 2vh;
-  vertical-align: middle;
-  margin-bottom: 0.75em;
+.iconimg {
+    width: 1.5vw;
+    margin-top: 2vh;
+    vertical-align: middle;
+    margin-bottom: 0.75em;
 }
 
-.iconDesc{
-  font-size: 1em;
-  margin-left: 20px;
+.iconDesc {
+    font-size: 1em;
+    margin-left: 20px;
 }
-
 
 .div2 {
-  margin-left: 2vw;
-  margin-right: 2vw;
-  margin-top: 8vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 8vh;
 }
 
 .div3 {
-  margin-left: 4vw;
-  margin-top: 8vh;
-  font-weight: 600;
-  font-size: 1.2em;
-  text-align: left;
+    margin-left: 4vw;
+    margin-top: 8vh;
+    font-weight: 600;
+    font-size: 1.2em;
+    text-align: left;
 }
 
-.widget_title{
-  margin-bottom: 5vh;
-  font-weight: 700;
+.widget_title {
+    margin-bottom: 5vh;
+    font-weight: 700;
 }
 
-.widget_text li{
-  margin:0 0 1.5vh 0;
+.widget_text li {
+    margin: 0 0 1.5vh 0;
 }
 
 .widget_text a {
-  color: #111;
+    color: #111;
 }
 
-.widget_text > input[type='text'] {
-  width: 100%;
-  margin-top: 2em;
-  padding: 5px 15px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  resize: vertical;
-  outline: none;
-  font-size: 18px;
-  color: #222;
-  order: 1;
-  display: flex;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+.widget_text>input[type='text'] {
+    width: 100%;
+    margin-top: 2em;
+    padding: 5px 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    resize: vertical;
+    outline: none;
+    font-size: 18px;
+    color: #222;
+    order: 1;
+    display: flex;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
-.widget_text > #join {
-  width: 50%;
-  margin-top: 1em;
-  margin-left: auto;
-  padding: 5px;
-  background-color: #75d89e;
-  color: white;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-  outline: none;
-  font-family: 'toucheSemibold', sans-serif;
-  font-size: 20px;
-  order: 2;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+.widget_text>#join {
+    width: 50%;
+    margin-top: 1em;
+    margin-left: auto;
+    padding: 5px;
+    background-color: #75d89e;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    font-family: 'toucheSemibold', sans-serif;
+    font-size: 20px;
+    order: 2;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 a:link,
 a:visited,
 a:hover {
-  color: #fff !important;
-  text-decoration: none;
+    color: #fff !important;
+    text-decoration: none;
 }
 
 .attribution {
-  font-size: 11px;
-  text-align: center;
+    font-size: 11px;
+    text-align: center;
 }
+
 .attribution a {
-  color: hsl(228, 45%, 44%);
+    color: hsl(228, 45%, 44%);
 }
 
 .nopadding {
-  padding: 0 !important;
-  margin: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 /******************************************************************
 ************************* Mobile view CSS *************************/
 
-/* @media screen and (max-width: 320px) and (max-width: 374px){
-  
-} */
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .foo {
+        margin-top: 4vh;
+    }
+}
 
-@media screen and (min-width: 375px) and (max-width: 424px){
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    .title {
+        font-size: 1.4em !important;
+    }
+    .access_title {
+        font-size: 1.8em !important;
+    }
+    .access_desc {
+        font-size: 0.9em !important;
+    }
+}
 
-  .title {
-    font-size: 1.4em !important;
-  }
-
-  .access_title {
-    font-size: 1.8em !important;
-  }
-  
-  .access_desc {
-    font-size: 0.9em !important;
-  }
-} 
-
-@media screen and (min-width: 320px) and (max-width: 430px){
-  .hero {
-    margin-top: 2em;
-  }
-  
-  .title{
-    margin-top: 21em;
-    text-align: center;
-    font-size: 1.5em;
-  }
-
-  .get{
-    margin-left: 20vw;
-    font-weight: 600;
-    padding: 2vw 10vw;
-    margin-bottom: 2em;
-    background-color: #75d89e;
-  }
-  
-  .mtitle{
-    font-size: 2.2em;
-  }
-
-  .access_desc{
-    text-align: center;
-    padding-left: 2em;
-    padding-right: 2em;
-  }
-
-  input[type='text'] {
-    width: 90%;
-    padding: 15px;
-    font-size: 16px;
-  }
-
-  #join {
-    width: 90%;
-    padding: 15px;
-    font-size: 16px;
-    margin-top: 5%;
-  }
-
-  .footer{
-    height: auto;
-  }
-
-  .fooItem {
-    margin-top: 10vh;
-    margin-left: 15vw;
-  }
-  
-  .iconimg {
-    width: 4.5vw;
-  }
-  
-  .logoimg {
-    width: 45vw;
-  }
-
-  .div1{
-    order: 1;
-  }
-  
-  .div2{
-    order: 3;
-    text-align: center;
-  }
-
-  .div3{
-    order: 2;
-  }
-
-  .updates {
-    text-align: center;
-  }
-
-  .mfoo2{
-    margin-left: 10%;
-    margin-top: 25%;
-  }
-
-  .mfoo3{
-    margin-left: 10%;
-    margin-top: -5%;
-  }
-  
-  .features_title{
-    font-size: 1.1rem;
-    margin-top: 5%;
-  }
-
+@media screen and (min-width: 320px) and (max-width: 430px) {
+    .hero {
+        margin-top: 2em;
+    }
+    .title {
+        margin-top: 21em;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .get {
+        margin-left: 20vw;
+        font-weight: 600;
+        padding: 2vw 10vw;
+        margin-bottom: 2em;
+        background-color: #75d89e;
+    }
+    .mtitle {
+        font-size: 2em;
+    }
+    .access_desc {
+        text-align: center;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    input[type='text'] {
+        width: 90%;
+        padding: 15px;
+        font-size: 16px;
+    }
+    #join {
+        width: 90%;
+        padding: 15px;
+        font-size: 16px;
+        margin-top: 5%;
+    }
+    .footer {
+        height: auto;
+    }
+    .fooItem {
+        margin-top: 10vh;
+        margin-left: 15vw;
+    }
+    .iconimg {
+        width: 4.5vw;
+    }
+    .logoimg {
+        width: 45vw;
+    }
+    .div1 {
+        order: 1;
+    }
+    .div2 {
+        order: 3;
+        text-align: center;
+    }
+    .div3 {
+        order: 2;
+    }
+    .updates {
+        text-align: center;
+    }
+    .mfoo2 {
+        margin-left: 10%;
+        margin-top: 25%;
+    }
+    .mfoo3 {
+        margin-left: 10%;
+        margin-top: -5%;
+    }
+    .features_title {
+        font-size: 1.1rem;
+        margin-top: 5%;
+    }
 }
 
 /******************************************************************
 ************************* Tablet view CSS *************************/
 
-@media screen and (min-width: 768px) and (max-width:1023px){     
-
-  .mtitle{
-    font-size: 2.5rem;
-  }
-  
-  .mfoo2{
-    max-width: 100% !important;
-    margin-left: 10%;
-    margin-top: 25%;
-  }
-
-  .mfoo3{
-    max-width: 100% !important;
-    margin-left: 10%;
-    margin-top: -5%;
-  }
-  
-  .features_title{
-    font-size: 1.3rem;
-    margin-top: 5%;
-  }
-
-  .iconimg{
-    width: 1.8vw;
-  }
-
-  .iconDesc {
-    font-size: 0.85rem;
-  }
-
-  .widget_title{
-    font-size: 1.2rem;
-  }
-  .widget_text{
-    font-size: 0.8rem;
-  }
-
-  .widget_text > input[type='text']{
-    padding: 3px 15px;
-    font-size: 15px;
-  }
-
-  .widget_text > #join{
-    padding: 2px;
-    font-size: 18px;
-  }
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .mtitle {
+        font-size: 2.5rem;
+    }
+    .mfoo2 {
+        max-width: 100% !important;
+        margin-left: 10%;
+        margin-top: 25%;
+    }
+    .mfoo3 {
+        max-width: 100% !important;
+        margin-left: 10%;
+        margin-top: -5%;
+    }
+    .access_desc {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .features_title {
+        font-size: 1.3rem;
+        margin-top: 5%;
+    }
+    .iconimg {
+        width: 1.8vw;
+    }
+    .iconDesc {
+        font-size: 0.85rem;
+    }
+    .widget_title {
+        font-size: 1.2rem;
+    }
+    .widget_text {
+        font-size: 0.8rem;
+    }
+    .widget_text>input[type='text'] {
+        padding: 3px 15px;
+        font-size: 15px;
+    }
+    .widget_text>#join {
+        padding: 2px;
+        font-size: 18px;
+    }
 }
 
 /******************************************************************
 ************************* Laptop view CSS *************************/
 
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
-
-  .mtitle{
-    font-size: 2.8rem;
-  }
-
-  .group1{
-    margin-left: -2% !important;
-  }
-
-  .features_desc{
-    font-size: 0.96em;
-  }
-
+    .mtitle {
+        font-size: 2.8rem;
+    }
+    .group1 {
+        margin-left: -2% !important;
+    }
+    .features_desc {
+        font-size: 0.96em;
+    }
+    .access_desc {
+        width: 70%;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (min-width: 1440px)and (max-width: 2559px) {
- 
-  .mtitle{
-    font-size: 3rem;
-  }
-  
-  .features_title{
-    font-size: 1.5rem;
-  }
-
-  .features_desc{
-    font-size: 1.3rem;
-  }
-
-  .access_title{
-    font-size: 3rem;
-  }
-
-  .access_desc{
-    font-size: 1.5rem;
-  }
+    .mtitle {
+        font-size: 3rem;
+    }
+    .features_title {
+        font-size: 1.5rem;
+    }
+    .features_desc {
+        font-size: 1.3rem;
+    }
+    .access_title {
+        font-size: 3rem;
+    }
+    .access_desc {
+        font-size: 1.5rem;
+    }
+    .access_desc {
+        width: 70%;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (min-width: 2560px) {
-  .title{
-    font-size: 4.3rem;    
-  }
-
-  .get {
-    font-size: 2.5rem;
-  }
-
-  .logo {
-    width: 30%;
-  }
-
-  .signin{
-    font-size: 2rem;
-  }
-
-  .sign > .btn {
-    font-size: 2rem;
-    padding: 20px ;
-  }
-
-  .hero {
-    width: 35%;
-  }
-
-  .mtitle{
-    font-size: 4rem;
-  }
-  
-  .features_title{
-    font-size: 2.5rem;
-  }
-
-  .features_desc{
-    font-size: 2rem;
-  }
-
-  .access_title{
-    font-size: 4rem;
-  }
-
-  .access_desc{
-    font-size: 2rem;
-  }
-
-  #bottom > input[type='text']{
-    padding: 25px 40px;
-    font-size: 2rem;
-  }
-
-  #bottom > #join{
-    padding: 25px;
-    font-size: 2rem;
-  }
-
-  .iconimg{
-    width: 1.8vw;
-  }
-
-  .iconDesc {
-    font-size: 1.7rem;
-  }
-
-  .widget_title{
-    font-size: 2.5rem;
-  }
-  .widget_text{
-    font-size: 1.7rem;
-  }
-
-  .widget_text > input[type='text']{
-    padding: 20px 25px;
-    font-size: 1.7rem;
-  }
-
-  .widget_text > #join{
-    padding: 15px;
-    font-size: 2rem;
-  }
-
+    .title {
+        font-size: 4.3rem;
+    }
+    .get {
+        font-size: 2.5rem;
+    }
+    .logo {
+        width: 30%;
+    }
+    .signin {
+        font-size: 2rem;
+    }
+    .sign>.btn {
+        font-size: 2rem;
+        padding: 20px;
+    }
+    .hero {
+        width: 35%;
+    }
+    .mtitle {
+        font-size: 4rem;
+    }
+    .features_title {
+        font-size: 2.5rem;
+    }
+    .features_desc {
+        font-size: 2rem;
+    }
+    .access_title {
+        font-size: 4rem;
+    }
+    .access_desc {
+        font-size: 2rem;
+    }
+    #bottom>input[type='text'] {
+        padding: 25px 40px;
+        font-size: 2rem;
+    }
+    #bottom>#join {
+        padding: 25px;
+        font-size: 2rem;
+    }
+    .iconimg {
+        width: 1.8vw;
+    }
+    .iconDesc {
+        font-size: 1.7rem;
+    }
+    .widget_title {
+        font-size: 2.5rem;
+    }
+    .widget_text {
+        font-size: 1.7rem;
+    }
+    .widget_text>input[type='text'] {
+        padding: 20px 25px;
+        font-size: 1.7rem;
+    }
+    .widget_text>#join {
+        padding: 15px;
+        font-size: 2rem;
+    }
+    .access_desc {
+        width: 70%;
+        margin: 0 auto;
+    }
 }
