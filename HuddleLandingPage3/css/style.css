@@ -1,4 +1,65 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600,700');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logoDiv {
+    padding: 3rem 4rem;
+}
+
+.try {
+    margin-right: 4rem;
+    margin-top: 3rem;
+    padding: 0.5rem 4rem;
+    color: hsl(322, 100%, 66%);
+    background-color: #fff;
+    border: 1px solid #fff;
+    resize: vertical;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.get {
+    margin: 1rem 0;
+    padding: 1rem 4rem;
+    color: #fff;
+    background-color: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    resize: vertical;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.illus,
+.group1 {
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.title,
+.desc,
+.getDiv {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.desc {
+    font-size: 1.35rem;
+    color: #999;
+    margin-top: 1rem;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
