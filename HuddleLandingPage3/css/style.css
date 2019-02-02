@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600,700');
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #f6f9fe;
 }
 
@@ -17,7 +17,6 @@ body {
     border: 1px solid #fff;
     resize: vertical;
     outline: none;
-    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     cursor: pointer;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -31,15 +30,13 @@ body {
     border: 1px solid hsl(322, 100%, 66%);
     resize: vertical;
     outline: none;
-    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     cursor: pointer;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .illus,
-.group1,
-.group3 {
+.group1 {
     margin: 0 auto;
     margin-top: 3rem;
 }
@@ -50,7 +47,6 @@ body {
 .cardTitle,
 .cardDesc {
     text-align: center;
-    font-family: 'Poppins', sans-serif;
 }
 
 .title {
@@ -78,18 +74,20 @@ body {
 }
 
 .feature_title {
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 1.8rem;
     margin-top: 5vh;
 }
 
 .feature_desc {
-    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: #999;
     margin-top: 2vh;
     font-size: 1.1rem;
+}
+
+.group3 {
+    margin: 30vh auto;
 }
 
 .card {
@@ -106,6 +104,25 @@ body {
     color: #999;
     margin-top: 2vh;
     margin-bottom: 4vh;
+}
+
+footer {
+    background-color: #0d252e;
+}
+
+.flogo {
+    margin: 3rem;
+}
+
+.socials,
+.copy {
+    margin-left: 2rem;
+}
+
+.fab {
+    font-size: 2rem;
+    color: #fff;
+    margin-right: 1rem;
 }
 
 .attribution {
