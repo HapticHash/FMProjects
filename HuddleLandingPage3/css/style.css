@@ -107,6 +107,7 @@ body {
 }
 
 footer {
+    font-family: 'Open Sans', sans-serif;
     background-color: #0d252e;
 }
 
@@ -125,6 +126,22 @@ footer {
     margin-right: 1rem;
 }
 
+.list1>ul>li {
+    margin-bottom: 2vh;
+}
+
+.fooTitle {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.fooDesc {
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin-top: 1vh;
+    width: 80%;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -132,5 +149,5 @@ footer {
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(69, 100%, 62%);
 }
