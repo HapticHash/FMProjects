@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600,700');
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: #f6f9fe;
 }
 
 .logoDiv {
@@ -37,14 +38,17 @@ body {
 }
 
 .illus,
-.group1 {
+.group1,
+.group3 {
     margin: 0 auto;
     margin-top: 3rem;
 }
 
 .title,
 .desc,
-.getDiv {
+.getDiv,
+.cardTitle,
+.cardDesc {
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
@@ -60,9 +64,54 @@ body {
     margin-top: 1rem;
 }
 
+.feat {
+    margin-top: 20rem;
+}
+
+.group2,
+.userIllus>img {
+    width: 80%;
+}
+
+.users {
+    margin: 4rem;
+}
+
+.feature_title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-top: 5vh;
+}
+
+.feature_desc {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #999;
+    margin-top: 2vh;
+    font-size: 1.1rem;
+}
+
+.card {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 12px 12px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.cardTitle {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 10vh;
+}
+
+.cardDesc {
+    color: #999;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
+    margin-top: 3vh;
 }
 
 .attribution a {
