@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600,700');
+html,
+body {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f6f9fe;
@@ -142,7 +147,7 @@ footer {
     width: 80%;
 }
 
-.subs{
+.subs {
     width: 70%;
     margin-left: 1vw;
 }
@@ -152,7 +157,7 @@ footer {
     margin-top: 2em;
     padding: 5px 15px;
     border: 1px solid #ccc;
-    border-radius: 3px;
+    border-radius: 5px;
     resize: vertical;
     outline: none;
     font-size: 16px;
@@ -186,4 +191,25 @@ footer {
 
 .attribution a {
     color: hsl(69, 100%, 62%);
+}
+
+.back {
+    position: absolute;
+    right: 0px;
+}
+
+.shape {
+    height: 50em;
+    width: 85em;
+    margin-right: -35rem;
+    margin-top: -8rem;
+    background-color: hsl(322, 100%, 66%);
+    background-image: linear-gradient(to bottom left, #9e63fc, #e35bc8);
+    border-radius: 50px;
+    float: right;
+    -webkit-transform: rotate(50deg);
+    -moz-transform: rotate(50deg);
+    -o-transform: rotate(50deg);
+    -ms-transform: rotate(50deg);
+    transform: rotate(50deg);
 }
