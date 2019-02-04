@@ -1,10 +1,22 @@
 @import 'https://raw.githack.com/harshitks2203/FMProjects/master/FyloLandingPage1/css/fontline.css';
 @import url('https://fonts.googleapis.com/css?family=Raleway:500,700|Open+Sans:400,700');
-.attribution {
-    font-size: 11px;
-    text-align: center;
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: hsl(217, 28%, 15%);
+    color: #fff;
 }
 
-.attribution a {
-    color: hsl(228, 45%, 44%);
+.logo{
+    margin: 3rem 2rem;
 }
+
+.group1{
+    margin-top: 3.5rem;
+    margin-left: -2rem;
+}
+
+.group1>ul li {
+    display: inline;
+    padding: 1rem;
+}
+
