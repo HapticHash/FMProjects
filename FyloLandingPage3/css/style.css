@@ -1,0 +1,10 @@
+@import 'https://raw.githack.com/harshitks2203/FMProjects/master/FyloLandingPage1/css/fontline.css';
+@import url('https://fonts.googleapis.com/css?family=Raleway:500,700|Open+Sans:400,700');
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
