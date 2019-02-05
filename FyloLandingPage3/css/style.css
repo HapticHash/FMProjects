@@ -80,8 +80,13 @@ body {
     background-size: cover;
 }
 
-.mainRow {
+.main,
+.quotes {
     background-color: hsl(217, 28%, 13%);
+    padding: 2vh 0;
+}
+
+.mainRow {
     padding: 5vh 0;
 }
 
@@ -114,7 +119,6 @@ body {
 }
 
 .rowMain2 {
-    background-color: hsl(217, 28%, 13%);
     padding: 15vh 0;
 }
 
