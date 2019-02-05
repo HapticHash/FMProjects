@@ -82,7 +82,7 @@ body {
 
 .mainRow {
     background-color: hsl(217, 28%, 13%);
-    padding: 5vh;
+    padding: 5vh 0;
 }
 
 .colMain {
@@ -111,4 +111,43 @@ body {
     font-size: 0.9rem;
     width: 90%;
     margin: 0 auto;
+}
+
+.rowMain2 {
+    background-color: hsl(217, 28%, 13%);
+    padding: 15vh 0;
+}
+
+.illusStay {
+    width: 100%;
+}
+
+.prod_title {
+    padding-top: 15vh;
+    padding-left: 2vw;
+    font-weight: 700;
+    font-size: 2.5rem;
+    width: 80%;
+    line-height: 3rem;
+}
+
+.prod_desc,
+.learn {
+    padding-top: 2vh;
+    padding-left: 2vw;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.learn>a {
+    padding-bottom: 5px !important;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    color: hsl(176, 68%, 64%) !important;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
 }
