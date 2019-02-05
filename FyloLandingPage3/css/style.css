@@ -1,5 +1,11 @@
 @import 'https://raw.githack.com/harshitks2203/FMProjects/master/FyloLandingPage1/css/fontline.css';
 @import url('https://fonts.googleapis.com/css?family=Raleway:500,700|Open+Sans:400,700');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
     background-color: hsl(217, 28%, 15%);
@@ -19,6 +25,7 @@ body {
 .group1 {
     margin-top: 3.5rem;
     margin-left: -3rem;
+    font-size: 1.2rem;
 }
 
 .group1>ul li {
@@ -71,4 +78,37 @@ body {
     object-fit: contain;
     background-position: center;
     background-size: cover;
+}
+
+.mainRow {
+    background-color: hsl(217, 28%, 13%);
+    padding: 5vh;
+}
+
+.colMain {
+    text-align: center;
+}
+
+.illusMain {
+    width: 6rem;
+    height: 5rem;
+    margin: 1vh;
+}
+
+.group2 {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.feature_title {
+    margin-top: 2vh;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.feature_desc {
+    margin-top: 1vh;
+    font-size: 0.9rem;
+    width: 90%;
+    margin: 0 auto;
 }
