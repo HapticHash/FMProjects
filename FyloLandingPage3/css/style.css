@@ -155,3 +155,26 @@ a:link,
 a:active {
     text-decoration: none;
 }
+
+.card {
+    background-color: hsl(219, 30%, 18%);
+}
+
+.review {
+    font-size: 0.8rem;
+}
+
+.group2 {
+    margin: 2vh 0 0 0;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+}
+
+.proDesc {
+    font-size: 0.7rem;
+    margin-left: -1vw;
+}
