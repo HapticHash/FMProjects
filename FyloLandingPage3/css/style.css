@@ -156,8 +156,13 @@ a:active {
     text-decoration: none;
 }
 
+.cardMain {
+    margin-left: 2vw;
+}
+
 .card {
     background-color: hsl(219, 30%, 18%);
+    box-shadow: 8px 8px 20px 4px hsl(217, 28%, 15%);
 }
 
 .review {
@@ -175,6 +180,14 @@ a:active {
 }
 
 .proDesc {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     margin-left: -1vw;
+}
+
+.proName {
+    font-weight: 700;
+}
+
+.proOccu {
+    font-size: 0.6rem;
 }
