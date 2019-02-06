@@ -197,6 +197,11 @@ a:active {
     margin-bottom: 5vh;
 }
 
+.cardNew {
+    background-color: #1b2230;
+    box-shadow: 4px 4px 20px 2px #121212;
+}
+
 .cardTitle {
     font-size: 2rem;
     font-weight: 700;
