@@ -205,7 +205,7 @@ a:active {
 .cardTitle {
     font-size: 2rem;
     font-weight: 700;
-    margin-top: 2vh;
+    margin-top: 3vh;
 }
 
 .cardDesc {
@@ -239,4 +239,12 @@ footer {
 
 .fLogo {
     margin-top: 20vh;
+}
+
+.loc {
+    margin-left: 2vw;
+}
+
+.locText {
+    float: right;
 }
