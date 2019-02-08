@@ -196,7 +196,7 @@ footer {
     margin-right: -40vw;
     margin-top: -208vh;
     background-color: hsl(322, 100%, 66%);
-    background-image: linear-gradient(to bottom left, #9e63fc, #e35bc8);
+    background-image: linear-gradient(to bottom left, hsl(265, 100%, 66%), hsl(322, 100%, 66%));
     border-radius: 50px;
     float: right;
     z-index: -1;
@@ -222,3 +222,26 @@ footer {
     -ms-transform: rotate(60deg);
     transform: rotate(60deg);
 }
+
+/******************************************************************
+************************* Mobile view CSS *************************/
+
+@media screen and (max-width: 320px) and (max-width: 374px) {}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {}
+
+@media screen and (min-width: 425px) and (max-width: 450px) {}
+
+/******************************************************************
+************************* Tablet view CSS *************************/
+
+@media screen and (min-width: 768px) and (max-width:1023px) {}
+
+/******************************************************************
+************************* Laptop view CSS *************************/
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {}
+
+@media screen and (min-width: 1440px)and (max-width: 2559px) {}
+
+@media screen and (min-width: 2560px) {}
