@@ -349,12 +349,37 @@ footer {
 @media screen and (min-width: 1440px)and (max-width: 2559px) {}
 
 @media screen and (min-width: 2560px) {
+    .prod_title {
+        font-size: 4rem;
+        line-height: 6vh;
+    }
+    .prod_desc, .learn {
+        line-height: 4vh;
+        font-size: 2rem;
+    }
+    .review {
+        font-size: 1.8rem;
+    }
+    .proDesc {
+        margin-left: 1vw;
+    }
+    .proName {
+        font-size: 1.7rem;
+    }
+    .proOccu {
+        font-size: 1.5rem;
+    }
+    .profile {
+        width: 4rem;
+        height: 4rem;
+        margin-left: 1vw;
+    }
     .cardNew {
         width: 70%;
         margin: 0 auto;
     }
     .cardTitle {
-        font-size: 3.5rem;
+        font-size: 4rem;
     }
     .cardDesc,
     input[type='text'],
@@ -369,8 +394,19 @@ footer {
         margin-left: -1vw;
         width: 100%;
     }
-
-    .logo{
+    .logo {
         width: 15%;
+    }
+    .locText,
+    .widget_text,
+    .fab {
+        font-size: 2rem;
+    }
+    .fa-facebook-f {
+        padding: 1rem 1.4rem;
+    }
+    .iconDesc {
+        font-size: 1.8rem;
+        vertical-align: middle;
     }
 }
