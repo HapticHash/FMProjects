@@ -54,6 +54,10 @@ body {
     text-align: center;
 }
 
+.illusBtn {
+    margin: 0 auto;
+}
+
 .get {
     margin: 2rem;
     width: 80%;
@@ -346,19 +350,38 @@ footer {
     }
 }
 
-@media screen and (min-width: 1440px)and (max-width: 2559px) {}
-
 @media screen and (min-width: 2560px) {
+    .illusIntro {
+        margin: 0 auto;
+        display: block;
+        width: 70%;
+    }
+    .group1>ul li {
+        font-size: 2.2rem;
+    }
+    .illusMain {
+        width: 10rem;
+        height: 8rem;
+        margin: 1vh;
+    }
+    .introDesc {
+        font-size: 2.2rem;
+    }
+    .feature_title {
+        font-size: 2.5rem;
+    }
+    .feature_desc,
+    .review {
+        font-size: 1.8rem;
+    }
     .prod_title {
         font-size: 4rem;
         line-height: 6vh;
     }
-    .prod_desc, .learn {
+    .prod_desc,
+    .learn {
         line-height: 4vh;
         font-size: 2rem;
-    }
-    .review {
-        font-size: 1.8rem;
     }
     .proDesc {
         margin-left: 1vw;
@@ -378,17 +401,18 @@ footer {
         width: 70%;
         margin: 0 auto;
     }
+    .introTitle,
     .cardTitle {
         font-size: 4rem;
     }
-    .cardDesc,
-    input[type='text'],
-    .get {
+    .cardDesc {
         font-size: 2rem;
     }
     input[type='text'],
     .get {
+        font-size: 1.8rem;
         padding: 1.5rem;
+        border-radius: 2.5rem;
     }
     .started>.get {
         margin-left: -1vw;
@@ -396,6 +420,7 @@ footer {
     }
     .logo {
         width: 15%;
+        margin: 3rem 5rem;
     }
     .locText,
     .widget_text,
