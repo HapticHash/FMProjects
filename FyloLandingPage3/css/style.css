@@ -71,8 +71,8 @@ body {
 }
 
 .introEnd {
-    height: 65vh;
-    margin-top: -40vh;
+    height: 70vh;
+    margin-top: -45vh;
     background-image: url(../images/bg-curvy-desktop.svg);
     background-repeat: no-repeat;
     object-fit: contain;
@@ -305,6 +305,10 @@ footer {
     padding: 0.5rem 0.8rem;
 }
 
+.footerEnd {
+    height: 10vh;
+}
+
 /******************************************************************
 ************************* Mobile view CSS *************************/
 
@@ -322,8 +326,51 @@ footer {
 /******************************************************************
 ************************* Laptop view CSS *************************/
 
-@media screen and (min-width: 1024px) and (max-width: 1439px) {}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .introTitle,
+    .prod_title {
+        font-size: 2rem;
+    }
+    .introDesc {
+        font-size: 1rem;
+    }
+    .prod_desc {
+        font-size: 0.9rem;
+    }
+    .proPic {
+        width: 2rem;
+    }
+    .get {
+        width: 100%;
+        margin-left: -2vw;
+    }
+}
 
 @media screen and (min-width: 1440px)and (max-width: 2559px) {}
 
-@media screen and (min-width: 2560px) {}
+@media screen and (min-width: 2560px) {
+    .cardNew {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .cardTitle {
+        font-size: 3.5rem;
+    }
+    .cardDesc,
+    input[type='text'],
+    .get {
+        font-size: 2rem;
+    }
+    input[type='text'],
+    .get {
+        padding: 1.5rem;
+    }
+    .started>.get {
+        margin-left: -1vw;
+        width: 100%;
+    }
+
+    .logo{
+        width: 15%;
+    }
+}
