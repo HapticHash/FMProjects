@@ -316,7 +316,26 @@ footer {
 /******************************************************************
 ************************* Mobile view CSS *************************/
 
-@media screen and (max-width: 320px) and (max-width: 374px) {}
+@media screen and (max-width: 320px) and (max-width: 374px) {
+    .logo {
+        width: 100%;
+        margin-left: 5vw;
+    }
+    .group1 {
+        margin-top: 2.5rem;
+        margin-left: 0rem;
+        font-size: 1rem;
+    }
+    .list1 {
+        margin-top: 0.5rem;
+        margin-right: -2rem;
+    }
+    .group1>ul li {
+        font-size: 0.9rem;
+        margin-left: 0;
+        padding: 0.4rem;
+    }
+}
 
 @media screen and (min-width: 375px) and (max-width: 424px) {}
 
