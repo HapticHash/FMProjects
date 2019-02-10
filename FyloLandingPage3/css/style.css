@@ -326,7 +326,71 @@ footer {
 ************************* Tablet view CSS *************************/
 
 @media screen and (min-width: 768px) and (max-width:1023px) {
-    
+    .logo {
+        width: 25%;
+    }
+    .group1>ul li {
+        font-size: 1rem;
+        margin-left: -2vw;
+    }
+    .introTitle {
+        font-size: 1.7rem;
+    }
+    .introDesc {
+        font-size: 1rem;
+    }
+    .feature_title {
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    .feature_desc {
+        font-size: 0.8rem;
+    }
+    .prod_title {
+        padding-top: 10vh;
+        font-size: 1.7rem;
+        line-height: 5vh;
+    }
+    .prod_desc {
+        font-size: 1rem;
+    }
+    .proPic {
+        width: 2rem;
+    }
+    .proDesc {
+        margin-left: 2px;
+    }
+    .proName {
+        font-size: 0.6rem;
+    }
+    .proOccu {
+        font-size: 0.5rem;
+    }
+    .locIcon {
+        width: 6vw;
+    }
+    .get {
+        margin-top: 2vh;
+    }
+    input[type='text'] {
+        font-size: 0.8rem;
+        padding: 1rem;
+        border-radius: 2.5rem;
+    }
+    .started>.get {
+        margin-top: 5.5vh;
+        margin-left: -1vw;
+        padding: 1rem;
+        font-size: 0.8rem;
+        width: 110%;
+    }
+    .fab {
+        margin-left: 0.2rem;
+        font-size: 1rem;
+    }
+    .iconDesc {
+        margin-left: 10px;
+    }
 }
 
 /******************************************************************
