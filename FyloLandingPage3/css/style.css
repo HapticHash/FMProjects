@@ -316,7 +316,10 @@ footer {
 /******************************************************************
 ************************* Mobile view CSS *************************/
 
-@media screen and (max-width: 320px) and (max-width: 374px) {
+@media screen and (min-width: 320px) and (max-width: 450px) {
+    body{
+        overflow-x: hidden !important;
+    }
     .logo {
         width: 100%;
         margin-left: 5vw;
@@ -331,6 +334,7 @@ footer {
     }
     .list1 {
         margin-top: 0.5rem;
+        margin-right: 1rem;
     }
     .group1>ul li {
         font-size: 0.9rem;
@@ -372,7 +376,6 @@ footer {
     }
     .illusQuotes {
         width: 15%;
-        margin-left: 5vw;
     }
     .cards {
         margin: 0 auto 4vh auto;
@@ -392,11 +395,23 @@ footer {
     .flogo {
         margin-top: 20vh;
     }
+    .locIcon {
+        width: 15vw;
+        margin: 0;
+    }
+    .loc {
+        width: 100%;
+    }
+    .locText {
+        margin-left: 5vw;
+    }
+    .iconimg {
+        width: 5vw;
+    }
+    .iconDesc {
+        margin-left: 10px;
+    }
 }
-
-@media screen and (min-width: 375px) and (max-width: 424px) {}
-
-@media screen and (min-width: 425px) and (max-width: 450px) {}
 
 /******************************************************************
 ************************* Tablet view CSS *************************/
