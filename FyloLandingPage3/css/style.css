@@ -338,11 +338,13 @@ footer {
         padding: 0.4rem;
     }
     .introTitle,
-    .feature_title {
+    .feature_title,
+    .cardTitle {
         font-size: 1.25rem;
     }
-    .introDesc {
-        font-size: 0.85rem;
+    .introDesc,
+    .cardDesc {
+        font-size: 0.8rem;
         width: 90% !important;
     }
     .introEnd {
@@ -362,17 +364,33 @@ footer {
         width: 90%;
         margin: 0 auto !important;
     }
-    .prod_desc, .learn {
+    .prod_desc,
+    .learn {
         font-size: 0.85rem;
         width: 90%;
         margin: 0 auto !important;
     }
-    .illusQuotes{
+    .illusQuotes {
         width: 15%;
         margin-left: 5vw;
     }
-    .cards{
+    .cards {
         margin: 0 auto 4vh auto;
+    }
+    .review {
+        font-size: 0.725rem;
+    }
+    input[type='text'],
+    .started>.get {
+        margin: 2rem 0 0 1rem;
+        font-size: 0.8rem;
+        width: 90%;
+    }
+    footer {
+        margin-top: -35vh;
+    }
+    .flogo {
+        margin-top: 20vh;
     }
 }
 
