@@ -316,7 +316,7 @@ footer {
 /******************************************************************
 ************************* Mobile view CSS *************************/
 
-@media screen and (min-width: 320px) and (max-width: 450px) {
+@media screen and (min-width: 320px) and (max-width: 530px) {
     body{
         overflow-x: hidden !important;
     }
