@@ -321,6 +321,9 @@ footer {
         width: 100%;
         margin-left: 5vw;
     }
+    .flogo {
+        width: 50%;
+    }
     .group1 {
         margin-top: 2.5rem;
         margin-left: 0rem;
@@ -328,12 +331,29 @@ footer {
     }
     .list1 {
         margin-top: 0.5rem;
-        margin-right: -2rem;
     }
     .group1>ul li {
         font-size: 0.9rem;
         margin-left: 0;
         padding: 0.4rem;
+    }
+    .introTitle {
+        font-size: 1.25rem;
+    }
+    .introDesc {
+        font-size: 0.85rem;
+        width: 90% !important;
+    }
+    .introEnd {
+        height: 70vh;
+        margin-left: -140vw;
+        margin-top: -71vh;
+    }
+    .feature_desc {
+        margin-bottom: 10vh;
+    }
+    .row2{
+        margin-top: -10vh;
     }
 }
 
