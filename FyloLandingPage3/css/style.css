@@ -337,7 +337,8 @@ footer {
         margin-left: 0;
         padding: 0.4rem;
     }
-    .introTitle {
+    .introTitle,
+    .feature_title {
         font-size: 1.25rem;
     }
     .introDesc {
@@ -351,9 +352,27 @@ footer {
     }
     .feature_desc {
         margin-bottom: 10vh;
+        font-size: 0.85rem;
     }
-    .row2{
+    .row2 {
         margin-top: -10vh;
+    }
+    .prod_title {
+        font-size: 1rem;
+        width: 90%;
+        margin: 0 auto !important;
+    }
+    .prod_desc, .learn {
+        font-size: 0.85rem;
+        width: 90%;
+        margin: 0 auto !important;
+    }
+    .illusQuotes{
+        width: 15%;
+        margin-left: 5vw;
+    }
+    .cards{
+        margin: 0 auto 4vh auto;
     }
 }
 
