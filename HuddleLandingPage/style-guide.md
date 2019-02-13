@@ -9,15 +9,21 @@ The designs were created to the following widths:
 
 ## Colors
 
+The main decorative element in the background of the intro section is a gradient from the primary pink to the secondary violet.
+
 ### Primary
 
 - Pink: hsl(322, 100%, 66%)
 
+### Secondary
+
+- Violet: hsl(265, 100%, 66%)
+
 ### Neutral
 
-- Very Pale Cyan: hsl(193, 100%, 96%)
+- Light Grayish Blue: hsl(214, 64%, 98%)
+- Mid Grayish Blue: hsl(208, 11%, 55%)
 - Very Dark Cyan: hsl(192, 100%, 9%)
-- Grayish Blue: hsl(208, 11%, 55%)
 
 ## Typography
 
@@ -28,7 +34,7 @@ The designs were created to the following widths:
 ### Headings
 
 - Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-- Weights: 600
+- Weights: 400, 600, 700
 
 ### Body, Call-to-actions
 
