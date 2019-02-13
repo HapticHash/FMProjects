@@ -91,10 +91,36 @@ body {
     order: 2;
 }
 
-.fList{
+.fList {
     margin-top: 15vh;
 }
 
 .cards {
     margin: 0 auto 4vh auto;
+}
+
+.card {
+    border: 1px solid #eee;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px 2px rgba(0, 0, 0, 0.109);
+}
+
+.featGroup {
+    margin: 8rem 0 0 6rem;
+}
+
+.featureTitle {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.featureDesc {
+    margin-top: 2vh;
+    font-size: 1.05rem;
+    color: hsl(208, 11%, 55%);
+}
+
+.illusFeat {
+    width: 70%;
+    margin: 5vh 2vw;
 }
