@@ -87,7 +87,7 @@ body {
 
 .illusMock {
     width: 90%;
-    margin-bottom: 5vh;
+    margin-bottom: 10vh;
     order: 2;
 }
 
@@ -96,7 +96,7 @@ body {
 }
 
 .cards {
-    margin: 0 auto 4vh auto;
+    margin: 0 auto 5vh auto;
 }
 
 .card {
@@ -106,7 +106,12 @@ body {
 }
 
 .featGroup {
-    margin: 8rem 0 0 6rem;
+    margin: 6rem 0 0 6rem;
+    width: 80%;
+}
+
+.floCon {
+    margin-left: 4rem;
 }
 
 .featureTitle {
@@ -118,9 +123,10 @@ body {
     margin-top: 2vh;
     font-size: 1.05rem;
     color: hsl(208, 11%, 55%);
+    font-family: 'Open Sans', sans-serif;
 }
 
 .illusFeat {
     width: 70%;
-    margin: 5vh 2vw;
+    padding: 5vh 2vw;
 }
