@@ -82,7 +82,7 @@ body {
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
-    box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.109);
+    box-shadow: 4px 5px 10px 3px rgba(0, 0, 0, 0.109);
 }
 
 .illusMock {
@@ -91,7 +91,8 @@ body {
     order: 2;
 }
 
-.fList {
+.fList,
+.botCard {
     margin-top: 15vh;
 }
 
@@ -129,4 +130,15 @@ body {
 .illusFeat {
     width: 70%;
     padding: 5vh 2vw;
+}
+
+.cTitle {
+    margin-top: 5vh;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.botGroup>.get {
+    padding: 1.2rem 6rem;
+    font-size: 1.1rem;
 }
