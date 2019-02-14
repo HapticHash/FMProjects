@@ -145,11 +145,12 @@ body {
 
 footer {
     background-color: hsl(192, 100%, 9%);
+    font-family: 'Open Sans', sans-serif;
     margin-top: -25vh;
 }
 
 .fLogo {
-    margin-top: 20vh;
+    margin-top: 30vh;
     margin-bottom: 5vh;
     margin-left: 2vw;
 }
@@ -157,8 +158,7 @@ footer {
 .locGroup {
     display: flex;
     justify-content: center;
-    margin-top: 2vh;
-    margin-left: 3vw;
+    margin-left: -5vw;
 }
 
 .locIcon {
@@ -180,31 +180,34 @@ footer {
 
 .fooGroup {
     width: 100%;
-    padding: 2vw;
+    margin-left: 2vw;
     position: relative;
 }
 
 .fooGroup img {
     position: absolute;
     top: 50%;
-    margin-top: -30px;
+    margin-top: -3vh;
 }
 
 .fooGroup span {
-    margin-left: 68px;
-    /* = image width + 8 */
+    margin-left: 4vw;
     display: block;
 }
 
+.iconloc {
+    width: 1.5vw;
+}
+
 .iconimg {
-    margin-top: 2vh;
+    margin: 2vh 1vw 0.75rem 2vw;
     width: 1.5vw;
     vertical-align: middle;
-    margin-bottom: 0.75em;
 }
 
 .iconDesc {
-    font-size: 0.9em;
+    font-size: 1em;
+    width: 80%;
     margin-left: 20px;
     color: #fff;
 }
