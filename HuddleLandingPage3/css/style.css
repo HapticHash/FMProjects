@@ -61,12 +61,12 @@ body {
 }
 
 .heroTitle {
-    font-size: 2.5rem;
+    font-size: 3vw;
     font-weight: 600;
 }
 
 .heroDesc {
-    font-size: 1rem;
+    font-size: 1.5vw;
     margin-top: 2vh;
 }
 
@@ -80,7 +80,7 @@ body {
     resize: vertical;
     outline: none;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
+    font-size: 1.5vw;
     font-weight: 600;
     cursor: pointer;
     box-shadow: 4px 5px 10px 3px rgba(0, 0, 0, 0.109);
@@ -117,13 +117,13 @@ body {
 }
 
 .featureTitle {
-    font-size: 2rem;
+    font-size: 2vw;
     font-weight: 600;
 }
 
 .featureDesc {
     margin-top: 2vh;
-    font-size: 1.05rem;
+    font-size: 1.05vw;
     color: hsl(208, 11%, 55%);
     font-family: 'Open Sans', sans-serif;
 }
@@ -136,12 +136,11 @@ body {
 .cTitle {
     margin-top: 5vh;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 2vw;
 }
 
 .botGroup>.get {
     padding: 1.2rem 6rem;
-    font-size: 1.1rem;
 }
 
 footer {
@@ -190,7 +189,7 @@ footer {
 }
 
 .iconDesc {
-    font-size: 1em;
+    font-size: 1.5vw;
     width: 80%;
     margin-left: 20px;
     color: #fff;
@@ -212,7 +211,7 @@ footer {
 
 .fab {
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.5vw;
     padding: 0.5em;
     border: 1px solid #fff;
     border-radius: 50%;
@@ -255,10 +254,6 @@ footer {
         margin-top: 10vh;
     }
 
-    .heroTitle {
-        font-size: 2rem;
-    }
-
     .featGroup{
         margin-top: 10%;
     }  
@@ -273,10 +268,26 @@ footer {
 
     .cTitle,
     .featureTitle {
-        font-size: 1.8rem;
+        font-size: 2.5vw;
     }
 }
 
-@media screen and (min-width: 1440px)and (max-width: 2559px) {}
+@media screen and (min-width: 1440px)and (max-width: 2559px) {
+    .heroDesc{
+        font-size: 1.35vw;
+    }
+    .featureTitle, .cTitle{
+        font-size: 2.6vw;
+    }
+    .featureDesc{
+        font-size: 1.3vw;
+    }
+    .iconDesc, .widget_text, .socials{
+        font-size: 1.2vw;
+    }
+    .fa-facebook-f {
+        padding: 0.7rem 1rem;
+    }
+}
 
 @media screen and (min-width: 2560px) {}
