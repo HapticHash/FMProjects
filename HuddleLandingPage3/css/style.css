@@ -254,11 +254,11 @@ footer {
         margin-top: 10vh;
     }
 
-    .featGroup{
+    .featGroup {
         margin-top: 10%;
-    }  
+    }
 
-    .featureDesc{
+    .featureDesc {
         font-size: 1rem;
     }
 
@@ -266,6 +266,11 @@ footer {
         margin-top: 3rem;
     }
 
+    .botGroup>.get {
+        padding: 3vh 8vw;
+        margin: 2vw 0;
+    }
+    
     .cTitle,
     .featureTitle {
         font-size: 2.5vw;
@@ -273,21 +278,83 @@ footer {
 }
 
 @media screen and (min-width: 1440px)and (max-width: 2559px) {
-    .heroDesc{
+
+    .heroDesc {
         font-size: 1.35vw;
     }
-    .featureTitle, .cTitle{
+
+    .featureTitle,
+    .cTitle {
         font-size: 2.6vw;
     }
-    .featureDesc{
+
+    .featureDesc {
         font-size: 1.3vw;
     }
-    .iconDesc, .widget_text, .socials{
+
+    .botGroup {
+        padding: 2vw 0;
+    }
+
+    .iconDesc,
+    .widget_text,
+    .socials,
+    .copy {
         font-size: 1.2vw;
     }
+
     .fa-facebook-f {
         padding: 0.7rem 1rem;
     }
 }
 
-@media screen and (min-width: 2560px) {}
+@media screen and (min-width: 2560px) {
+
+    .logo,
+    .fLogo {
+        width: 20vw
+    }
+
+    .try,
+    .get {
+        padding: 2vh 6vw;
+        font-size: 1.1vw;
+    }
+
+    .featGroup {
+        margin-top: 14vh;
+    }
+
+    .heroDesc {
+        font-size: 1.2vw;
+    }
+
+    .featureTitle,
+    .cTitle {
+        font-size: 2.6vw;
+    }
+
+    .botGroup>.get {
+        padding: 3vh 8vw;
+        margin: 2vw 0;
+    }
+
+    .featureDesc {
+        font-size: 1.3vw;
+    }
+
+    .botGroup{
+        padding: 2vw 0;
+    }
+
+    .iconDesc,
+    .widget_text,
+    .socials,
+    .copy {
+        font-size: 1.2vw;
+    }
+
+    .fa-facebook-f {
+        padding: 1.1rem 1.7rem;
+    }
+}
