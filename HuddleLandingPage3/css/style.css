@@ -260,14 +260,19 @@ footer {
     }
 
     .featGroup{
-        margin-top: 3rem;
+        margin-top: 10%;
+    }  
+
+    .featureDesc{
+        font-size: 1rem;
     }
 
     .floCon {
-        margin-top: 1rem;
+        margin-top: 3rem;
     }
 
-    .cTitle{
+    .cTitle,
+    .featureTitle {
         font-size: 1.8rem;
     }
 }
