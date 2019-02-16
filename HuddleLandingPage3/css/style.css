@@ -66,7 +66,7 @@ body {
 }
 
 .heroDesc {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     margin-top: 2vh;
 }
 
@@ -108,7 +108,7 @@ body {
 }
 
 .featGroup {
-    margin: 6rem 0 0 6rem;
+    margin: 7vw 0 0 8vw;
     width: 80%;
 }
 
@@ -137,10 +137,6 @@ body {
     margin-top: 5vh;
     font-weight: 600;
     font-size: 2vw;
-}
-
-.botGroup>.get {
-    padding: 1.2rem 6rem;
 }
 
 footer {
@@ -189,7 +185,7 @@ footer {
 }
 
 .iconDesc {
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     width: 80%;
     margin-left: 20px;
     color: #fff;
@@ -254,21 +250,17 @@ footer {
         margin-top: 10vh;
     }
 
-    .featGroup {
-        margin-top: 10%;
+    .featGroup, .floCon {
+        margin-top: 7vw;
     }
 
     .featureDesc {
         font-size: 1rem;
     }
 
-    .floCon {
-        margin-top: 3rem;
-    }
-
     .botGroup>.get {
-        padding: 3vh 8vw;
-        margin: 2vw 0;
+        padding: 2.8vh 8vw;
+        margin: 3vw 0;
     }
     
     .cTitle,
@@ -279,6 +271,13 @@ footer {
 
 @media screen and (min-width: 1440px)and (max-width: 2559px) {
 
+    .try,
+    .get {
+        padding: 2vh 6vw;
+        font-size: 1.1vw;
+        border-radius: 50px;
+    }
+    
     .heroDesc {
         font-size: 1.35vw;
     }
@@ -288,12 +287,21 @@ footer {
         font-size: 2.6vw;
     }
 
+    .featGroup {
+        margin-top: 7vw;
+    }
+
     .featureDesc {
         font-size: 1.3vw;
     }
 
     .botGroup {
         padding: 2vw 0;
+    }
+
+    .botGroup>.get {
+        padding: 2.8vh 8vw;
+        margin: 3vw 0;
     }
 
     .iconDesc,
@@ -319,10 +327,11 @@ footer {
     .get {
         padding: 2vh 6vw;
         font-size: 1.1vw;
+        border-radius: 50px;
     }
 
     .featGroup {
-        margin-top: 14vh;
+        margin-top: 7vw;
     }
 
     .heroDesc {
@@ -337,6 +346,7 @@ footer {
     .botGroup>.get {
         padding: 3vh 8vw;
         margin: 2vw 0;
+        font-size: 1.5vw;
     }
 
     .featureDesc {
