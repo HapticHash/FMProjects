@@ -240,7 +240,61 @@ footer {
 /******************************************************************
 ************************* Tablet view CSS *************************/
 
-@media screen and (min-width: 768px) and (max-width:1023px) {}
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .try,
+    .get {
+        padding: 2vh 6vw;
+        font-size: 1.8vw;
+        border-radius: 50px;
+    }
+
+    .heroGroup {
+        margin-top: 8vh;
+    }
+    
+    .heroDesc {
+        font-size: 1.5vw;
+    }
+    
+    .featGroup {
+        margin-top: 7vw;
+    }
+
+    .featureTitle,
+    .cTitle {
+        font-size: 2.6vw;
+    }
+
+    .featureDesc {
+        font-size: 1.5vw;
+    }
+
+    .botGroup {
+        padding: 1vw 0;
+    }
+
+    .botGroup>.get {
+        padding: 2.8vh 8vw;
+        margin: 3vw 0;
+        font-size: 1.8vw !important;
+    }
+
+    .iconDesc,
+    .widget_text,
+    .socials,
+    .copy {
+        font-size: 1.6vw;
+    }
+
+    .fab{
+        font-size: 2vw;
+        padding: 0.8rem 0.9rem;
+        margin-left: 0.5rem;
+    }
+    .fa-facebook-f {
+        padding: 0.8rem 1.1rem;
+    }
+}
 
 /******************************************************************
 ************************* Laptop view CSS *************************/
@@ -277,7 +331,7 @@ footer {
         font-size: 1.1vw;
         border-radius: 50px;
     }
-    
+
     .heroDesc {
         font-size: 1.35vw;
     }
