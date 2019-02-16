@@ -244,7 +244,7 @@ footer {
         padding: 5px 30px;
         font-size: 4vw;
     }
-    .heroGroup, .illus{
+    .heroGroup, .illus, .feats{
         display: block;
         margin: 0 auto ;
         text-align: center;
@@ -261,16 +261,20 @@ footer {
     }
     .imgAlign{ order: 1; }
     .feats{ order: 2; }
+    .floCon{ margin: 0 auto; }
+    .fList{ margin-top: 10vh; }
+    .featureTitle{
+        font-size: 5.2vw;
+    }
+    .featureDesc{
+        font-size: 3.4vw;
+        margin-bottom: 5vw;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
-    .heroTitle{
-        font-size: 7vw;
-    }
-    .heroDesc, .get{
-        font-size: 3.9vw;
-    }
-    
+   
+        
 
 }
 
