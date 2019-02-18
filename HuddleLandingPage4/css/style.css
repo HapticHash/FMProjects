@@ -15,3 +15,23 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+.logo {
+    padding: 5vh 3vw 0 3vw;
+}
+
+.try {
+    margin: 2rem 4rem;
+    padding: 0.6rem 4rem;
+    color: #111;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    resize: vertical;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.109);
+}
