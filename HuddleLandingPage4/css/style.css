@@ -83,3 +83,54 @@ body {
 }
 
 .buildTitle { margin-top: 10vw; }
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10vh;
+}
+
+.fLogo { margin: 5vh 0; margin-left: 2vw; }
+
+.fooText{
+  font-size: 1.2vw;
+  width: 90%;
+  margin-left: -3vw;
+}
+
+.widget_text li {
+    margin: 0 0 1.5vh 0;
+}
+
+.fooText, .widget_text a,
+.list1 a {
+    color: #fff;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+}
+
+.fab {
+    color: #fff;
+    font-size: 1.5vw;
+    padding: 0.5em;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: inline;
+    margin-left: 1rem;
+}
+
+.fa-facebook-f {
+    padding: 0.5rem 0.8rem;
+}
+
+.copy {
+    text-align: right;
+    margin-right: 2vw;
+}
+
+.footerEnd {
+    height: 10vh;
+}
