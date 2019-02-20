@@ -32,9 +32,9 @@ body {
     box-shadow: 2px 2px 8px 1px hsla(322, 100%, 66%, 0.43);
 }
 
-.mtRow { margin-top: 10vw; }
+.mtRow { margin: 10vw 0; }
 
-.introTitle {
+.introTitle, .buildTitle {
     text-align: center;
     font-size: 3vw;
     font-weight: 700;
@@ -72,11 +72,14 @@ body {
 
 .featGroup { margin: 1.5vw; padding: 0 2vw; }
 
-.featureTitle { font-size: 2.5vw; font-weight: 700; }
+.featureTitle { font-size: 2.2vw; font-weight: 700; }
 
 .featureDesc {
-    font-size: 1.45vw;
+    font-size: 1.3vw;
     font-weight: 400;
     color: hsl(208, 11%, 55%);
     margin-top: 0.5rem;
+    width: 95%;
 }
+
+.buildTitle { margin-top: 10vw; }
