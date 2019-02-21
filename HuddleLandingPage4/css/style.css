@@ -150,6 +150,12 @@ footer {
 /******************************************************************
 ************************* Tablet view CSS *************************/
 @media screen and (min-width: 768px)  and (max-width: 1023px){
+    .introTitle, .buildTitle, .fab { font-size: 3.5vw; }
+    .introDesc { font-size: 1.8vw; width: 60%; }
+    .featureTitle{ font-size: 2.7vw; }
+    .featureDesc, .form-control { font-size: 1.5vw; }
+    .mockup, .illus { margin-top: 5vw; }
+    .fooText, .widget_text a, .copy, .try, .get { font-size: 1.7vw; }
 
 }
 
@@ -157,14 +163,17 @@ footer {
 ************************* Laptop view CSS *************************/
 @media screen and (min-width: 1024px)  and (max-width: 1439px){
     .widget_text a, .copy { font-size: 1.2vw; }
+    .mockup { margin-top: 5vw; }
 }
 
 @media screen and (min-width: 1440px)  and (max-width: 2559px){
     .widget_text a, .copy { font-size: 1.2vw; }
+    .mockup { margin-top: 5vw; }
 }
 
 @media screen and (min-width: 2560px) {
-  .widget_text a, .copy { font-size: 1.2vw; }
-  .logo { width: 25vw; }
-  .btn, .form-control { padding: 0.7vw 1vw; font-size: 1.2vw; }
+    .widget_text a, .copy { font-size: 1.2vw; }
+    .logo { width: 25vw; }
+    .btn, .form-control { padding: 0.7vw 1vw; font-size: 1.2vw; }
+    .mockup { margin-top: 5vw; }
 }
