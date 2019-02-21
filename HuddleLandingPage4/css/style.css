@@ -144,8 +144,20 @@ footer {
 /******************************************************************
 ************************* Mobile view CSS *************************/
 @media screen and (min-width: 320px)  and (max-width: 767px){
+    .logo { padding: 5vh 3vw 0 3vw; margin-left: 5vw;}
+    .try { font-size: 3vw; margin: 1.7rem 2rem 0 0; }
+    .mtRow { margin-top: 10vh; }
+    .introTitle { font-size: 6vw; width: 80%; margin: 0 auto; }
+    .introDesc { font-size: 3.2vw; width: 80%; margin: 3vw auto; }
+    .mockup { margin-top: 5vw; }
+    .illusDiv { order: 1; padding: 10vw 0; background-color: #f4fbff; }
+    .featDiv { order: 2;  padding: 10vw 0; background-color: #f4fbff; }
+    .illus { margin-left: 5vw; text-align: center;}
 
+    .footerEnd { background-image: url(../images/bg-footer-mobile.png) !important; }
 }
+
+
 
 /******************************************************************
 ************************* Tablet view CSS *************************/
