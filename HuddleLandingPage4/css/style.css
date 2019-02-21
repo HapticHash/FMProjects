@@ -18,7 +18,7 @@ body {
 
 .try {
     margin: 2rem 4rem;
-    padding: 0.6rem 2rem;
+    padding:  0.8vw 2vw;
     color: hsl(322, 100%, 66%);
     background-color: #fff;
     border: 1px solid hsl(322, 100%, 66%);
@@ -26,7 +26,7 @@ body {
     resize: vertical;
     outline: none;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
+    font-size: 1.2vw;
     font-weight: 600;
     cursor: pointer;
     box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.109);
@@ -60,7 +60,7 @@ body {
     resize: vertical;
     outline: none;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.3vw;
+    font-size: 1.4vw;
     font-weight: 600;
     cursor: pointer;
     box-shadow: 4px 5px 10px 3px rgba(0, 0, 0, 0.109);
@@ -68,9 +68,9 @@ body {
 
 .mockup { width: 80%; }
 
-.illus { text-align: right; width: 90%; margin-top: 2vw;}
+.illus { text-align: right; width: 90%; margin-top: 3vw;}
 
-.featGroup { margin: 1.5vw; padding: 0 2vw; }
+.featGroup { margin: 2vw; padding: 0 2vw; }
 
 .featureTitle { font-size: 2.2vw; font-weight: 700; }
 
@@ -156,13 +156,15 @@ footer {
 /******************************************************************
 ************************* Laptop view CSS *************************/
 @media screen and (min-width: 1024px)  and (max-width: 1439px){
-
+    .widget_text a, .copy { font-size: 1.2vw; }
 }
 
 @media screen and (min-width: 1440px)  and (max-width: 2559px){
-
+    .widget_text a, .copy { font-size: 1.2vw; }
 }
 
 @media screen and (min-width: 2560px) {
-
+  .widget_text a, .copy { font-size: 1.2vw; }
+  .logo { width: 25vw; }
+  .btn, .form-control { padding: 0.7vw 1vw; font-size: 1.2vw; }
 }
