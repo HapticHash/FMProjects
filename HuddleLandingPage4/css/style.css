@@ -153,7 +153,17 @@ footer {
     .illusDiv { order: 1; padding: 10vw 0; background-color: #f4fbff; }
     .featDiv { order: 2;  padding: 10vw 0; background-color: #f4fbff; }
     .illus { margin-left: 5vw; text-align: center;}
-
+    .featureTitle{ font-size: 5vw; margin-top: 6vw;}
+    .featureDesc { font-size: 3.7vw; }
+    .buildTitle { font-size: 5vw; }
+    .get { padding: 2.5vw 6.5vw; font-size: 3vw; }
+    .fooTop{ width: 90%; margin: 10vh auto 0;}
+    .fLogo { margin: 3vh 0; }
+    .fooRText{ font-size: 4.5vw; }
+    .fooText, .socials{ font-size: 4.5vw; width: 80%; margin: 3vh auto;}
+    .fab { font-size: 7.5vw; margin-top: 2vh;}
+    .widget { margin: 2.5vh auto; font-size: 4.5vw; }
+    .blocks { display: none; }
     .footerEnd { background-image: url(../images/bg-footer-mobile.png) !important; }
 }
 
@@ -168,7 +178,7 @@ footer {
     .featureDesc, .form-control { font-size: 1.5vw; }
     .mockup, .illus { margin-top: 5vw; }
     .fooText, .widget_text a, .copy, .try, .get { font-size: 1.7vw; }
-
+    .fooTop { display: none; }
 }
 
 /******************************************************************
@@ -176,11 +186,13 @@ footer {
 @media screen and (min-width: 1024px)  and (max-width: 1439px){
     .widget_text a, .copy { font-size: 1.2vw; }
     .mockup { margin-top: 5vw; }
+    .fooTop { display: none; }
 }
 
 @media screen and (min-width: 1440px)  and (max-width: 2559px){
     .widget_text a, .copy { font-size: 1.2vw; }
     .mockup { margin-top: 5vw; }
+    .fooTop { display: none; }
 }
 
 @media screen and (min-width: 2560px) {
@@ -188,4 +200,5 @@ footer {
     .logo { width: 25vw; }
     .btn, .form-control { padding: 0.7vw 1vw; font-size: 1.2vw; }
     .mockup { margin-top: 5vw; }
+    .fooTop { display: none; }
 }
