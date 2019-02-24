@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: #fff;
     color: #000;
     overflow-x: hidden;
@@ -19,8 +19,22 @@ body {
 }
 
 .logo {
-    margin: 3rem 3rem;
+    margin: 4vw 4vw;
+    width: 12vw;
 }
+
+.group1 {
+  margin: 4vw -3vw;
+  text-align: right;
+}
+
+.group1 > .btn {
+  margin-left: 2vw;
+  padding: 0.5vw 2vw;
+}
+
+.mainIllus{ text-align: right;}
+
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
