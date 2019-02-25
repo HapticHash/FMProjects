@@ -1,5 +1,5 @@
 @import 'https://raw.githack.com/harshitks2203/FMProjects/master/FyloLandingPage1/css/fontline.css';
-@import url('https://fonts.googleapis.com/css?family=Raleway:500,700|Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:500,700|Open+Sans:400,600,700');
 * {
     margin: 0;
     padding: 0;
@@ -93,17 +93,28 @@ body {
 .heroTitle {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 2vw;
+    font-size: 3vw;
     text-align: center;
 }
 
 .heroDesc {
   font-weight: 400;
-  font-size: 1.1vw;
+  font-size: 1.5vw;
   color: hsl(0, 0%, 50%);
-  width: 33%;
+  width: 45%;
   margin: 1vw auto;
   text-align: center;
+}
+
+.featRow { margin-top: 5vw; }
+.device { height: 9vw; }
+
+.featText {
+    margin: 2vw auto;
+    font-weight: 600;
+    font-size: 1.5vw;
+    text-align: center;
+    width: 55%;
 
 }
 
