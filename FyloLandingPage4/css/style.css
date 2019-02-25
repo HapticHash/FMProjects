@@ -86,10 +86,26 @@ body {
     margin-right: -5vw;
 }
 
-.mtRow { margin-top: 10vw ;}
+.mtRow { margin-top: 20vw ;}
 
+.group1 a { color: #fff; text-decoration: none;}
 
+.heroTitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2vw;
+    text-align: center;
+}
 
+.heroDesc {
+  font-weight: 400;
+  font-size: 1.1vw;
+  color: hsl(0, 0%, 50%);
+  width: 33%;
+  margin: 1vw auto;
+  text-align: center;
+
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
