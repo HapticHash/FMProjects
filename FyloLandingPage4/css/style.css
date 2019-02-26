@@ -131,12 +131,11 @@ body {
     margin: 2vw auto;
 }
 
-.card { box-shadow: 0px 0px 11px 3px #eee; }
+.card { margin-bottom: 1vw; box-shadow: 0px 0px 11px 3px #eee; }
 .cardUp { margin-top: -5vw; }
 .cardImg {
     width: 13vw;
     margin: 3vw auto;
-
 }
 
 hr {
@@ -149,12 +148,12 @@ hr {
     font-weight: 700;
     font-size: 1.8vw;
     text-align: center;
-    margin: 1vw auto;
+    margin: 0 auto 1vw;
 }
 
 .cardText {
     font-weight: 400;
-    font-size: 1.2vw;
+    font-size: 1.25vw;
     text-align: center;
     color: hsl(0, 0%, 50%);
     width: 80%;
