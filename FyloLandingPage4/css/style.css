@@ -98,12 +98,12 @@ body {
 }
 
 .heroDesc {
-  font-weight: 400;
-  font-size: 1.5vw;
-  color: hsl(0, 0%, 50%);
-  width: 45%;
-  margin: 1vw auto;
-  text-align: center;
+    font-weight: 400;
+    font-size: 1.5vw;
+    color: hsl(0, 0%, 50%);
+    width: 45%;
+    margin: 1vw auto;
+    text-align: center;
 }
 
 .featRow { margin-top: 5vw; }
@@ -117,6 +117,50 @@ body {
     width: 55%;
 
 }
+.mtconnect{ margin-top: 10vw; padding: 0 2vw;}
+.connTitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2.4vw;
+}
+
+.connDesc {
+    font-weight: 400;
+    font-size: 1.1vw;
+    color: hsl(0, 0%, 50%);
+    margin: 2vw auto;
+}
+
+.card { box-shadow: 0px 0px 11px 3px #eee; }
+.cardUp { margin-top: -5vw; }
+.cardImg {
+    width: 13vw;
+    margin: 3vw auto;
+
+}
+
+hr {
+    margin: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.cardTitle{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.8vw;
+    text-align: center;
+    margin: 1vw auto;
+}
+
+.cardText {
+    font-weight: 400;
+    font-size: 1.2vw;
+    text-align: center;
+    color: hsl(0, 0%, 50%);
+    width: 80%;
+    margin: 0 auto;
+}
+
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
