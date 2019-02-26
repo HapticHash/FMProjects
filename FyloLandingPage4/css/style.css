@@ -122,21 +122,20 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 2.4vw;
+    margin-top: 15vw;
 }
 
 .connDesc {
     font-weight: 400;
-    font-size: 1.1vw;
+    font-size: 1.25vw;
     color: hsl(0, 0%, 50%);
     margin: 2vw auto;
 }
 
-.card { margin-bottom: 1vw; box-shadow: 0px 0px 11px 3px #eee; }
+.card { margin-top: 1vw; box-shadow: 0px 0px 11px 3px #eee; }
 .cardUp { margin-top: -5vw; }
-.cardImg {
-    width: 13vw;
-    margin: 3vw auto;
-}
+.cardImg { width: 13vw; margin: 3vw auto; }
+.cardImg2 { width: 7vw; margin: 2vw auto; }
 
 hr {
     margin: 0;
@@ -148,7 +147,7 @@ hr {
     font-weight: 700;
     font-size: 1.8vw;
     text-align: center;
-    margin: 0 auto 1vw;
+    margin: 0 auto 0.5vw;
 }
 
 .cardText {
