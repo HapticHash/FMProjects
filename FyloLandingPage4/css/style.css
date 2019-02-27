@@ -178,11 +178,10 @@ hr {
 
 .bottomBtn { text-align: center;}
 
-/***************/
 
 footer {
     background-color: hsl(243, 87%, 12%);
-    margin-top: 5vh;
+    margin-top: 10vh;
     color: #fff;
 }
 
@@ -197,11 +196,6 @@ footer {
     width: 3vw;
     display: inline;
     margin-left: 2vw;
-}
-
-.loc {
-    vertical-align: middle;
-    width: 1.25vw;
 }
 
 .locText {
@@ -243,3 +237,43 @@ footer {
 .list1 a {
     color: #fff;
 }
+
+.signUp {
+    display: inline-flex;
+    width: 90%;
+}
+
+input[type='text'] {
+    margin: 2vw 0 0 3vw;
+    width: 100%;
+    padding: 1vw 1vw;
+    color: black;
+    border-radius: 0.5vw;
+    border: 1px solid #ccc;
+    resize: vertical;
+    outline: none;
+    font-size: 1.2vw;
+    order: 1;
+    display: flex;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.join {
+    margin: 2vw 0 0 1vw;
+    width: 50%;
+    padding: 0.5vw;
+    background-color: hsl(163, 95%, 43%);
+    color: white;
+    border: none;
+    border-radius: 0.5vw;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    font-weight: 700;
+    order: 2;
+    font-size: 1.2vw;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.footerEnd { height: 15vh;}
