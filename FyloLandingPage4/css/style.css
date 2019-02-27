@@ -132,7 +132,7 @@ body {
     margin: 2vw auto;
 }
 
-.card { margin-top: 1vw; box-shadow: 0px 0px 11px 3px #eee; }
+.card { margin-top: 1vw; box-shadow: 0px 0px 13px 4px #eee; }
 .cardUp { margin-top: -5vw; }
 .cardImg { width: 13vw; margin: 3vw auto; }
 .cardImg2 { width: 7vw; margin: 2vw auto; }
@@ -159,6 +159,87 @@ hr {
     margin: 0 auto;
 }
 
+.bottomCol{ margin: 0 auto;}
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.bottomTitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.bottomText {
+    font-weight: 400;
+    font-size: 1.2vw;
+    color: hsl(0, 0%, 50%);
+    margin: 1vw auto;
+    text-align: center;
+}
+
+.bottomBtn { text-align: center;}
+
+/***************/
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+    margin-top: 5vh;
+    color: #fff;
+}
+
+.fLogo {
+    margin-top: 5vh;
+    margin-left: 2vw;
+}
+
+.locGroup { margin-left: 3vw; }
+
+.locIcon {
+    width: 3vw;
+    display: inline;
+    margin-left: 2vw;
+}
+
+.loc {
+    vertical-align: middle;
+    width: 1.25vw;
+}
+
+.locText {
+    font-size: 1.35vw;
+    font-weight: 700;
+    margin-left: 3vw;
+    width: 85%;
+}
+
+.icons {
+    margin-top: 5vh;
+    margin-left: 3vw;
+    font-size: 1.35vw;
+}
+
+.iconimg {
+    width: 1.5vw;
+    margin-top: 2vh;
+    vertical-align: middle;
+    margin-bottom: 0.75em;
+}
+
+.iconDesc {
+    font-size: 0.9em;
+    margin-left: 20px;
+}
+
+.widget_title{
+  font-size: 1.6vw;
+  font-weight: 700;
+  margin-bottom: 2vh;
+}
+
+.widget_text li {
+    margin: 0 0 1.5vh 0;
+}
+
+.widget_text a,
+.list1 a {
+    color: #fff;
+}
