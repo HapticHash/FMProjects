@@ -46,8 +46,7 @@ body {
 
 .mainDesc {
     font-weight: 400;
-    font-size: 1.1vw;
-    width: 72%;
+    font-size: 1.5vw;
     margin: 1vw 3vw;
     color: hsl(0, 0%, 50%);
 }
@@ -80,7 +79,7 @@ body {
     background-position: center;
     background-size: cover;
     width: 55%;
-    height: 110vh;
+    height: 55vw;
     margin-top: -53vw;
     margin-left: auto;
     margin-right: -5vw;
@@ -170,10 +169,11 @@ hr {
 
 .bottomText {
     font-weight: 400;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     color: hsl(0, 0%, 50%);
     margin: 1vw auto;
     text-align: center;
+    width: 95%;
 }
 
 .bottomBtn { text-align: center;}
