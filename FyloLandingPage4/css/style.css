@@ -219,17 +219,18 @@ footer {
 }
 
 .iconDesc {
-    font-size: 0.9em;
+    font-size: 1.3vw;
     margin-left: 20px;
 }
 
 .widget_title{
-  font-size: 1.6vw;
-  font-weight: 700;
-  margin-bottom: 2vh;
+    font-size: 1.6vw;
+    font-weight: 700;
+    margin-bottom: 2vh;
 }
 
 .widget_text li {
+    font-size: 1.35vw;
     margin: 0 0 1.5vh 0;
 }
 
@@ -289,19 +290,5 @@ input[type='text'] {
 /******************************************************************
 ************************* Tablet view CSS *************************/
 @media screen and (min-width: 768px)  and (max-width: 1023px){
-
-}
-
-/******************************************************************
-************************* Laptop view CSS *************************/
-@media screen and (min-width: 1024px)  and (max-width: 1439px){
-
-}
-
-@media screen and (min-width: 1440px)  and (max-width: 2559px){
-
-}
-
-@media screen and (min-width: 2560px) {
 
 }
