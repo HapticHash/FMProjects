@@ -78,7 +78,7 @@ body {
     object-fit: contain;
     background-position: center;
     background-size: cover;
-    width: 55%;
+    width: 56%;
     height: 55vw;
     margin-top: -53vw;
     margin-left: auto;
@@ -290,5 +290,41 @@ input[type='text'] {
 /******************************************************************
 ************************* Tablet view CSS *************************/
 @media screen and (min-width: 768px)  and (max-width: 1023px){
-
+    .mainTitle, .heroTitle, .bottomTitle{
+      line-height: 4vw;
+      font-size: 3.2vw;
+    }
+    .mainDesc, .heroDesc, .featText, .bottomText{
+      font-size: 1.7vw;
+    }
+    .group1 > .btn {
+      padding: 0.8vw 3vw;
+    }
+    .get{
+      font-size: 1.8vw;
+    }
+    .back{
+      height: 56vw;
+      margin-top: -63vw;
+    }
+    .connTitle{
+      font-size: 2.7vw;
+    }
+    .connDesc, input[type='text'], .join{
+      font-size: 1.6vw;
+    }
+    .cardTitle, .widget_title{
+      font-size: 2.2vw;
+    }
+    .cardText, .widget_text li {
+      font-size: 1.5vw;
+      width: 100%;
+    }
+    .locText, .iconDesc{
+      font-size: 1.8vw;
+    }
+    .iconimg {
+      width: 2.5vw;
+      margin-top: 1vh;
+    }
 }
