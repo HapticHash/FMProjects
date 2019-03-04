@@ -72,6 +72,8 @@ body {
     width: 25vw;
 }
 
+.backMob { display: hidden;}
+
 .back{
     background-image: url(../images/bg-intro-desktop.svg) !important;
     background-repeat: no-repeat;
@@ -284,7 +286,55 @@ input[type='text'] {
 /******************************************************************
 ************************* Mobile view CSS *************************/
 @media screen and (min-width: 320px)  and (max-width: 767px){
+    .logo {
+      width: 25vw;
+    }
 
+    .mainIllus{ order: 1; text-align: center;}
+
+    .mainText{ order: 2; text-align: center; margin: 0 auto;}
+
+    .mainTitle, .heroTitle, .bottomTitle{
+      line-height: 4vw;
+      font-size: 3.2vw;
+    }
+    .mainDesc, .heroDesc, .featText, .bottomText{
+      font-size: 1.7vw;
+    }
+    .group1 > .btn {
+      padding: 0.8vw 3vw;
+    }
+    .get{
+      font-size: 1.8vw;
+    }
+    .backMob {
+      display: visible;
+      background-image: url(../images/bg-intro-mobile.svg) !important;
+
+    }
+
+    .back{ display: hidden; }
+
+    .connTitle{
+      font-size: 2.7vw;
+    }
+    .connDesc, input[type='text'], .join{
+      font-size: 1.6vw;
+    }
+    .cardTitle, .widget_title{
+      font-size: 2.2vw;
+    }
+    .cardText, .widget_text li {
+      font-size: 1.5vw;
+      width: 100%;
+    }
+    .locText, .iconDesc{
+      font-size: 1.8vw;
+    }
+    .iconimg {
+      width: 2.5vw;
+      margin-top: 1vh;
+    }
 }
 
 /******************************************************************
