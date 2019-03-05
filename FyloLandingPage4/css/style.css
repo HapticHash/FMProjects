@@ -293,20 +293,21 @@ input[type='text'] {
 
     .mainIllus, .connTitle{ order: 1; text-align: center;}
     .mainText, .connDesc{ order: 2; text-align: center; }
-    .mainTitle, .mainDesc, .heroTitle, .heroDesc, .connTitle, .connDesc { width: 80%; margin: 5vw auto;}
+    .mainTitle, .mainDesc, .heroTitle, .heroDesc, .connTitle, .connDesc, .bottomText { width: 80%; margin: 5vw auto;}
     .illus { width: 50vw; margin-top: -15vw;}
     .device { height: 20vw; }
     .featGroup, .cardText { margin-top: 5vw;}
     .featText { width: 50%; font-size: 4.5vw; }
     .cardImg { width: 40vw; margin: 10vw auto; }
     .cardImg2 { width: 30vw; margin: 7vw auto; }
-
-    .mainTitle, .heroTitle, .bottomTitle, .connTitle, .cardTitle {
+    .cardText { width: 95%; }
+    .margWig { margin-top: 10vw !important;}
+    .mainTitle, .heroTitle, .bottomTitle, .connTitle, .cardTitle, .bottomTitle, .locText {
       line-height: 7.5vw;
       font-size: 7vw;
     }
 
-    .mainDesc, .heroDesc, .bottomText, .connDesc, .cardText{
+    .mainDesc, .heroDesc, .bottomText, .connDesc, .cardText, .bottomText, .iconDesc{
       font-size: 3.6vw;
     }
 
@@ -332,34 +333,50 @@ input[type='text'] {
     }
 
     .card, .cardUp {
-      width: 90% !important;
+      width: 70% !important;
       margin: 2.5vw auto;
     }
 
     .rowTxt {margin-top: 20vw;}
     .back{ display: none; }
 
-     input[type='text'], .join{
-      font-size: 1.6vw;
-    }
-
-     .widget_title{
-      font-size: 2.2vw;
-    }
-
-     .widget_text li {
-      font-size: 1.5vw;
+    .locText{
+      font-size: 3.6vw;
+      line-height: 5vw;
       width: 100%;
     }
 
-    .locText, .iconDesc{
-      font-size: 1.8vw;
-    }
-
     .iconimg {
-      width: 2.5vw;
-      margin-top: 1vh;
+      width: 6vw;
     }
+    .iconDesc { vertical-align: text-top; }
+    .icons { margin-top: 3vh; }
+
+    .signUp{
+      margin-left: 2vw;
+      display: block;
+      text-align: right;
+      width: 100%;
+    }
+    input[type='text'], .join{
+     font-size: 4vw;
+     margin: 2vw 1vw;
+     padding: 2vw 4vw;
+   }
+
+    .widget_title{
+     font-size: 5.2vw;
+     margin-left: 5vw;
+   }
+
+    .widget_text li {
+     font-size: 4vw;
+     width: 100%;
+     margin: 0 0 0.5vh 5vw;
+   }
+
+   .cards { margin-top: 5vw; margin-left: 5vw;}
+
 }
 
 /******************************************************************
