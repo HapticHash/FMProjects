@@ -307,17 +307,7 @@ input[type='text'] {
       font-size: 7vw;
     }
 
-    .mainDesc, .heroDesc, .bottomText, .connDesc, .cardText, .bottomText, .iconDesc{
-      font-size: 3.6vw;
-    }
-
-    .group1 > .btn {
-      padding: 0.8vw 3vw;
-    }
-
-    .get{
-      font-size: 3.8vw;
-    }
+    .mainDesc, .heroDesc, .bottomText, .connDesc, .cardText, .bottomText, .iconDesc{ font-size: 3.6vw; }
 
     .backMob {
       display: block;
@@ -337,8 +327,14 @@ input[type='text'] {
       margin: 2.5vw auto;
     }
 
-    .rowTxt {margin-top: 20vw;}
+    .group1 > .btn { padding: 0.8vw 3vw; }
+    .get{ font-size: 3.8vw; }
+    .rowTxt {margin-top: 22vw;}
     .back{ display: none; }
+    .iconimg { width: 6vw; }
+    .iconDesc { vertical-align: text-top; }
+    .icons { margin-top: 3vh; }
+    .cards { margin-top: 5vw; margin-left: 5vw;}
 
     .locText{
       font-size: 3.6vw;
@@ -346,18 +342,14 @@ input[type='text'] {
       width: 100%;
     }
 
-    .iconimg {
-      width: 6vw;
-    }
-    .iconDesc { vertical-align: text-top; }
-    .icons { margin-top: 3vh; }
-
     .signUp{
+      margin-top: 5vw;
       margin-left: 2vw;
       display: block;
       text-align: right;
       width: 100%;
     }
+
     input[type='text'], .join{
      font-size: 4vw;
      margin: 2vw 1vw;
@@ -375,7 +367,6 @@ input[type='text'] {
      margin: 0 0 0.5vh 5vw;
    }
 
-   .cards { margin-top: 5vw; margin-left: 5vw;}
 
 }
 
