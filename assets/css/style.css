@@ -113,10 +113,10 @@ a:hover {
 
 /********************* Mobile View CSS *********************/
 
-@media screen and (max-width: 320px) and (max-width: 374px){
+@media screen and (min-width: 320px) and (max-width: 374px){
   .backText {
-    font-size: 3.5em;
-    margin-top: 2%;
+    font-size: 18vw;
+    margin-top: 5vw;
   }
 
   .fml {
@@ -229,7 +229,7 @@ a:hover {
 }
 
 /********************* Tablet View CSS *********************/
-@media screen and (min-width: 768px) and (max-width:1023px){     
+@media screen and (min-width: 768px) and (max-width:1023px){
   .backText {
     font-size: 7em;
   }
@@ -250,7 +250,7 @@ a:hover {
   .up{
     margin-top: -11vh;
   }
- 
+
 }
 
 /********************* Laptop View CSS *********************/
@@ -267,7 +267,7 @@ a:hover {
   .up{
     margin-top: -15vh;
   }
- 
+
   .clap {
     margin-top: 2%;
     width: 50px !important;
@@ -277,7 +277,7 @@ a:hover {
   .count {
     margin-top: -1vh;
   }
-  
+
   footer .mail {
     text-align: center !important;
   }
@@ -300,7 +300,7 @@ a:hover {
   .up{
     margin-top: -16vh;
   }
-  
+
   .pName{
     font-size: 1.2em;
   }
@@ -309,7 +309,7 @@ a:hover {
     width: 6vw;
     margin-left: -1vw;
   }
-  
+
   footer .mail {
     text-align: center !important;
   }
@@ -336,7 +336,7 @@ a:hover {
   .pName{
     font-size: 2em;
   }
-  
+
   .btn{
     font-size: 1.6em !important;
     margin-top: 3%;
