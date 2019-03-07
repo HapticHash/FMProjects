@@ -1,4 +1,5 @@
 @import 'https://cdn.staticaly.com/gh/harshitks2203/FrontendMentorProjects/e9c320ef/HubbleLandingPage1/css/fontline.css';
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800');
 
 html,
 body,
@@ -8,20 +9,18 @@ body,
   overflow-x: hidden;
 }
 
-.fml {
-  width: 30%;
-}
+.fml { width: 10vw; }
 
-.mail {
-  text-align: center;
-}
+.mail { text-align: center; }
 
-.logo {
-  width: 70%;
-}
+.logo { width: auto; }
 
 img {
+  cursor: pointer;
   transition: all 0.5s ease-in-out;
+  border-radius: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 img:hover {
@@ -29,68 +28,53 @@ img:hover {
   transition: all 0.5s ease-in-out;
 }
 
-.card-body > a,
-a:link,
-a:visited,
-a:hover {
+.card-body > a, a:link, a:visited, a:hover {
   color: #fff !important;
 }
 
 .backText {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
-  font-weight: 900;
-  font-size: 12em;
-  margin-top: -10vh;
-  /* color: #444; #b5c2d3 */
-  /* background: -webkit-linear-gradient(147deg, #FF2525 2%, #FFE53B 75%); */
+  font-weight: 700;
+  font-size: 13vw;
+  margin-top: -12vh;
   background-image: radial-gradient( circle farthest-corner at 10% 20%,  #555 0%, #222 80% );
-  /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(227, 60, 59) 0%, rgba(227, 75, 143,1) 97.4% ); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .card-img-top {
   width: 95% !important;
+  height: 20vw;
   margin: auto !important;
 }
 
-img{
-  border-radius: 5px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.card-body,
-.footer-row {
+.card-body, .footer-row {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
+
+.up{ margin-top: -13.5vh; }
+.card { height: 28vw;}
+.card-body { margin-top: 1vw; }
 
 .count-container {
   top: -3vh !important;
 }
 
-a,
-a:link,
-a:visited,
-a:hover {
+a, a:link, a:visited, a:hover {
   cursor: pointer;
   text-decoration: none !important;
   color: #222;
 }
 
 
-.up{
-  margin-top: -15vh;
-}
-
 /************ Footer ************/
 .footer-row {
   display: flex;
 }
 .fab {
-  font-size: 1.4em;
+  font-size: 1.4vw;
 }
 .fa-heart {
   color: red;
@@ -114,37 +98,6 @@ a:hover {
 /********************* Mobile View CSS *********************/
 
 @media screen and (min-width: 320px) and (max-width: 374px){
-  .backText {
-    font-size: 18vw;
-    margin-top: 5vw;
-  }
-
-  .fml {
-    width: 40vw;
-  }
-
-  .up{
-    margin-top: -6vh;
-  }
-
-  .pName{
-    font-size: 12px;
-  }
-
-  .btn{
-    font-size: 12px !important;
-    margin-left: -4vw !important;
-  }
-
-  .clap {
-    margin-top: 1vh;
-    width: 35px !important;
-    height: 30px !important;
-  }
-
-  .count {
-    margin-top: -0.5vh;
-  }
 
   footer .mail,
   footer .made {
@@ -157,22 +110,6 @@ a:hover {
 }
 
 @media screen and (min-width: 375px) and (max-width: 424px){
-  .backText {
-    font-size: 4em;
-    margin-top: 2%;
-  }
-
-  .up{
-    margin-top: -7vh;
-  }
-
-  .fml {
-    width: 40vw;
-  }
-
-  .btn{
-    margin-left: -3vw !important;
-  }
 
   footer .mail,
   footer .made {
@@ -185,37 +122,7 @@ a:hover {
 }
 
 @media screen and (min-width: 425px) {
-  .backText {
-    font-size: 5em;
-    margin-top: -2vh;
-  }
 
-  .fml {
-    width: 40vw;
-  }
-
-  .up{
-    margin-top: -7vh;
-  }
-
-  .pName{
-    font-size: 15px;
-  }
-
-  .btn{
-    font-size: 15px;
-    margin-left: -3vw !important;
-  }
-
-  .clap {
-    margin-top: 1vh;
-    width: 40px !important;
-    height: 35px !important;
-  }
-
-  .count {
-    margin-top: -0.5vh;
-  }
 
   footer .mail,
   footer .made {
@@ -230,53 +137,11 @@ a:hover {
 
 /********************* Tablet View CSS *********************/
 @media screen and (min-width: 768px) and (max-width:1023px){
-  .backText {
-    font-size: 7em;
-  }
-
-  .fml {
-    width: 40%;
-  }
-
-  .made {
-    margin-left: 0px !important;
-    text-align: right !important;
-  }
-
-  .count {
-    margin-top: -1vh;
-  }
-
-  .up{
-    margin-top: -11vh;
-  }
 
 }
 
 /********************* Laptop View CSS *********************/
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
-  .backText {
-    font-size: 10em;
-    margin-top: -8vh;
-  }
-
-  .fml {
-    width: 30%;
-  }
-
-  .up{
-    margin-top: -15vh;
-  }
-
-  .clap {
-    margin-top: 2%;
-    width: 50px !important;
-    height: 45px !important;
-  }
-
-  .count {
-    margin-top: -1vh;
-  }
 
   footer .mail {
     text-align: center !important;
@@ -288,27 +153,7 @@ a:hover {
 }
 
 @media screen and (min-width: 1440px)and (max-width: 2559px) {
-  .backText {
-    font-size: 12em;
-    margin-top: -8%;
-  }
 
-  .fml {
-    width: 30%;
-  }
-
-  .up{
-    margin-top: -16vh;
-  }
-
-  .pName{
-    font-size: 1.2em;
-  }
-
-  .btn{
-    width: 6vw;
-    margin-left: -1vw;
-  }
 
   footer .mail {
     text-align: center !important;
@@ -320,39 +165,6 @@ a:hover {
 }
 
 @media screen and (min-width: 2560px) {
-  .backText {
-    font-size: 20em;
-    margin-top: -10%;
-  }
-
-  .fml {
-    width: 40%;
-  }
-
-  .up{
-    margin-top: -15vh;
-  }
-
-  .pName{
-    font-size: 2em;
-  }
-
-  .btn{
-    font-size: 1.6em !important;
-    margin-top: 3%;
-    width: 40%;
-  }
-
-  .clap {
-    margin-top: 3%;
-    width: 70px !important;
-    height: 65px !important;
-  }
-
-  .count {
-    margin-top: 8%;
-    font-size: 1.4em;
-  }
 
   footer {
     font-size: 2em;
