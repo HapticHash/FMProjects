@@ -10,10 +10,13 @@ body,
 }
 
 .fml { width: 10vw; }
-
 .mail { text-align: center; }
-
 .logo { width: auto; }
+.owl-stage { height: 31vw; }
+.card {
+  border-radius: 10px !important;
+  box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.109);
+}
 
 img {
   cursor: pointer;
@@ -37,7 +40,7 @@ img:hover {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 13vw;
-  margin-top: -12vh;
+  margin-top: -9vw;
   background-image: radial-gradient( circle farthest-corner at 10% 20%,  #555 0%, #222 80% );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -54,13 +57,28 @@ img:hover {
   font-weight: 500;
 }
 
-.up{ margin-top: -13.5vh; }
-.card { height: 28vw;}
+.up{ margin-top: -6.5vw; }
 .card-body { margin-top: 1vw; }
+
+.pName {
+  margin-left: 1vw;
+  padding-top: 0.5vw;
+  font-size: 1.2vw;
+  font-family: 'toucheSemibold', sans-serif;
+  font-weight: 500;
+}
+
 
 .count-container {
   top: -3vh !important;
 }
+
+.clap {
+  width: 3vw;
+  height: 3vw;
+}
+
+.count { margin-top: -0.5vw; color: green; font-size: 1.2vw;}
 
 a, a:link, a:visited, a:hover {
   cursor: pointer;
@@ -165,6 +183,10 @@ a, a:link, a:visited, a:hover {
 }
 
 @media screen and (min-width: 2560px) {
+
+  .backText { margin-top: -14vh; }
+  .pName { margin-left: 1vw; font-size: 1.1vw;}
+
 
   footer {
     font-size: 2em;
