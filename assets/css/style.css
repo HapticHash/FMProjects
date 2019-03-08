@@ -40,7 +40,7 @@ img:hover {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 13vw;
-  margin-top: -9vw;
+  margin-top: -10vw;
   background-image: radial-gradient( circle farthest-corner at 10% 20%,  #555 0%, #222 80% );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -156,7 +156,11 @@ a, a:link, a:visited, a:hover {
 
 /********************* Tablet View CSS *********************/
 @media screen and (min-width: 768px) and (max-width:1023px){
-
+  .owl-stage { height: 35vw; }
+  .pName { font-size: 1.6vw; }
+  .backText{ margin-top: -2vw; }
+  .clap { width: 5vw; height: 5vw; }
+  .count { font-size: 1.5vw; }
 }
 
 /********************* Laptop View CSS *********************/
