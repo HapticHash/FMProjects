@@ -119,42 +119,56 @@ a, a:link, a:visited, a:hover {
 @media screen and (min-width: 320px) and (max-width: 374px){
 
   .fml { width: 30vw; }
+  .owl-stage { height: 38vh; }
+  .card { height: 35vh; }
   .card-img-top { height: 15vh; }
   .backText{ margin-top: -2vw; font-size: 18vw;}
   .up{ margin-top: -9vw; }
   .pName { font-size: 3.5vw; }
   .clap { width: 10vw; height: 10vw; margin-top: 4vw;}
   .count { font-size: 3.5vw; }
-  footer .mail,
-  footer .made { text-align: left !important; }
+  footer .mail, footer .made { text-align: left !important; }
   footer .fab { font-size: 6.5vw;}
   .made { margin-left: 5px !important; }
 }
 
 @media screen and (min-width: 375px) and (max-width: 424px){
 
+  .fml { width: 30vw; }
+  .owl-stage { height: 38vh; }
+  .card { height: 35vh; }
+  .card-img-top { height: 17vh; }
+  .backText{ margin-top: -2vw; font-size: 18vw;}
+  .up{ margin-top: -9vw; }
+  .pName { font-size: 3.5vw; }
+  .clap { width: 10vw; height: 10vw; margin-top: 4vw;}
+  .count { font-size: 3.5vw; }
   footer .mail, footer .made { text-align: left !important; }
   footer .fab { font-size: 5.5vw;}
   .made { margin-left: 5px !important; }
 
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 425px) and (max-width: 550px) {
 
-  footer .mail,
-  footer .made { text-align: left !important; }
+  .fml { width: 30vw; }
+  .owl-stage { height: 42vh; }
+  .card { height: 40vh; }
+  .card-img-top { height: 20vh; }
+  .backText{ margin-top: -2vw; font-size: 18vw;}
+  .up{ margin-top: -9vw; }
+  .pName { font-size: 3.5vw; }
+  .clap { width: 10vw; height: 10vw; margin-top: 4vw;}
+  .count { font-size: 3.5vw; }
+  footer .mail, footer .made { text-align: left !important; }
   footer .fab { font-size: 4.5vw;}
-
-
-  .made {
-    margin-left: 0px !important;
-    text-align: right !important;
-  }
+  .made { margin-left: 0px !important; text-align: right !important; }
 
 }
 
 /********************* Tablet View CSS *********************/
 @media screen and (min-width: 768px) and (max-width:1023px){
+  
   .owl-stage { height: 35vw; }
   .pName { font-size: 1.6vw; }
   .backText{ margin-top: -2vw; font-size: 15vw;}
