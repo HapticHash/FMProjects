@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500,700|Poppins:400,500,600,700');
+
+html,
+body { overflow-x: hidden; }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+}
+
+.nopadding {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo { padding: 5vh 3vw 0 3vw; }
