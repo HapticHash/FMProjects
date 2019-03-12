@@ -74,21 +74,27 @@ body {
 }
 
 .countDesc{
-  font-size: 1.4vw;
-  color: #777;
+    font-size: 1.4vw;
+    color: #999;
 }
 
+.sectionTop { padding: 5vw 0; }
 .featGroup { margin: 2vw; padding: 0 2vw; }
 
-.featureTitle { font-size: 2.2vw; font-weight: 700; }
+.featureTitle {
+    font-size: 3vw;
+    font-weight: 700;
+    margin-top: 10vw;
+    font-family: 'Poppins', sans-serif;
+  }
 
 .featureDesc {
     font-size: 1.3vw;
     font-weight: 400;
-    color: hsl(208, 11%, 55%);
+    color: #999;
     margin-top: 0.5rem;
     width: 95%;
 }
 
-.featIllus { width: 80%; }
+.featIllus { width: 80%; text-align: center;}
 .sectionTop { background-color: hsl(202, 100%, 98%); }
