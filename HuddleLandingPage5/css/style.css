@@ -31,3 +31,38 @@ body {
     cursor: pointer;
     box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.109);
 }
+
+
+.mtRow { margin: 10vw 0; }
+
+.introTitle {
+    text-align: center;
+    font-size: 3.5vw;
+    font-weight: 700;
+}
+
+.introDesc {
+    margin: 0 auto;
+    margin-top: 1vw;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 400;
+    width: 50%;
+}
+
+.get {
+    margin: 3vw 0;
+    padding: 1.5vw 4.5vw;
+    color: #fff;
+    background-color: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 50px;
+    resize: vertical;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4vw;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 4px 5px 10px 3px rgba(0, 0, 0, 0.109);
+}
+.mockup { margin-top: 5vh; width: 80%; }
