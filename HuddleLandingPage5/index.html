@@ -42,6 +42,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous">
+    <!-- odometer -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-minimal.min.css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"></script>
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/style.css" />
@@ -89,8 +92,8 @@
           <div class="icon">
             <img src="./images/icon-communities.svg" class="img-fluid iconImg" alt="Huddle communities icon" />
           </div>
-          <div class="count">
-            1.4k+
+          <div class="count odometer">
+            0
           </div>
           <div class="countDesc">
             Communities Formed
@@ -103,8 +106,8 @@
           <div class="icon">
             <img src="./images/icon-messages.svg" class="img-fluid iconImg" alt="Huddle messages icon" />
           </div>
-          <div class="count">
-            2.7m+
+          <div class="count1 odometer">
+            0
           </div>
           <div class="countDesc">
             Messages Sent
@@ -144,6 +147,24 @@
       </div>
     </div>
 
+    <div class="row mtRow">
+        <div class="row">
+          <div class="col-md-6 flow">
+            <img src="./images/illustration-flowing-conversation.svg" class="img-fluid featIllus1" alt="Huddle illustration Flowing Conversations" />
+          </div>
+          <div class="col-md-6">
+            <div class="featGroup">
+              <div class="featureTitle">
+                Flowing Conversations
+              </div>
+              <div class="featureDesc">
+                You wouldn't paginate a conversation in real life, so why do it online? Our threads have
+                just-in-time loading for a more natural flow.
+              </div>
+             </div>
+          </div>
+        </div>
+    </div>
 
     <div class="row mtRow">
       <div class="bgSectionTop">
@@ -173,18 +194,22 @@
       </div>
     </div>
 
+    <div class="row mtRow">
+        <div class="col-md-12">
+          <div class="introTitle">
+            Ready To Build Your Community?
+          </div>
+          <div class="introBtn text-center blocks ">
+            <input type="submit" value="Get Started For Free" name="Get Started For Free" class="get" />
+          </div>
+
+          </div>
+        </div>
+    </div>
+
   </div>
 
 <!--
-
-  Flowing Conversations
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads have
-  just-in-time loading for a more natural flow.
-
-
-
-  Ready To Build Your Community?
-  Get Started For Free
 
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
   vestibulum a, ultrices quis sem.
@@ -206,6 +231,15 @@
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-
+  <script>
+  setTimeout(function(){
+  $('.count').html('1.4 ');
+  $('.count').append("k+");
+  }, 1000);
+  setTimeout(function(){
+  $('.count1').html('2.7 ');
+  $('.count1').append("m+");
+  }, 1000);
+  </script>
 </body>
 </html>

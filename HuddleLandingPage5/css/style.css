@@ -68,9 +68,13 @@ body {
 
 .mockup { margin-top: 5vh; width: 80%; }
 .iconImg { width: 3vw; }
-.count {
+.count, .count1 {
     font-size: 5.5vw;
     font-weight: 800;
+}
+
+.odometer.odometer-auto-theme, .odometer.odometer-auto-theme .odometer-digit, .odometer.odometer-theme-minimal, .odometer.odometer-theme-minimal .odometer-digit {
+        display: -webkit-inline-box;
 }
 
 .countDesc{
@@ -91,10 +95,11 @@ body {
 .featureDesc {
     font-size: 1.3vw;
     font-weight: 400;
-    color: #999;
+    color: #222;
     margin-top: 0.5rem;
     width: 95%;
 }
 
-.featIllus { width: 80%; text-align: center;}
+.featIllus, .featIllus1{ width: 80%; text-align: center;}
+.featIllus1 { margin-left: 3vw; }
 .sectionTop { background-color: hsl(202, 100%, 98%); }
