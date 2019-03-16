@@ -65,7 +65,7 @@ body {
     cursor: pointer;
     box-shadow: 4px 5px 10px 3px rgba(0, 0, 0, 0.109);
 }
-
+.bgSec{ width: 120vw; }
 .mockup { margin-top: 5vh; width: 80%; }
 .iconImg { width: 3vw; }
 .count, .count1 { font-size: 5.5vw; font-weight: 800; }
@@ -97,7 +97,7 @@ body {
 .featIllus1 { margin-left: 3vw; }
 .sectionTop { background-color: hsl(202, 100%, 98%); }
 footer { background-color:  hsl(192, 100%, 9%); color: #fff;}
-.fooRow { padding: 7vw 0 3vw 3vw;}
+.fooRow { margin-top: -0.2vw; padding: 7vw 0 3vw 3vw;}
 .fooLeftText { font-size: 1.35vw; margin: 1.5vw 3vw; width: 60%; }
 .icons { margin-top: 3vh; margin-left: 3vw; font-size: 1.35vw; }
 .iconimg { width: 1.5vw; margin-top: 2vh; vertical-align: middle; margin-bottom: 0.75em; }
