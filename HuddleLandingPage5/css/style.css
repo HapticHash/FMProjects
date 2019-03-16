@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500,700|Poppins:400,500,600,700');
 
 html,
-body { overflow-x: hidden; }
-
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #fff;
+    overflow-x: hidden;
 }
 
 .nopadding {
@@ -31,7 +30,6 @@ body {
     cursor: pointer;
     box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.109);
 }
-
 
 .mtRow { margin: 10vw 0; }
 
@@ -154,10 +152,14 @@ input[type='text'] {
 ************************* Mobile view CSS *************************/
 @media screen and (min-width: 320px)  and (max-width: 767px){
   .logo{ margin: 0 0 0 4vw; }
-  .try{ margin: 8vw 8vw 5vw 0; font-size: 3vw;}
-  .introTitle{ font-size: 6.5vw; width: 80%; margin: 0 auto;}
-  .introDesc{font-size: 3.6vw; width: 85%; margin: 2vw auto;}
-  .get{font-size: 3vw;}
+  .try{ margin: 8vw 8vw 5vw 0; font-size: 3vw; }
+  .introTitle{ font-size: 6.5vw; width: 80%; margin: 0 auto; }
+  .introDesc{ font-size: 3.6vw; width: 85%; margin: 2vw auto; }
+  .get{ font-size: 3vw; }
+  .group1{ text-align: center; margin-top: 2vw; }
+  .count, .count1 { font-size: 7vw; }
+  .countDesc{ font-size: 3vw; }
+  .iconImg { width: 5vw; margin-left: -14vw; }
 }
 
 /******************************************************************
