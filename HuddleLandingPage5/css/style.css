@@ -150,8 +150,12 @@ input[type='text'] {
 
 /******************************************************************
 ************************* Mobile view CSS *************************/
+
+.logo { margin: 1vw 5vw; }
+
+
 @media screen and (min-width: 320px)  and (max-width: 767px){
-  .logo{ margin: 0 0 0 4vw; }
+  .logo{ width: 50%; margin: 4vw; }
   .try{ margin: 8vw 8vw 5vw 0; font-size: 4vw; padding: 1vw 6vw;}
   .introTitle{ font-size: 6.5vw; width: 80%; margin: 0 auto; }
   .introDesc{ font-size: 3.6vw; width: 85%; margin: 2vw auto; }
@@ -168,10 +172,29 @@ input[type='text'] {
   .featureTitle { font-size: 6vw; }
   .featureDesc { font-size: 3.6vw; margin-bottom: 4vw; }
   .ready { margin-top: 10vw; }
-  .free { margin-top: 5vw; margin-bottom: 20vw; }
-  .flogo { width: 50%; margin: 4vw;}
-  .fooLeftText { font-size: 3.6vw; width: 85%;}
 
+  .fooRow { padding: 10vw 0 3vw 5vw; }
+  .free { margin-top: 5vw; margin-bottom: 20vw; }
+  .flogo { width: 50%; margin: 8vw 4vw 4vw;}
+  .fooRightText { font-size: 5vw; }
+  .fooLeftText, .fooRightDesc, .iconDesc { font-size: 3.7vw; width: 85%;}
+  .icons{ margin: 5vw 4vw;}
+  .iconimg { width: 4.5vw; padding-top: 1.5vw;}
+  .iconDesc { vertical-align: bottom; }
+  .fab { margin: 5vw 4vw 5vw 4vw; font-size: 6.5vw; }
+  input[type='text'], .subs {
+    font-size: 4vw;
+    margin: 2vw 0;
+    padding: 2vw 4vw;
+    border-radius: 5px;
+  }
+  .signUp{
+    margin-top: 5vw;
+    margin-left: 3vw;
+    display: block;
+    text-align: right;
+    width: 80%;
+  }
 }
 
 /******************************************************************
