@@ -168,7 +168,7 @@ a, a:link, a:visited, a:hover {
 
 /********************* Tablet View CSS *********************/
 @media screen and (min-width: 768px) and (max-width:1023px){
-  
+
   .owl-stage { height: 35vw; }
   .pName { font-size: 1.6vw; }
   .backText{ margin-top: -2vw; font-size: 15vw;}
