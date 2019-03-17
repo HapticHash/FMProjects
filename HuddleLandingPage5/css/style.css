@@ -152,14 +152,26 @@ input[type='text'] {
 ************************* Mobile view CSS *************************/
 @media screen and (min-width: 320px)  and (max-width: 767px){
   .logo{ margin: 0 0 0 4vw; }
-  .try{ margin: 8vw 8vw 5vw 0; font-size: 3vw; }
+  .try{ margin: 8vw 8vw 5vw 0; font-size: 4vw; padding: 1vw 6vw;}
   .introTitle{ font-size: 6.5vw; width: 80%; margin: 0 auto; }
   .introDesc{ font-size: 3.6vw; width: 85%; margin: 2vw auto; }
-  .get{ font-size: 3vw; }
+  .get{ font-size: 4vw; padding: 3vw 7vw; }
   .group1{ text-align: center; margin-top: 2vw; }
   .count, .count1 { font-size: 7vw; }
   .countDesc{ font-size: 3vw; }
   .iconImg { width: 5vw; margin-left: -14vw; }
+  .featIllus, .featIllus1 { margin: 5vw; text-align: center; }
+  .grow, .flow, .mTop { order: 1; }
+  .growUp, .mBot { order: 2; }
+  .grow, .flow { order: 1; margin: 2vw auto; width: 80%; }
+  .featGroup { width: 90%; margin: 0 auto; text-align: center; }
+  .featureTitle { font-size: 6vw; }
+  .featureDesc { font-size: 3.6vw; margin-bottom: 4vw; }
+  .ready { margin-top: 10vw; }
+  .free { margin-top: 5vw; margin-bottom: 20vw; }
+  .flogo { width: 50%; margin: 4vw;}
+  .fooLeftText { font-size: 3.6vw; width: 85%;}
+
 }
 
 /******************************************************************
