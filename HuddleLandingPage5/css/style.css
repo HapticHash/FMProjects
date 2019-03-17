@@ -150,12 +150,20 @@ input[type='text'] {
 
 /******************************************************************
 ************************* Mobile view CSS *************************/
+@media screen and (min-width: 320px)  and (max-width: 374px){
+  .logo { margin: 1vw 5vw !important; }
+}
 
-.logo { margin: 1vw 5vw; }
+@media screen and (min-width: 375px)  and (max-width: 424px){
+  .logo { margin: 2vw 5vw !important; }
+}
 
+@media screen and (min-width: 425px)  and (max-width: 767px){
+  .logo { margin: 3vw 5vw !important; }
+}
 
 @media screen and (min-width: 320px)  and (max-width: 767px){
-  .logo{ width: 50%; margin: 4vw; }
+  .logo{ width: 100%; }
   .try{ margin: 8vw 8vw 5vw 0; font-size: 4vw; padding: 1vw 6vw;}
   .introTitle{ font-size: 6.5vw; width: 80%; margin: 0 auto; }
   .introDesc{ font-size: 3.6vw; width: 85%; margin: 2vw auto; }
@@ -201,18 +209,19 @@ input[type='text'] {
 ************************* Tablet view CSS *************************/
 @media screen and (min-width: 768px)  and (max-width: 1023px){
   .get, .try, .subs, input[type='text'] { font-size: 1.5vw; }
+  .flogo { padding: 5vh 3vw 0 3vw; }
 }
 
 /******************************************************************
 ************************* Laptop view CSS *************************/
 @media screen and (min-width: 1024px)  and (max-width: 1439px){
-
+  .flogo { padding: 5vh 3vw 0 3vw; }
 }
 
 @media screen and (min-width: 1440px)  and (max-width: 2559px){
-
+  .flogo { padding: 5vh 3vw 0 3vw; }
 }
 
 @media screen and (min-width: 2560px) {
-
+  .flogo, .logo { padding: 5vh 3vw 0 3vw; width: 55%; }
 }
