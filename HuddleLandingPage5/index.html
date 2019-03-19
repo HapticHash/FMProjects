@@ -55,6 +55,21 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/style.css" />
 
+    <script>
+    function validateemail() {
+      var x=document.myform.email.value;
+      var atposition=x.indexOf("@");
+      var dotposition=x.lastIndexOf(".");
+      if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length) {
+        alert("Please enter a valid e-mail address");
+        return false;
+        }
+        else {
+          alert("e-mail address is valid");
+        }
+    }
+    </script>
+
 </head>
 
 <body>
@@ -68,7 +83,7 @@
             alt="Huddle logo" /> </a>
       </div>
       <div class="col-7 col-sm-7 col-md-6 text-right">
-        <input type="submit" value="Try It Free" name="Try It Free" class="try" />
+        <input type="submit" value="Try It Free" name="Try It Free" class="try trans" />
       </div>
 
     </div>
@@ -83,7 +98,7 @@
             your audience. Create connections with your users as you engage in genuine discussion.
           </div>
           <div class="introBtn text-center blocks animated fadeInDown delay-1s">
-            <input type="submit" value="Get Started For Free" name="Get Started For Free" class="get" />
+            <input type="submit" value="Get Started For Free" name="Get Started For Free" class="get trans" />
           </div>
           <div class="mock text-center animated fadeInDown delay-2s">
             <img src="./images/screen-mockups.svg" class="img-fluid mockup" alt="Huddle screen mockups" />
@@ -206,7 +221,7 @@
             Ready To Build Your Community?
           </div>
           <div class="introBtn text-center blocks ">
-            <input type="submit" value="Get Started For Free" name="Get Started For Free" class="get free" />
+            <input type="submit" value="Get Started For Free" name="Get Started For Free" class="get free trans" />
           </div>
         </div>
     </div>
@@ -243,10 +258,12 @@
           <div class="fooRightDesc animated fadeInUp delay-1s">
             To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass on your email address
           </div>
+          <form name="myform"  method="post" action="#" onsubmit="return validateemail();">
           <div class="signUp animated fadeInUp delay-2s">
-            <input name="email" type="text" placeholder="email@example.com" />
-            <input type="submit" name="Subscribe" value="Subscribe" class="subs" />
+              <input name="email" type="text" placeholder="email@example.com" />
+              <input type="submit" name="Subscribe" value="Subscribe" class="subs" />
           </div>
+        </form>
         </div>
       </div>
       <div class="row animated fadeInUp delay-2s">
@@ -270,6 +287,7 @@
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+
   <script>
   setTimeout(function(){
   $('.count').html('1.4 ');
@@ -280,5 +298,6 @@
   $('.count1').append("m+");
   }, 1000);
   </script>
+
 </body>
 </html>

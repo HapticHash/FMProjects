@@ -63,6 +63,18 @@ body {
     cursor: pointer;
     box-shadow: 4px 5px 10px 3px rgba(0, 0, 0, 0.109);
 }
+
+.trans {
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.trans:hover{
+  transform: scale(1.05);
+}
+
+
 .bgSec{ width: 120vw; }
 .mockup { margin-top: 5vh; width: 80%; }
 .iconImg { width: 3vw; }
