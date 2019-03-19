@@ -32,6 +32,16 @@ body {
     box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.109);
 }
 
+.trans {
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.trans:hover{
+  transform: scale(1.05);
+}
+
 .mtRow { margin: 10vw 0; }
 
 .introTitle, .buildTitle {

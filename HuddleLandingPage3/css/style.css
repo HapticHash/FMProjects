@@ -49,6 +49,16 @@ body {
     box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.109);
 }
 
+.trans {
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.trans:hover{
+  transform: scale(1.05);
+}
+
 .hero {
     margin-top: 5vh;
 }
@@ -311,11 +321,11 @@ footer {
     .heroGroup {
         margin-top: 8vh;
     }
-    
+
     .heroDesc {
         font-size: 1.5vw;
     }
-    
+
     .featGroup {
         margin-top: 7vw;
     }
@@ -376,7 +386,7 @@ footer {
         padding: 2.8vh 8vw;
         margin: 3vw 0;
     }
-    
+
     .cTitle,
     .featureTitle {
         font-size: 2.5vw;

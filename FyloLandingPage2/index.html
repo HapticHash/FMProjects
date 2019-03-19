@@ -11,6 +11,8 @@
   <meta name="author" content="Harshit Kumar Singh">
   <!-- <meta http-equiv="refresh" content="30"> -->
 
+  <title>Frontend Mentor | Beta sign up split layout Challenge</title>
+
   <!-- Google / Search Engine Tags -->
   <meta itemprop="name" content="Frontend Mentor Challenge Solution of Fylo Beta sign up split layout">
   <meta itemprop="description" content="Developed by Harshit Kumar Singh. Hope you like it. Do not forget to share it if you liked.">
@@ -45,9 +47,20 @@
 
   <link rel="stylesheet" href="./css/style.css" />
 
-
-  <title>Frontend Mentor | Beta sign up split layout Challenge</title>
-
+  <script>
+  function validateemail() {
+    var x=document.myform.email.value;
+    var atposition=x.indexOf("@");
+    var dotposition=x.lastIndexOf(".");
+    if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length) {
+      alert("Please enter a valid e-mail address");
+      return false;
+      }
+      else {
+        alert("e-mail address is valid");
+      }
+  }
+  </script>
 
 </head>
 
@@ -65,9 +78,9 @@
             </div>
 
             <div class="col-6 social">
-              <a href="#"> <i class="fab fa-twitter"></i> </a>
-              <a href="#"> <i class="fab fa-facebook-f"></i> </a>
-              <a href="#"> <i class="fas fa-envelope"></i> </a>
+              <a href="#"> <i class="trans fab fa-twitter"></i> </a>
+              <a href="#"> <i class="trans fab fa-facebook-f"></i> </a>
+              <a href="#"> <i class="trans fas fa-envelope"></i> </a>
             </div>
 
           </div>
@@ -85,9 +98,9 @@
             </div>
 
             <div class="col-sm-6 col-md-6 social">
-              <a href="#"> <i class="fab fa-twitter"></i> </a>
-              <a href="#"> <i class="fab fa-facebook-f"></i> </a>
-              <a href="#"> <i class="fas fa-envelope"></i> </a>
+              <a href="#"> <i class="trans fab fa-twitter"></i> </a>
+              <a href="#"> <i class="trans fab fa-facebook-f"></i> </a>
+              <a href="#"> <i class="trans fas fa-envelope"></i> </a>
             </div>
 
           </div>
@@ -119,11 +132,12 @@
               Sign up for early access
             </div>
 
-            <div class="group1">
-              <input name="email" type="text" placeholder="email@example.com" />
-              <input type="submit" name="Sign up" value="Sign Up" class="sign" />
-            </div>
-
+            <form name="myform"  method="get" action="" onsubmit="return validateemail();">
+              <div class="group1">
+                <input name="email" type="text" placeholder="email@example.com" />
+                <input type="submit" name="Sign up" value="Sign Up" class="sign trans" />
+              </div>
+            </form>
           </div>
         </div>
 

@@ -53,6 +53,16 @@ body {
     color: #222;
 }
 
+.trans {
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.trans:hover{
+  transform: scale(1.05);
+}
+
 #bottom {
     text-align: center;
     width: 80%;

@@ -46,7 +46,20 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="./css/style.css" />
 
-
+  <script>
+  function validateemail() {
+    var x=document.myform.email.value;
+    var atposition=x.indexOf("@");
+    var dotposition=x.lastIndexOf(".");
+    if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length) {
+      alert("Please enter a valid e-mail address");
+      return false;
+      }
+      else {
+        alert("e-mail address is valid");
+      }
+  }
+  </script>
 </head>
 <body>
 
@@ -187,12 +200,14 @@
           <div class="fooRText">
             SUBSCRIBE
           </div>
-          <div class="input-group fooGroup1">
-            <input type="text" class="form-control" placeholder="email@example.com" aria-label="email@example.com" aria-describedby="basic-addon2">
-            <div class="input-group-append">
-              <button class="btn" type="button"><i class="fas fa-arrow-right"></i></button>
+          <form name="myform"  method="get" action="" onsubmit="return validateemail();">
+            <div class="input-group fooGroup1">
+              <input type="text" class="form-control" placeholder="email@example.com" aria-label="email@example.com" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn" type="submit"><i class="fas fa-arrow-right"></i></button>
+              </div>
             </div>
-          </div>
+          </form>
         </div>
 
         <div class="col-md-1"></div>

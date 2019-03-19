@@ -67,6 +67,16 @@ body {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
+.trans {
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.trans:hover{
+  transform: scale(1.05);
+}
+
 .illus {
     margin: 0 10vw;
     width: 25vw;

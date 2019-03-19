@@ -11,6 +11,8 @@
   <!-- <meta http-equiv="refresh" content="30"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <title> Frontend Mentor | Fylo landing page with features grid section </title>
+
   <!-- Google / Search Engine Tags -->
   <meta itemprop="name" content="Frontend Mentor Challenge Solution of Fylo landing page with features grid section">
   <meta itemprop="description" content="Developed by Harshit Kumar Singh. Hope you like it. Do not forget to share it if you liked.">
@@ -46,9 +48,20 @@
 
   <link rel="stylesheet" href="./css/style.css" />
 
-  <title>
-    Frontend Mentor | Fylo landing page with features grid section
-  </title>
+  <script>
+  function validateemail() {
+    var x=document.myform.email.value;
+    var atposition=x.indexOf("@");
+    var dotposition=x.lastIndexOf(".");
+    if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length) {
+      alert("Please enter a valid e-mail address");
+      return false;
+      }
+      else {
+        alert("e-mail address is valid");
+      }
+  }
+  </script>
 </head>
 
 <body>
@@ -62,7 +75,7 @@
         </div>
         <div class="col sign">
           <a class="signin" href="#signIn">Sign In</a>
-          <button type="button" class="btn btn-success px-4">Sign Up</button>
+          <button type="button" class="btn btn-success px-4 trans">Sign Up</button>
         </div>
 
       </div>
@@ -72,7 +85,7 @@
           <img src="./images/illustration-hero.svg" class="img-fluid hero" alt="illustration hero" />
           <p class="title">All Your Files In One Secure <br> Location, Accessible Anywhere. </p>
           <br>
-          <button type="button" class="btn btn-success get">Get Started</button>
+          <button type="button" class="btn btn-success get trans">Get Started</button>
 
         </div>
       </div>
@@ -146,10 +159,12 @@
 
       <div class="row">
         <div class="col text-center">
-          <div id="bottom">
-            <input name="email" type="text" placeholder="email@example.com" />
-            <input type="submit" value="Join" name="Join" placeholder="join" id="join" />
-          </div>
+          <form name="myform"  method="get" action="" onsubmit="return validateemail();">
+            <div id="bottom">
+              <input name="email" type="text" placeholder="email@example.com" />
+              <input type="submit" value="Join" name="Join" placeholder="join" id="join" class="trans"/>
+            </div>
+          </form>
         </div>
       </div>
 
@@ -209,10 +224,10 @@
               <div class=" row widget_text updates"> Receive updates from us, including tips and tricks on how to
                 improve your
                 workflow. </div>
-              <div class=" row widget_text"> <input name="email" type="text" placeholder="email@example.com" /> </div>
-              <div class=" row widget_text text-right"> <input type="submit" value="Join" name="Join" placeholder="join"
-                  id="join" />
-              </div>
+                <form name="myform"  method="get" action="" onsubmit="return validateemail();">
+                  <div class=" row widget_text"> <input name="email" type="text" placeholder="email@example.com" /> </div>
+                  <div class=" row widget_text text-right"> <input type="submit" value="Join" name="Join" placeholder="join"class="trans"  id="join" /> </div>
+                </form>
             </div>
           </div>
         </div>
