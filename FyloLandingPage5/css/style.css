@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:500,600,700|Open+Sans:400,500,600,700');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+    color: #000;
+    overflow-x: hidden;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.logo {
+    margin: 3vw 3vw;
+}
+
+.group1 {
+    margin-top: 3.5vw;
+    margin-left: -3vw;
+    font-size: 1.2vw;
+}
+
+.group1>ul li {
+    display: inline;
+    padding: 1vw;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
+    color: #000;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1vw;
+    margin: 0 auto;
+    background-color: #eee;
+}

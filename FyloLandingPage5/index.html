@@ -47,12 +47,56 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="./css/style.css" />
 
+  <script>
+  function validateemail() {
+    var x=document.myform.email.value;
+    var atposition=x.indexOf("@");
+    var dotposition=x.lastIndexOf(".");
+    if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length) {
+      alert("Please enter a valid e-mail address");
+      return false;
+      }
+      else {
+        alert("e-mail address is valid");
+      }
+  }
+  </script>
+
 </head>
 <body>
 
-  <!-- Features
-  Team
-  Sign In
+  <div class="container-fluid nopadding">
+
+    <div class="row">
+      <div class="col-4 col-sm-4 col-md-8">
+        <a href="javascript:void(0)"> <img src="./images/logo.svg" class="img-fluid logo" alt="Fylo logo" /> </a>
+      </div>
+      <div class="col-8 col-sm-8 col-md-4 text-right group1">
+        <ul class="list1">
+          <li><a href="javascript:void(0)">Features</a></li>
+          <li><a href="javascript:void(0)">Team</a></li>
+          <li><a href="javascript:void(0)">Sign In</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row intro">
+      <div class="leftDiv">
+        <div class="introTitle">
+
+        </div>
+        <div class="introDesc">
+
+        </div>
+      </div>
+      <div class="rightDiv">
+        hi
+      </div>
+    </div>
+
+  </div>
+  
+  <!--
 
   All your files in one secure location, accessible anywhere.
 
