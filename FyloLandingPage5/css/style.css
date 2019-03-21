@@ -124,3 +124,16 @@ input[type='text'] {
     border-bottom: 1px solid hsl(170, 45%, 43%);
     color: hsl(170, 45%, 43%) !important;
 }
+
+.card {
+  width: 30vw;
+  border-radius: 10px;
+  margin: 3vw 0 2vw 2vw;
+}
+
+.card-body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.quote { width: 1.2vw; margin: 1vw 0;}
