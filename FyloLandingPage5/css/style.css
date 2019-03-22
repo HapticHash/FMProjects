@@ -142,3 +142,12 @@ input[type='text'] {
 .profileDetails { margin-top: 1.1vw; margin-left: -2vw;}
 .profileName { font-weight: 800; font-size: 1vw;  }
 .profileDesc { font-size: 0.8vw;}
+
+.lightBlue {
+    background-color:hsl(238, 22%, 44%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2vw;
+    padding: 3vw;
+    vertical-align: center;
+}
