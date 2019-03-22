@@ -63,12 +63,14 @@ a:active {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
 }
-.signUp { display: inline-flex; width: 85%; margin-left: 1vw;}
 
+.signUp { display: inline-flex; width: 85%; margin-left: 1vw;}
+.signUp2 { display: block; width: 80%; margin: 5.5vw auto;}
+.email { box-shadow: 2px 2px 8px 2px #444; border-color: transparent !important; }
 input[type='text'] {
     margin: 2vw 0 0 1vw;
     width: 100%;
-    padding: 0.7vw 1vw;
+    padding: 1vw 1vw;
     color: black;
     border-radius: 0.3vw;
     border: 1px solid #222;
@@ -83,7 +85,7 @@ input[type='text'] {
 .get {
     margin: 2vw 0 0 1vw;
     width: 50%;
-    padding: 0.7vw 4vw;
+    padding: 1vw 3vw;
     background-color: hsl(224, 93%, 58%);
     color: white;
     border: none;
