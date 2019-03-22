@@ -60,7 +60,7 @@ a:active {
 .featureTitle {
   margin: 5vw 0 3vw 2vw;
   font-size: 2.7vw;
-  font-family: 'Raleway',fantasy sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
 }
 .signUp { display: inline-flex; width: 85%; margin-left: 1vw;}
@@ -144,10 +144,25 @@ input[type='text'] {
 .profileDesc { font-size: 0.8vw;}
 
 .lightBlue {
-    background-color:hsl(238, 22%, 44%);
+    background-color: hsl(238, 22%, 44%);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2vw;
     padding: 3vw;
     vertical-align: center;
+}
+
+.textTitle {
+  margin: 5vw 0 1vw;
+  font-size: 2.7vw;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  color: #fff;
+}
+
+.textDesc {
+  margin: 1vw 0 3vw;
+  width: 95%;
+  font-size: 1.35vw;
+  color: #fff;
 }
