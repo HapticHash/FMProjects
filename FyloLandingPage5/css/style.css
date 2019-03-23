@@ -12,9 +12,7 @@ body {
     overflow-x: hidden;
 }
 
-.logo {
-    margin: 3vw 3vw;
-}
+.logo { margin: 3vw 3vw; }
 
 .group1 {
     margin-top: 3.5vw;
@@ -174,13 +172,8 @@ input[type='text'] {
     color: #fff;
 }
 
-.fLogo {
-    margin: 7vh 1vw 1vw;
-  }
-
-.icons {
-  margin-left: 2vw;
-}
+.fLogo { margin: 7vh 1vw 1vw; }
+.icons { margin-left: 2vw; }
 .iconimg {
     margin-top: 2vh;
     width: 1.5vw;
@@ -193,14 +186,9 @@ input[type='text'] {
     margin-left: 20px;
 }
 
-.widget_text li {
-    margin: 0 0 1.5vh 0;
-}
+.widget_text li { margin: 0 0 1.5vh 0; }
 
-.widget_text a,
-.list1 a {
-    color: #fff;
-}
+.widget_text a{ color: #fff; }
 
 .socials {
     display: flex;
@@ -217,10 +205,6 @@ input[type='text'] {
     margin-left: 1rem;
 }
 
-.fa-facebook-f {
-    padding: 0.5rem 0.8rem;
-}
+.fa-facebook-f { padding: 0.5rem 0.8rem; }
 
-.footerEnd {
-    height: 10vh;
-}
+.footerEnd { height: 10vh; }
