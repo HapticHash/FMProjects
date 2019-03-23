@@ -167,7 +167,7 @@ input[type='text'] {
   color: #fff;
 }
 
-.footer {
+.foo {
     background-color: hsl(243, 87%, 12%);
     color: #fff;
 }
@@ -182,11 +182,11 @@ input[type='text'] {
 }
 
 .iconDesc {
-    font-size: 0.9em;
+    font-size: 1.5vw;
     margin-left: 20px;
 }
 
-.widget_text li { margin: 0 0 1.5vh 0; }
+.widget_text li { margin: 0 0 1.5vh 0; font-size: 1.5vw; }
 
 .widget_text a{ color: #fff; }
 
