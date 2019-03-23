@@ -168,3 +168,80 @@ input[type='text'] {
   font-size: 1.35vw;
   color: #fff;
 }
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+    color: #fff;
+}
+
+.fLogo {
+    margin-top: 5vh;
+    margin-left: 2vw;
+}
+
+.locGroup {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-left: 3vw;
+}
+
+.locIcon {
+    width: 3vw;
+    display: inline;
+    margin-left: 2vw;
+}
+
+.loc {
+    vertical-align: middle;
+    width: 1.25vw;
+}
+
+.locText {
+    display: inline;
+    margin-left: 2vw;
+}
+
+.iconimg {
+    margin-top: 2vh;
+    width: 1.5vw;
+    vertical-align: middle;
+    margin-bottom: 0.75em;
+}
+
+.iconDesc {
+    font-size: 0.9em;
+    margin-left: 20px;
+}
+
+.widget_text li {
+    margin: 0 0 1.5vh 0;
+}
+
+.widget_text a,
+.list1 a {
+    color: #fff;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+}
+
+.fab {
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5em;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: inline;
+    margin-left: 1rem;
+}
+
+.fa-facebook-f {
+    padding: 0.5rem 0.8rem;
+}
+
+.footerEnd {
+    height: 10vh;
+}
