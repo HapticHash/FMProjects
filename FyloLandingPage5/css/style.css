@@ -33,7 +33,6 @@ a:active {
     text-decoration: none;
     color: #000;
 }
-
 .intro {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -42,7 +41,6 @@ a:active {
     margin: 3vw auto;
     vertical-align: center;
 }
-
 .mtRow { margin-top: 10vw;}
 .introTitle {
   margin: 5vw 2vw 1vw;
@@ -50,19 +48,16 @@ a:active {
   font-family: 'Raleway',fantasy sans-serif;
   font-weight: 800;
 }
-
 .introDesc, .featureDesc {
   margin: 1vw 2vw;
   font-size: 1.35vw;
 }
-
 .featureTitle {
   margin: 5vw 0 3vw 2vw;
   font-size: 2.7vw;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
 }
-
 .signUp { display: inline-flex; width: 85%; margin-left: 1vw;}
 .signUp2 { display: block; width: 80%; margin: 5.5vw auto;}
 .email { box-shadow: 2px 2px 8px 2px #444; border-color: transparent !important; }
@@ -80,7 +75,6 @@ input[type='text'] {
     display: flex;
     font-weight: 500;
 }
-
 .get {
     margin: 2vw 0 0 1vw;
     width: 50%;
@@ -97,54 +91,45 @@ input[type='text'] {
     font-size: 1.2vw;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
-
 .trans {
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
-
 .trans:hover{ transform: scale(1.05); }
 .sectionTop { padding: 5vw 0; background-color: #f8f8fe; }
 .bgSec{ width: 120vw; }
-
 .illus {
   width: 90%;
   margin: 0 auto;
 }
-
 .learn {
     padding-top: 2vh;
     padding-left: 2vw;
     font-size: 1.5vw;
     line-height: 1.5rem;
 }
-
 .learn>a {
     padding-bottom: 5px !important;
     border-bottom: 1px solid hsl(170, 45%, 43%);
     color: hsl(170, 45%, 43%) !important;
 }
-
 .card {
   width: 30vw;
   border-radius: 10px;
   margin: 3vw 0 2vw 2vw;
   box-shadow: 0px 0px 10px 0px #ddd;
 }
-
 .card-body {
   width: 90%;
   margin: 0 auto;
 }
-
 .quote { width: 1.35vw; margin: 1vw 0;}
 .cardText{font-size: 1.2vw;}
 .test { border-radius: 50%; width: 70%; margin: 1vw auto;}
 .profileDetails { margin-top: 1.1vw; margin-left: -2vw;}
 .profileName { font-weight: 800; font-size: 1vw;  }
 .profileDesc { font-size: 0.8vw;}
-
 .lightBlue {
     background-color: hsl(238, 22%, 44%);
     display: grid;
@@ -153,7 +138,6 @@ input[type='text'] {
     padding: 3vw;
     vertical-align: center;
 }
-
 .textTitle {
   margin: 5vw 0 1vw;
   font-size: 2.7vw;
@@ -161,19 +145,16 @@ input[type='text'] {
   font-weight: 800;
   color: #fff;
 }
-
 .textDesc {
   margin: 1vw 0 3vw;
   width: 95%;
   font-size: 1.25vw;
   color: #fff;
 }
-
 .foo {
     background-color: hsl(243, 87%, 12%);
     color: #fff;
 }
-
 .fLogo { margin: 7vh 1vw 1vw; width: 12vw;}
 .icons { margin-left: 2vw; }
 .iconimg {
@@ -182,12 +163,10 @@ input[type='text'] {
     vertical-align: middle;
     margin-bottom: 0.75em;
 }
-
 .iconDesc {
     font-size: 1.25vw;
     margin-left: 20px;
 }
-
 .widget_text li { margin: 0 0 1.5vh 0; font-size: 1.35vw; }
 .widget_text a{ color: #fff; }
 
@@ -195,7 +174,6 @@ input[type='text'] {
     display: flex;
     justify-content: center;
 }
-
 .fab {
     color: #fff;
     font-size: 1.35vw;
@@ -205,7 +183,6 @@ input[type='text'] {
     display: inline;
     margin-left: 1vw;
 }
-
 .fa-facebook-f { padding: 1vw 1.3vw; }
 .footerEnd { height: 10vh; }
 
