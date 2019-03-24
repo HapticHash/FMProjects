@@ -189,7 +189,6 @@ input[type='text'] {
 }
 
 .widget_text li { margin: 0 0 1.5vh 0; font-size: 1.35vw; }
-
 .widget_text a{ color: #fff; }
 
 .socials {
@@ -208,9 +207,7 @@ input[type='text'] {
 }
 
 .fa-facebook-f { padding: 1vw 1.3vw; }
-
 .footerEnd { height: 10vh; }
-
 
 /******************************************************************
 ************************* Mobile view CSS *************************/
@@ -221,7 +218,10 @@ input[type='text'] {
 /******************************************************************
 ************************* Tablet view CSS *************************/
 @media screen and (min-width: 768px)  and (max-width: 1023px){
-
+  .test {
+    width: 100%;
+    margin: 1.2vw auto;
+  }
 }
 
 /******************************************************************
