@@ -200,8 +200,10 @@ input[type='text'] {
   .rightDiv, .grow{ order: 1; width: 80%; margin: 0 auto;}
   .leftDiv, .growUp{ order: 2; width: 90%; margin: 0 auto;}
 
-  .introTitle, .featureTitle { font-size: 5vw; text-align: center;}
-  .introDesc, .featureDesc { font-size: 3.5vw; text-align: center; margin-top: 4vw;}
+  .introTitle { font-size: 5vw; text-align: center;}
+  .introDesc { font-size: 3.5vw; text-align: center; margin-top: 4vw;}
+  .featureTitle { font-size: 4.5vw; text-align: center; margin-top: 5vw;}
+  .featureDesc { font-size: 3.5vw; margin-top: 4vw;}
   .signUp { display: block; width: 90%; margin: 0 auto;}
   input[type='text'] {
     margin: 3vw 0 0 1vw;
