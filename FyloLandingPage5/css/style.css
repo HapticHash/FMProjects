@@ -189,11 +189,19 @@ input[type='text'] {
 /******************************************************************
 ************************* Mobile view CSS *************************/
 @media screen and (min-width: 320px)  and (max-width: 767px){
-  .intro {
-    grid-template-columns: 1fr;
+  .logo { width: 15vw; margin: 5vw;}
+  .group1 {
+      margin-top: 5vw;
+      margin-left: -5vw;
+      font-size: 3vw;
   }
+  .group1 li { margin-left: 2.5vw;}
+  .intro { grid-template-columns: 1fr; }
   .rightDiv{ order: 1; width: 80%; margin: 0 auto;}
-  .leftDiv{ order: 2; width: 80%; margin: 0 auto;}
+  .leftDiv{ order: 2; width: 90%; margin: 0 auto;}
+  .introTitle { font-size: 5vw; text-align: center;}
+  .introDesc, .featureDesc { font-size: 3.5vw; text-align: center; margin-top: 4vw;}
+  .signUp { display: block; width: 90%; margin: 0 auto;}
 }
 
 /******************************************************************
