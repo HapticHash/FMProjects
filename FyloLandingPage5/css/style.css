@@ -197,11 +197,23 @@ input[type='text'] {
   }
   .group1 li { margin-left: 2.5vw;}
   .intro { grid-template-columns: 1fr; }
-  .rightDiv{ order: 1; width: 80%; margin: 0 auto;}
-  .leftDiv{ order: 2; width: 90%; margin: 0 auto;}
-  .introTitle { font-size: 5vw; text-align: center;}
+  .rightDiv, .grow{ order: 1; width: 80%; margin: 0 auto;}
+  .leftDiv, .growUp{ order: 2; width: 90%; margin: 0 auto;}
+
+  .introTitle, .featureTitle { font-size: 5vw; text-align: center;}
   .introDesc, .featureDesc { font-size: 3.5vw; text-align: center; margin-top: 4vw;}
   .signUp { display: block; width: 90%; margin: 0 auto;}
+  input[type='text'] {
+    margin: 3vw 0 0 1vw;
+    padding: 2vw 2vw;
+    font-size: 3.5vw;
+    border-radius: 1vw;
+  }
+ .get { padding: 2vw 2vw;
+    width: 100%;
+    border-radius: 1vw;
+    font-size: 3.5vw;
+  }
 }
 
 /******************************************************************
