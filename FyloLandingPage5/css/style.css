@@ -197,7 +197,12 @@ input[type='text'] {
   }
   .group1 li { margin-left: 2.5vw;}
   .intro { grid-template-columns: 1fr; }
-  .rightDiv, .grow{ order: 1; width: 80%; margin: 0 auto;}
+  .rightDiv, .grow{
+      order: 1;
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+   }
   .leftDiv, .growUp{ order: 2; width: 90%; margin: 0 auto;}
 
   .introTitle { font-size: 5vw; text-align: center;}
@@ -216,6 +221,11 @@ input[type='text'] {
     border-radius: 1vw;
     font-size: 3.5vw;
   }
+  .learn { font-size: 3.5vw; }
+  .card { width: 90%; margin: 10vw auto;}
+  .quote { width: 4vw;}
+  .cardText { font-size: 3.5vw; }
+
 }
 
 /******************************************************************
