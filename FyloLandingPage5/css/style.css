@@ -221,11 +221,14 @@ input[type='text'] {
     border-radius: 1vw;
     font-size: 3.5vw;
   }
-  .learn { font-size: 3.5vw; }
+  .learn { font-size: 3.5vw; text-align: center;}
   .card { width: 90%; margin: 10vw auto;}
   .quote { width: 4vw;}
-  .cardText { font-size: 3.5vw; }
-
+  .cardText { font-size: 2.4vw; }
+  .test { width: 100%; }
+  .profileName { font-size: 2vw; }
+  .profileDesc { font-size: 1.8vw; }
+  .profileDetails{ margin-left: -5vw; }
 }
 
 /******************************************************************
