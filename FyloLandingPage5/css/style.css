@@ -230,6 +230,20 @@ input[type='text'] {
   .profileDesc { font-size: 1.8vw; }
   .profileDetails{ margin-left: -5vw; }
   .signUp2 { margin: 5vw auto 10vw; }
+  .fLogo {width: 40vw; margin-left: 4vw; }
+  .cards {margin-top: 5vw;}
+  .icons { margin-left: 8vw; }
+  .iconimg { width: 5.5vw; }
+  .iconDesc { font-size: 3.5vw; }
+  ul{ margin-bottom: 0;}
+  .widget_text li { margin: 2vw 8vw; font-size: 3.5vw; }
+  .socials { margin: 0 auto; }
+  .fab {
+      font-size: 4.5vw;
+      padding: 2vw 2.5vw;
+      margin-right: 1vw;
+   }
+  .fa-facebook-f { padding: 2vw 3.3vw; }
 }
 
 /******************************************************************
