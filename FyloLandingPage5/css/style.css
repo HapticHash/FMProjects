@@ -60,7 +60,7 @@ a:active {
 }
 .signUp { display: inline-flex; width: 85%; margin-left: 1vw;}
 .signUp2 { display: block; width: 80%; margin: 5.5vw auto;}
-.email { box-shadow: 2px 2px 8px 2px #444; border-color: transparent !important; }
+.email { box-shadow: 2px 2px 3px 0px #444; border-color: transparent !important; }
 input[type='text'] {
     margin: 2vw 0 0 1vw;
     width: 100%;
@@ -196,7 +196,7 @@ input[type='text'] {
       font-size: 3vw;
   }
   .group1 li { margin-left: 2.5vw;}
-  .intro { grid-template-columns: 1fr; }
+  .intro, .lightBlue { grid-template-columns: 1fr; }
   .rightDiv, .grow{
       order: 1;
       width: 80%;
@@ -207,8 +207,8 @@ input[type='text'] {
 
   .introTitle { font-size: 5vw; text-align: center;}
   .introDesc { font-size: 3.5vw; text-align: center; margin-top: 4vw;}
-  .featureTitle { font-size: 4.5vw; text-align: center; margin-top: 5vw;}
-  .featureDesc { font-size: 3.5vw; margin-top: 4vw;}
+  .featureTitle, .textTitle { font-size: 4.5vw; text-align: center; margin-top: 5vw;}
+  .featureDesc, .textDesc { font-size: 3.5vw; margin-top: 4vw;}
   .signUp { display: block; width: 90%; margin: 0 auto;}
   input[type='text'] {
     margin: 3vw 0 0 1vw;
@@ -229,6 +229,7 @@ input[type='text'] {
   .profileName { font-size: 2vw; }
   .profileDesc { font-size: 1.8vw; }
   .profileDetails{ margin-left: -5vw; }
+  .signUp2 { margin: 5vw auto 10vw; }
 }
 
 /******************************************************************
