@@ -65,7 +65,7 @@
   }
 
   function validateemail2() {
-    var x=document.myform.email.value;
+    var x=document.myform1.email1.value;
     var atposition=x.indexOf("@");
     var dotposition=x.lastIndexOf(".");
     if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length) {
@@ -83,7 +83,7 @@
 
   <div class="container-fluid">
 
-    <div class="row">
+    <div class="row animated fadeInDown">
       <div class="col-4 col-sm-4 col-md-8">
         <a href="javascript:void(0)"> <img src="./images/logo.svg" class="img-fluid logo" alt="Fylo logo" /> </a>
       </div>
@@ -96,24 +96,24 @@
       </div>
     </div>
 
-    <div class="row intro">
-      <div class="leftDiv">
-        <div class="introTitle">
+    <div class="row intro ">
+      <div class="leftDiv ">
+        <div class="introTitle animated fadeInDown delay-1s">
           All your files in one secure location, accessible anywhere.
         </div>
-        <div class="introDesc">
+        <div class="introDesc animated fadeInDown delay-2s">
           Fylo stores your most important files in one secure location.
           Access them wherever you need, share and collaborate with friends,
           family, and co-workers.
         </div>
         <form name="myform"  method="get" action="" onsubmit="return validateemail();">
-          <div class="signUp">
+          <div class="signUp animated fadeInDown delay-3s">
               <input name="email" type="text" placeholder="Enter your email..." />
               <input type="submit" name="Get Started" value="Get Started" class="get trans" />
           </div>
         </form>
       </div>
-      <div class="rightDiv">
+      <div class="rightDiv animated fadeInRight delay-2s">
         <img src="./images/illustration-1.svg" class="img-fluid illus" alt="Fylo illustration 1" />
       </div>
     </div>
@@ -127,18 +127,18 @@
 
           <div class="col-10 col-sm-10 col-md-6 growUp">
             <div class="featGroup">
-              <div class="featureTitle">
+              <div class="featureTitle animated fadeInDown delay-1s">
                 Stay productive, wherever you are
               </div>
-              <div class="featureDesc">
+              <div class="featureDesc animated fadeInDown delay-2s">
                 Never let location be an issue when accessing your files. Fylo has you
                 covered for all of your file storage needs.
                 <br /> <br />
                 Securely share files and folders with friends, family and colleagues for
                 live collaboration. No email attachments required!
               </div>
-              <div class="learn"> <a href="javascript:void(0)" class="link trans"> See how Fylo works <i class="fas fa-arrow-circle-right"></i> </a> </div>
-              <div class="card trans">
+              <div class="learn animated fadeInDown delay-3s"> <a href="javascript:void(0)" class="link trans"> See how Fylo works <i class="fas fa-arrow-circle-right"></i> </a> </div>
+              <div class="card trans animated fadeInDown delay-4s">
                 <div class="card-body">
                   <div class="row">
                     <div class="col-12 col-sm-12 col-md-12">
@@ -171,7 +171,7 @@
              </div>
           </div>
 
-          <div class="col-10 col-sm-10 col-md-6 grow">
+          <div class="col-10 col-sm-10 col-md-6 grow animated fadeInRight delay-2s">
             <img src="./images/illustration-2.svg" class="img-fluid illus" alt="Fylo illustration 2" />
           </div>
 
@@ -180,15 +180,15 @@
     </div>
 
     <div class="row lightBlue">
-      <div class="rightDiv">
-        <div class="textTitle">Get early access today</div>
-        <div class="textDesc">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</div>
+      <div class="rightDiv ">
+        <div class="textTitle animated fadeInDown delay-1s">Get early access today</div>
+        <div class="textDesc animated fadeInDown delay-2s">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</div>
       </div>
-      <div class=" leftDiv">
-        <form name="myform"  method="get" action="" onsubmit="return validateemail2();">
+      <div class="leftDiv">
+        <form name="myform1"  method="get" action="" onsubmit="return validateemail2();">
           <div class="signUp2">
-              <input name="email" class="email" type="text" placeholder="example@email.com" />
-              <input type="submit" name="Get Started For Free" value="Get Started For Free" class="get trans" />
+              <input name="email1" class="email1 animated fadeInDown delay-1s" type="text" placeholder="example@email.com" />
+              <input type="submit" name="Get Started For Free" value="Get Started For Free" class="get trans animated fadeInDown delay-2s" />
           </div>
         </form>
       </div>
@@ -198,13 +198,13 @@
     <div class="col-12 col-sm-12 col-md-12">
 
       <div class="row ">
-        <div class=" col-10 col-sm-10 col-md-10 fLogo">
+        <div class=" col-10 col-sm-10 col-md-10 fLogo animated fadeInDown delay-1s">
           <a href="javascript:void(0)"> <img src="./images/logo0.svg" class="img-fluid fLogo" alt="Fylo logo footer" /> </a>
         </div>
       </div>
 
       <div class="row ">
-        <div class="col-10 col-sm-10 col-md-4 cards">
+        <div class="col-10 col-sm-10 col-md-4 cards animated fadeInDown delay-2s">
           <div class="icons">
             <img src="./images/icon-phone.svg" class="img-fluid iconimg" alt="phone icon fylo" />
             <span class="iconDesc"> Phone: +1-543-123-4567 </span>
@@ -214,7 +214,7 @@
             <br>
           </div>
         </div>
-        <div class="col-10 col-sm-10 col-md-2 cards">
+        <div class="col-10 col-sm-10 col-md-2 cards animated fadeInDown delay-2s">
           <ul class="widget_text">
             <li><a href="javascript:void(0)">About Us</a></li>
             <li><a href="javascript:void(0)">Jobs</a></li>
@@ -222,14 +222,14 @@
             <li><a href="javascript:void(0)">Blog</a></li>
           </ul>
         </div>
-        <div class="col-10 col-sm-10 col-md-3 cards">
+        <div class="col-10 col-sm-10 col-md-3 cards animated fadeInDown delay-2s">
           <ul class="widget_text">
             <li><a href="javascript:void(0)">Contact Us</a></li>
             <li><a href="javascript:void(0)">Terms</a></li>
             <li><a href="javascript:void(0)">Privacy</a></li>
           </ul>
         </div>
-        <div class="col-12 col-sm-12 col-md-1 cards">
+        <div class="col-12 col-sm-12 col-md-1 cards animated fadeInDown delay-2s">
           <div class="socials">
             <a href="javascript:void(0)"> <i class="fab fa-facebook-f"></i> </a>
             <a href="javascript:void(0)"> <i class="fab fa-twitter"></i> </a>
