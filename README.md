@@ -5,7 +5,7 @@ It helps to improve HTML, CSS and JavaScript skills while using a real-world wor
 
 
 ##  :mag_right: Project Overview -
-![Layout](https://harshitks2203.github.io/FMProjects/assets/images/overview.png)
+![Layout](https://HapticHash.github.io/FMProjects/assets/images/overview.png)
 
 
 ## :hammer: Built with -
@@ -25,7 +25,7 @@ It helps to improve HTML, CSS and JavaScript skills while using a real-world wor
 
 You can get the code by simply cloning this repository on your local machine by just writing following in your command prompt/terminal. 
 ```
-git clone https://github.com/harshitks2203/FMProjects.git
+git clone https://github.com/HapticHash/FMProjects.git
 ```
 P.S. Make sure you have ``` git bash``` installed in your local machine.
 
@@ -42,6 +42,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## :pencil: Author -
 
-- **Harshit K. Singh**
+- **Harshit Singh**
 
 
