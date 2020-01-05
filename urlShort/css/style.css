@@ -6,26 +6,115 @@
 
 html, body {
     min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
 }
 
 :root {
     --gray: hsl(0, 0%, 75%);
     --grayishViolet: hsl(257, 7%, 63%);
+    --lightBlue: hsl(178, 58%, 75%);
+    --blue: hsl(181, 65%, 50%);
     --veryDarkBlue: hsl(255, 11%, 22%);
     --veryDarkViolet: hsl(260, 8%, 14%);
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
     background-color: #fff;
     color: #000;
     overflow-x: hidden;
     width: 100vw;
 }
 
-.items, li {
+.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+li {
     display: block;
-    width: 20px;
+    padding: 1em;
+    font-size: 1.2vw;
+    font-weight: 700;
+    color: var(--gray);
+}
+
+li:hover, .login:hover {
+    color: var(--veryDarkBlue);
+    cursor: pointer;
+}
+
+ul {
+    display: inline-flex;
+}
+
+.nav {
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 95%;
+    margin: 2em auto;
+}
+    
+.div1 { grid-area: 1 / 1 / 2 / 3; }
+.div2 { grid-area: 1 / 5 / 2 / 6; }
+
+.login {
+    background: #fff;
+    color: var(--gray);
+    font-weight: 700;
+}
+
+.signUp {
+    background-color: var(--blue);
+    font-weight: 700;
+    color: #fff;
+    padding: 0.6em 2em;
+    border-radius: 2em;
+}
+
+.signUp:hover, .get:hover {
+    background-color: var(--lightBlue);
+}
+
+
+.intro {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    width: 95%;
+    margin: 0 auto;
+}
+    
+.heading { grid-area: 1 / 1 / 2 / 2; }
+.illus { grid-area: 1 / 2 / 2 / 3; } 
+
+.get {
+    background-color: var(--blue);
+    font-weight: 700;
+    font-size: 1.3vw;
+    color: #fff;
+    padding: 0.8em 2em;
+    border-radius: 2em;
+}
+
+.title {
+    font-size: 4.5em;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-top: 1em;
+    color: var(--veryDarkBlue);
+}
+
+.desc {
+    width: 95% ;
+    font-size: 1.4em;
+    font-weight: 500;
+    color: var(--grayishViolet);
 }
 
 .attribution { font-size: 11px; text-align: center; }
