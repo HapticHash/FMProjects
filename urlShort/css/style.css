@@ -1,20 +1,22 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 html, body {
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
 }
 
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --gray: hsl(0, 0%, 75%);
+    --lightGray: hsl(230, 25%, 95%);
     --grayishViolet: hsl(257, 7%, 63%);
     --lightBlue: hsl(178, 58%, 75%);
     --blue: hsl(181, 65%, 50%);
     --pink: hsl(356, 78%, 66%);
+    --violet: hsl(257, 27%, 26%);
     --veryDarkBlue: hsl(255, 11%, 22%);
     --veryDarkViolet: hsl(260, 8%, 14%);
 }
@@ -117,6 +119,29 @@ ul {
     font-size: 1.4em;
     font-weight: 500;
     color: var(--grayishViolet);
+}
+
+.space {
+    margin-bottom: 10vw ;
+}
+
+.bot {
+    background-color: var(--lightGray);
+}
+.linksList {
+    background: url('../images/bg-shorten-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--violet);
+    border-radius: 10px;
+    margin: 2em auto;
+    width: 80%;
+    position: relative;
+}
+
+.group1 {
+    top: -2vw ;
+    padding: 2.1em 2em 1.6em;
 }
 
 .input-group {
