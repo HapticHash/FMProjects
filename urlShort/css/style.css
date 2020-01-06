@@ -54,7 +54,7 @@ ul {
     grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    width: 95%;
+    width: 90%;
     margin: 2em auto;
 }
     
@@ -87,7 +87,7 @@ ul {
     grid-column-gap: 0px;
     grid-row-gap: 0px; 
     width: 95%;
-    margin: 0 auto;
+    margin: 0 0 0 auto ;
 }
     
 .heading { grid-area: 1 / 1 / 2 / 2; }
