@@ -150,7 +150,7 @@ ul {
 .short {
     border-radius: 10px !important; 
     border: 3px solid var(--pink);
-    font-size: 1.3vw;
+    font-size: 1.3vw;   
 }
 #addLink {
     font-size: 1.2vw;
@@ -166,6 +166,10 @@ ul {
     padding: 1em 2em;
     border-radius: 10px;
     margin: 0 1em;
+}
+
+.urlLinks {
+    display: inline-flex;
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
