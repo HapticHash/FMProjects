@@ -127,7 +127,9 @@ ul {
 
 .bot {
     background-color: var(--lightGray);
+    position: relative;
 }
+
 .linksList {
     background: url('../images/bg-shorten-desktop.svg');
     background-repeat: no-repeat;
@@ -136,12 +138,22 @@ ul {
     border-radius: 10px;
     margin: 2em auto;
     width: 80%;
-    position: relative;
+    position: absolute;
+    top: -8vw;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
 }
 
 .group1 {
     top: -2vw ;
     padding: 2.1em 2em 1.6em;
+}
+
+.group2 {
+    padding-top: 8vw; 
+    padding-bottom: 4vw;
 }
 
 .input-group {
@@ -174,19 +186,41 @@ ul {
     background-color: #fff;
     border-radius: 10px;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px; 
+    padding: 1em;
 }
 
-.urlLink { grid-area: 1 / 1 / 2 / 4; }
-.refLink { grid-area: 1 / 4 / 2 / 5; }
+.urlLink { grid-area: 1 / 1 / 2 / 4; font-weight: 500; margin: 1vw; font-size: 1.3vw;}
+.refLink { grid-area: 1 / 4 / 2 / 6; color: var(--blue); font-weight: 500; margin: 1vw; font-size: 1.3vw;}
+.copy {
+    background-color: var(--blue);
+    font-weight: 700;
+    font-size: 1vw;
+    color: #fff;
+    padding: 0.8em 1.5em;
+    border-radius: 10px;
+    grid-area: 1 / 6 / 2 / 7; 
+    height: 8vh;
+    width: 7vw;
+    margin: 0 auto;
+}
+.featTitle {
+    padding-top: 1vw;
+    font-size: 3vw;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: var(--veryDarkBlue);
+}
 
-.refLink {
-    color: var(--blue);
+.featDesc {
+    width: 40% ;
+    font-size: 1.4vw;
     font-weight: 500;
-    float: right;
+    margin: 1vw auto;
+    color: var(--grayishViolet);
 }
 
 .attribution { font-size: 11px; text-align: center; }
