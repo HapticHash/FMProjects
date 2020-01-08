@@ -214,7 +214,6 @@ ul {
     line-height: 1.2em;
     color: var(--veryDarkBlue);
 }
-
 .featDesc {
     width: 40% ;
     font-size: 1.4vw;
@@ -223,5 +222,19 @@ ul {
     color: var(--grayishViolet);
 }
 
+.boost {
+    height: 40vh;
+    background: url('../images/bg-boost-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--violet);
+}
+.bTitle {
+    padding-top: 8vh;
+    font-size: 3vw;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #fff;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
