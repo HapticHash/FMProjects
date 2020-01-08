@@ -166,10 +166,28 @@ ul {
     padding: 1em 2em;
     border-radius: 10px;
     margin: 0 1em;
+    grid-area: 1 / 5 / 2 / 6; 
 }
 
-.urlLinks {
-    display: inline-flex;
+.groupUrl {
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
 }
+
+.urlLink { grid-area: 1 / 1 / 2 / 4; }
+.refLink { grid-area: 1 / 4 / 2 / 5; }
+
+.refLink {
+    color: var(--blue);
+    font-weight: 500;
+    float: right;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
