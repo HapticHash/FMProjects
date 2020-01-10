@@ -237,5 +237,24 @@ ul {
     line-height: 1.2em;
     color: #fff;
 }
+
+.feat1, .feat2, .feat3 {
+    background-color: #fff;
+    font-size: 1vw;
+    padding: 0.8em 1.5em;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.fTitle {
+    font-weight: 700; 
+    font-size: 1.5vw;
+}
+.fDesc {
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin: 1vw auto;
+    color: var(--grayishViolet);
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
