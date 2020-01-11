@@ -238,22 +238,40 @@ ul {
     color: #fff;
 }
 
+.features{
+    display: flex;
+    margin: 7vw 0;
+}
+
 .feat1, .feat2, .feat3 {
     background-color: #fff;
     font-size: 1vw;
-    padding: 0.8em 1.5em;
+    padding: 1.5vw;
     border-radius: 10px;
     width: 30%;
+    margin: auto 1vw;
 }
 
+.feat2 { margin: 5vh 1vw !important;}
+.icon {
+    background-color: var(--violet);
+    padding: 2vw;
+    width: 7vw;
+    border-radius: 5vw;
+    margin-top: -5vw;
+    margin-left: 1vw;
+}
 .fTitle {
     font-weight: 700; 
     font-size: 1.5vw;
+    margin: 1vw auto;
+    width: 90%;
 }
 .fDesc {
     font-size: 1.2vw;
     font-weight: 500;
     margin: 1vw auto;
+    width: 90%;
     color: var(--grayishViolet);
 }
 .attribution { font-size: 11px; text-align: center; }
