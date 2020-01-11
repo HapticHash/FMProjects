@@ -239,8 +239,8 @@ ul {
 }
 
 .features{
-    display: flex;
     margin: 7vw 0;
+    display: inline-flex;
 }
 
 .feat1, .feat2, .feat3 {
