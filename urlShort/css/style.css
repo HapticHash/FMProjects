@@ -19,6 +19,7 @@ html, body {
     --violet: hsl(257, 27%, 26%);
     --veryDarkBlue: hsl(255, 11%, 22%);
     --veryDarkViolet: hsl(260, 8%, 14%);
+    --kindaBlack: hsl(266, 10%, 14%);
 }
 
 body {
@@ -78,7 +79,7 @@ ul {
     border-radius: 2em;
 }
 
-.signUp:hover, .get:hover, .shorten:hover {
+.signUp:hover, .get:hover, .gets:hover, .shorten:hover {
     background-color: var(--lightBlue);
     cursor: pointer;
 }
@@ -261,6 +262,9 @@ ul {
     margin-top: -5vw;
     margin-left: 1vw;
 }
+.groupA {
+    padding: 1vw;
+}
 .fTitle {
     font-weight: 700; 
     font-size: 1.5vw;
@@ -282,7 +286,13 @@ ul {
     color: #fff;
     padding: 0.8em 2em;
     border-radius: 2em;
+    display: flex !important;
+    margin: 2vw auto;
 }
 
+.footer {
+    background-color: var(--kindaBlack);
+    color: #fff;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
