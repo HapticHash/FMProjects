@@ -274,5 +274,15 @@ ul {
     width: 90%;
     color: var(--grayishViolet);
 }
+
+.gets {
+    background-color: var(--blue);
+    font-weight: 700;
+    font-size: 1.3vw;
+    color: #fff;
+    padding: 0.8em 2em;
+    border-radius: 2em;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
